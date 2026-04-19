@@ -1,0 +1,4 @@
+source;share/ece217_project2_tan/environment/ament_prefix_path.sh
+source;share/ece217_project2_tan/environment/library_path.sh
+source;share/ece217_project2_tan/environment/path.sh
+source;share/ece217_project2_tan/environment/pythonpath.sh

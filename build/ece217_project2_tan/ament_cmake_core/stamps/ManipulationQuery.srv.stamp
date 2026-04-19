@@ -1,0 +1,4 @@
+float32[] joint_angles
+geometry_msgs/Pose goal
+---
+float32[] joint_anlges

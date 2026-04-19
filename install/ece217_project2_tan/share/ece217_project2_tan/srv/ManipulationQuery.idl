@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ece217_project2_tan/srv/ManipulationQuery.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module ece217_project2_tan {
+  module srv {
+    struct ManipulationQuery_Request {
+      sequence<float> joint_angles;
+
+      geometry_msgs::msg::Pose goal;
+    };
+    struct ManipulationQuery_Response {
+      sequence<float> joint_anlges;
+    };
+  };
+};

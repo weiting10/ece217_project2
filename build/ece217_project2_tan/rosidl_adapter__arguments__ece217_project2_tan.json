@@ -1,0 +1,6 @@
+{
+  "package_name": "ece217_project2_tan",
+  "non_idl_tuples": [
+    "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan:srv/ManipulationQuery.srv"
+  ]
+}

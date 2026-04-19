@@ -1,0 +1,4 @@
+source;share/ece217_project2_tan/local_setup.bash
+source;share/ece217_project2_tan/local_setup.dsv
+source;share/ece217_project2_tan/local_setup.sh
+source;share/ece217_project2_tan/local_setup.zsh

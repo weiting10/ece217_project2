@@ -1,0 +1,43 @@
+[0.015s] Invoking command in '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan': CONDA_PROMPT_MODIFIER=(ros2_env) _=/usr/bin/env /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/cmake --build /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan -- -j1 -l1
+[0.072s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.073s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.073s]   CMake.
+[0.073s] 
+[0.073s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.076s]   to tell CMake that the project requires at least <min> but has been updated
+[0.076s]   to work with policies introduced by <max> or earlier.
+[0.076s] 
+[0.076s] [0m
+[0.085s] -- Found ament_cmake: 2.5.4 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/ament_cmake/cmake)
+[0.331s] -- Found rclcpp: 28.1.15 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rclcpp/cmake)
+[0.367s] -- Found rosidl_generator_c: 4.6.7 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rosidl_generator_c/cmake)
+[0.381s] -- Found rosidl_generator_cpp: 4.6.7 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rosidl_generator_cpp/cmake)
+[0.398s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.419s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.515s] -- Found rmw_implementation_cmake: 7.3.2 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rmw_implementation_cmake/cmake)
+[0.517s] -- Found rmw_fastrtps_cpp: 8.4.3 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rmw_fastrtps_cpp/cmake)
+[0.991s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.085s] -- Found geometry_msgs: 5.3.6 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/geometry_msgs/cmake)
+[1.134s] [33mCMake Warning (dev) at CMakeLists.txt:12 (find_package):
+[1.134s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[1.134s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[1.134s]   set the policy and suppress this warning.
+[1.134s] 
+[1.134s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.134s] [0m
+[1.141s] -- Found rosidl_default_generators: 1.6.0 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rosidl_default_generators/cmake)
+[1.153s] -- Found rosidl_adapter: 4.6.7 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rosidl_adapter/cmake)
+[1.155s] -- Found nav_msgs: 5.3.6 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/nav_msgs/cmake)
+[1.195s] -- Found pluginlib: 5.4.4 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/pluginlib/cmake)
+[1.202s] -- Found visualization_msgs: 5.3.6 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/visualization_msgs/cmake)
+[1.613s] [31mCMake Error at /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[1.613s]   Packages installing interfaces must include
+[1.613s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[1.613s]   package.xml
+[1.614s] Call Stack (most recent call first):
+[1.614s]   CMakeLists.txt:20 (rosidl_generate_interfaces)
+[1.614s] 
+[1.614s] [0m
+[1.614s] -- Configuring incomplete, errors occurred!
+[1.623s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.624s] Invoked command in '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan' returned '2': CONDA_PROMPT_MODIFIER=(ros2_env) _=/usr/bin/env /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/cmake --build /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan -- -j1 -l1

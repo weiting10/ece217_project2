@@ -1,0 +1,14 @@
+source;share/ece217_project2_tan/hook/cmake_prefix_path.ps1
+source;share/ece217_project2_tan/hook/cmake_prefix_path.dsv
+source;share/ece217_project2_tan/hook/cmake_prefix_path.sh
+source;share/ece217_project2_tan/hook/ld_library_path_lib.ps1
+source;share/ece217_project2_tan/hook/ld_library_path_lib.dsv
+source;share/ece217_project2_tan/hook/ld_library_path_lib.sh
+source;share/ece217_project2_tan/hook/pythonpath.ps1
+source;share/ece217_project2_tan/hook/pythonpath.dsv
+source;share/ece217_project2_tan/hook/pythonpath.sh
+source;share/ece217_project2_tan/local_setup.bash
+source;share/ece217_project2_tan/local_setup.dsv
+source;share/ece217_project2_tan/local_setup.ps1
+source;share/ece217_project2_tan/local_setup.sh
+source;share/ece217_project2_tan/local_setup.zsh

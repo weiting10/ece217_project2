@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ece217_project2_tan__rosidl_typesupport_c.dir/link.d"
+  "CMakeFiles/ece217_project2_tan__rosidl_typesupport_c.dir/rosidl_typesupport_c/ece217_project2_tan/srv/manipulation_query__type_support.cpp.o"
+  "CMakeFiles/ece217_project2_tan__rosidl_typesupport_c.dir/rosidl_typesupport_c/ece217_project2_tan/srv/manipulation_query__type_support.cpp.o.d"
+  "libece217_project2_tan__rosidl_typesupport_c.pdb"
+  "libece217_project2_tan__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/ece217_project2_tan/srv/manipulation_query__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/ece217_project2_tan__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
