@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_include_directories/cmake/ament_cmake_export_include_directories-extras.cmake.in
 
-set(_exported_include_dirs "${ece217_project2_tan_DIR}/../../../include/ece217_project2_tan")
+set(_exported_include_dirs "${ece217_project2_tan_DIR}/../../../include/ece217_project2_tan;${ece217_project2_tan_DIR}/../../../include")
 
 # append include directories to ece217_project2_tan_INCLUDE_DIRS
 # warn about not existing paths

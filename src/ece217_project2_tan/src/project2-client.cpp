@@ -1,7 +1,7 @@
 #include <rclcpp/rclcpp.hpp>
 #include <fstream>
 #include <chrono>
-#include <boost/program_option.hpp>
+#include <boost/program_options.hpp>
 #include <unistd.h>
 
 #include "ece217_project2_tan/srv/manipulation_query.hpp"
@@ -11,7 +11,7 @@ int main( int argc, char* argv[] ){
   //parse the command line input
   // 6 inputs for the joint theta
   // 3 input for the goal position and 4 for goal quaternion
-  boost::program_options::ooptions_description desc{"Options"};
+  boost::program_options::options_description desc{"Options"};
   desc.add_options()("help,h", "Help screen")
 	  ("joint1theta", boost::program_options::value<double>()->default_value(0.0),"joint 1 theta value")
 	  ("joint2theta", boost::program_options::value<double>()->default_value(0.0),"joint 2 theta value")
@@ -47,9 +47,9 @@ int main( int argc, char* argv[] ){
 
   std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared("project2_client");
 
-  rclcpp::Client<ece217_project2_tan::srv::ManipulationQuery>::SharedPtr client = node->create_client<ece217_project2::srv::ManipulationQuery>("manipulation_query");
+  rclcpp::Client<ece217_project2_tan::srv::ManipulationQuery>::SharedPtr client = node->create_client<ece217_project2_tan::srv::ManipulationQuery>("manipulation_query");
 
-  std::shared_ptr<ece217_project2::srv::ManipulationQuery> request = std::make_shared<ece217_project2_tan::srv::ManipulationQuery::Request >();
+  std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery> request = std::make_shared<ece217_project2_tan::srv::ManipulationQuery::Request >();
 
   // sending input from client to server
   request->joint_angles[0] = vm["joint1theta"].as<double>();

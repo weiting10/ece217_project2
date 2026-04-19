@@ -1,0 +1,137 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[33mCMake Warning (dev) at CMakeLists.txt:12 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:[m[K In function '[01m[Kint[01;32m[K main[m[K(int, char**)[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:14:27:[m[K [01;31m[Kerror: [m[K'[01m[Kooptions_description[m[K' is not a member of '[01m[Kboost::program_options[m[K'; did you mean '[01m[Koptions_description[m[K'?
+   14 |   boost::program_options::[01;31m[Kooptions_description[m[K desc{"Options"};
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                           [32m[Koptions_description[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:15:3:[m[K [01;31m[Kerror: [m[K'[01m[Kdesc[m[K' was not declared in this scope
+   15 |   [01;31m[Kdesc[m[K.add_options()("help,h", "Help screen")
+      |   [01;31m[K^~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:50:103:[m[K [01;31m[Kerror: [m[K'[01m[Kece217_project2[m[K' was not declared in this scope; did you mean '[01m[Kece217_project2_tan[m[K'?
+   50 |   rclcpp::Client<ece217_project2_tan::srv::ManipulationQuery>::SharedPtr client = node->create_client<[01;31m[Kece217_project2[m[K::srv::ManipulationQuery>("manipulation_query");
+      |                                                                                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                                                                                       [32m[Kece217_project2_tan[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:50:89:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   50 |   rclcpp::Client<ece217_project2_tan::srv::ManipulationQuery>::SharedPtr client = node->[01;31m[Kcreate_client<ece217_project2::srv::ManipulationQuery>[m[K("manipulation_query");
+      |                                                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:50:143:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[Krclcpp::Node::create_client<<expression error> >(const char [19])[m[K'
+   50 |   rclcpp::Client<ece217_project2_tan::srv::ManipulationQuery>::SharedPtr client = [01;31m[Knode->create_client<ece217_project2::srv::ManipulationQuery>("manipulation_query")[m[K;
+      |                                                                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:1[m[K:
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/node.hpp:271:3:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K'
+  271 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/node.hpp:271:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/node.hpp:285:3:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr)[m[K'
+  285 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/node.hpp:285:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:50:143:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   50 |   rclcpp::Client<ece217_project2_tan::srv::ManipulationQuery>::SharedPtr client = [01;31m[Knode->create_client<ece217_project2::srv::ManipulationQuery>("manipulation_query")[m[K;
+      |                                                                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:52:141:[m[K [01;31m[Kerror: [m[Kcannot convert '[01m[Kstd::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >[m[K' to '[01m[Kint[m[K' in initialization
+   52 |   std::shared_ptr<ece217_project2::srv::ManipulationQuery> request = [01;31m[Kstd::make_shared<ece217_project2_tan::srv::ManipulationQuery::Request >()[m[K;
+      |                                                                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+      |                                                                                                                                             [01;31m[K|[m[K
+      |                                                                                                                                             [01;31m[Kstd::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:55:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+   55 |   request[01;31m[K->[m[Kjoint_angles[0] = vm["joint1theta"].as<double>();
+      |          [01;31m[K^~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:56:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+   56 |   request[01;31m[K->[m[Kjoint_angles[1] = vm["joint2theta"].as<double>();
+      |          [01;31m[K^~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:57:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+   57 |   request[01;31m[K->[m[Kjoint_angles[2] = vm["joint3theta"].as<double>();
+      |          [01;31m[K^~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:58:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+   58 |   request[01;31m[K->[m[Kjoint_angles[3] = vm["joint4theta"].as<double>();
+      |          [01;31m[K^~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:59:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+   59 |   request[01;31m[K->[m[Kjoint_angles[4] = vm["joint5theta"].as<double>();
+      |          [01;31m[K^~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:60:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+   60 |   request[01;31m[K->[m[Kjoint_angles[5] = vm["joint6theta"].as<double>();
+      |          [01;31m[K^~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:62:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+   62 |   request[01;31m[K->[m[Kgoal.position.x = vm["goal-x"].as<double>();
+      |          [01;31m[K^~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:63:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+   63 |   request[01;31m[K->[m[Kgoal.position.y = vm["goal-y"].as<double>();
+      |          [01;31m[K^~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:64:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+   64 |   request[01;31m[K->[m[Kgoal.position.z = vm["goal-z"].as<double>();
+      |          [01;31m[K^~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:66:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+   66 |   request[01;31m[K->[m[Kgoal.orientation.x = vm["quaternion-x"].as<double>();
+      |          [01;31m[K^~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:67:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+   67 |   request[01;31m[K->[m[Kgoal.orientation.y = vm["quaternion-y"].as<double>();
+      |          [01;31m[K^~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:68:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+   68 |   request[01;31m[K->[m[Kgoal.orientation.z = vm["quaternion-z"].as<double>();
+      |          [01;31m[K^~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:69:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+   69 |   request[01;31m[K->[m[Kgoal.orientation.w = vm["quaternion-w"].as<double>();
+      |          [01;31m[K^~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:73:19:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<rclcpp::Client<ece217_project2_tan::srv::ManipulationQuery>, __gnu_cxx::_S_atomic, false, false>::element_type = class rclcpp::Client<ece217_project2_tan::srv::ManipulationQuery>[m[K' {aka '[01m[Kclass rclcpp::Client<ece217_project2_tan::srv::ManipulationQuery>[m[K'} has no member named '[01m[Kwait_for_servie[m[K'; did you mean '[01m[Kwait_for_service[m[K'?
+   73 |   while( !client->[01;31m[Kwait_for_servie[m[K(std::chrono_literals::operator""s(1) ){
+      |                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                   [32m[Kwait_for_service[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:73:73:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K)[m[K' before '[01m[K{[m[K' token
+   73 |   while[34m[K([m[K !client->wait_for_servie(std::chrono_literals::operator""s(1) )[01;31m[K{[m[K
+      |        [34m[K~[m[K                                                                [01;31m[K^[m[K
+      |                                                                         [32m[K)[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:75:7:[m[K [01;31m[Kerror: [m[K'[01m[KRCLCPPERROR[m[K' was not declared in this scope; did you mean '[01m[KRCLCPP_ERROR[m[K'?
+   75 |       [01;31m[KRCLCPPERROR[m[K( rclcpp::get_logger("rclcpp"), "Interrupted while waiting for server, exiting");
+      |       [01;31m[K^~~~~~~~~~~[m[K
+      |       [32m[KRCLCPP_ERROR[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:81:118:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[Krclcpp::Client<ece217_project2_tan::srv::ManipulationQuery>::async_send_request(int&)[m[K'
+   81 |   rclcpp::Client<ece217_project2_tan::srv::ManipulationQuery>::FutureAndRequestId result = [01;31m[Kclient->async_send_request( request )[m[K;
+      |                                                                                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+                 from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+                 from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/executors.hpp:21[m[K:
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/client.hpp:672:3:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::[01;32m[Kasync_send_request[m[K(SharedRequest, CallbackT&&) [35m[K[with typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = CallbackT; ServiceT = ece217_project2_tan::srv::ManipulationQuery][m[K[m[K'
+  672 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/client.hpp:672:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/client.hpp:703:3:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >, std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequestAndRequestId rclcpp::Client<ServiceT>::[01;32m[Kasync_send_request[m[K(SharedRequest, CallbackT&&) [35m[K[with typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = CallbackT; ServiceT = ece217_project2_tan::srv::ManipulationQuery][m[K[m[K'
+  703 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/client.hpp:703:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/client.hpp:637:3:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Krclcpp::Client<ServiceT>::FutureAndRequestId rclcpp::Client<ServiceT>::[01;32m[Kasync_send_request[m[K(SharedRequest) [35m[K[with ServiceT = ece217_project2_tan::srv::ManipulationQuery; SharedRequest = std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >][m[K[m[K'
+  637 |   [01;36m[Kasync_send_request[m[K(SharedRequest request)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/client.hpp:637:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[Kint[m[K' to '[01m[Krclcpp::Client<ece217_project2_tan::srv::ManipulationQuery>::SharedRequest[m[K' {aka '[01m[Kstd::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >[m[K'}
+  637 |   async_send_request([01;36m[KSharedRequest request[m[K)
+      |                      [01;36m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:82:65:[m[K [01;31m[Kerror: [m[Kfound '[01m[K:[m[K' in nested-name-specifier, expected '[01m[K::[m[K'
+   82 |   if(rclcpp::spin_until_future_complete( node, result) == rclcpp[01;31m[K:[m[KFutureReturnCode::SUCCESS ){
+      |                                                                 [01;31m[K^[m[K
+      |                                                                 [32m[K::[m[K
+gmake[2]: *** [CMakeFiles/project2-client.dir/build.make:79: CMakeFiles/project2-client.dir/src/project2-client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:771: CMakeFiles/project2-client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

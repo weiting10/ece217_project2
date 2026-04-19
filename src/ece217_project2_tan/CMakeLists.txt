@@ -31,7 +31,7 @@ include_directories(
   ${Boost_INCLUDE_DIR}
 )
 
-set(dependencies "rclcpp" "pluginlib" "builtin_interfaces" "std_msgs" "geometry_msgs" "nav_msgs" "visualization_msgs""Eigen3")
+set(dependencies "rclcpp" "pluginlib" "builtin_interfaces" "std_msgs" "geometry_msgs" "nav_msgs" "visualization_msgs" "Eigen3")
 
 set(libraries "${Boost_PROGRAM_OPTIONS_LIBRARY}" "${Boost_SYSTEM_LIBRARY}" "${Boost_FILESYSTEM_LIBRARY}" "${ament_LIBRARIES}" "${cpp_typesupport_target}")
 
@@ -40,7 +40,7 @@ target_include_directories(project2-client PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include/${PROJECT_NAME}>)
 target_compile_features(project2-client PUBLIC c_std_99 cxx_std_17)
-ament_target_dependencies(project-client rclcpp geometry_msgs nav_msgs visualization_msgs Eigen3)
+ament_target_dependencies(project2-client rclcpp geometry_msgs nav_msgs visualization_msgs Eigen3)
 target_link_libraries(project2-client ${Boost_PROGRAM_OPTIONS_LIBRARY} ${cpp_typesupport_target})
 
 add_executable(project2-server src/project2-server.cpp)
@@ -48,13 +48,13 @@ target_include_directories(project2-server PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include/${PROJECT_NAME}>)
 target_compile_features(project2-server PUBLIC c_std_99 cxx_std_17)
-ament_target_dependencies(project-server rclcpp geometry_msgs nav_msgs visualization_msgs Eigen3)
+ament_target_dependencies(project2-server rclcpp geometry_msgs nav_msgs visualization_msgs Eigen3)
 target_link_libraries(project2-server ${Boost_PROGRAM_OPTIONS_LIBRARY} ${cpp_typesupport_target})
 
 install(TARGETS
 	project2-client
 	project2-server
-	DESTINATION lib/&{PROJECT_NAME}
+	DESTINATION lib/${PROJECT_NAME}
 )
 
 
@@ -70,7 +70,7 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-ament_export_dependencies(${dependencies} Boost rosidl_defaul_runtime)
+ament_export_dependencies(${dependencies} Boost rosidl_default_runtime)
 ament_export_include_directories(include)
 
 ament_package()

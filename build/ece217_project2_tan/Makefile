@@ -406,6 +406,32 @@ ece217_project2_tan_s__rosidl_typesupport_c/fast:
 .PHONY : ece217_project2_tan_s__rosidl_typesupport_c/fast
 
 #=============================================================================
+# Target rules for targets named project2-client
+
+# Build rule for target.
+project2-client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project2-client
+.PHONY : project2-client
+
+# fast build rule for target.
+project2-client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2-client.dir/build.make CMakeFiles/project2-client.dir/build
+.PHONY : project2-client/fast
+
+#=============================================================================
+# Target rules for targets named project2-server
+
+# Build rule for target.
+project2-server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project2-server
+.PHONY : project2-server
+
+# fast build rule for target.
+project2-server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2-server.dir/build.make CMakeFiles/project2-server.dir/build
+.PHONY : project2-server/fast
+
+#=============================================================================
 # Target rules for targets named ece217_project2_tan__py
 
 # Build rule for target.
@@ -730,6 +756,54 @@ rosidl_typesupport_introspection_cpp/ece217_project2_tan/srv/detail/manipulation
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ece217_project2_tan__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/ece217_project2_tan__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ece217_project2_tan/srv/detail/manipulation_query__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/ece217_project2_tan/srv/detail/manipulation_query__type_support.cpp.s
 
+src/project2-client.o: src/project2-client.cpp.o
+.PHONY : src/project2-client.o
+
+# target to build an object file
+src/project2-client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2-client.dir/build.make CMakeFiles/project2-client.dir/src/project2-client.cpp.o
+.PHONY : src/project2-client.cpp.o
+
+src/project2-client.i: src/project2-client.cpp.i
+.PHONY : src/project2-client.i
+
+# target to preprocess a source file
+src/project2-client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2-client.dir/build.make CMakeFiles/project2-client.dir/src/project2-client.cpp.i
+.PHONY : src/project2-client.cpp.i
+
+src/project2-client.s: src/project2-client.cpp.s
+.PHONY : src/project2-client.s
+
+# target to generate assembly for a file
+src/project2-client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2-client.dir/build.make CMakeFiles/project2-client.dir/src/project2-client.cpp.s
+.PHONY : src/project2-client.cpp.s
+
+src/project2-server.o: src/project2-server.cpp.o
+.PHONY : src/project2-server.o
+
+# target to build an object file
+src/project2-server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2-server.dir/build.make CMakeFiles/project2-server.dir/src/project2-server.cpp.o
+.PHONY : src/project2-server.cpp.o
+
+src/project2-server.i: src/project2-server.cpp.i
+.PHONY : src/project2-server.i
+
+# target to preprocess a source file
+src/project2-server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2-server.dir/build.make CMakeFiles/project2-server.dir/src/project2-server.cpp.i
+.PHONY : src/project2-server.cpp.i
+
+src/project2-server.s: src/project2-server.cpp.s
+.PHONY : src/project2-server.s
+
+# target to generate assembly for a file
+src/project2-server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2-server.dir/build.make CMakeFiles/project2-server.dir/src/project2-server.cpp.s
+.PHONY : src/project2-server.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -762,6 +836,8 @@ help:
 	@echo "... ece217_project2_tan_s__rosidl_typesupport_c"
 	@echo "... ece217_project2_tan_s__rosidl_typesupport_fastrtps_c"
 	@echo "... ece217_project2_tan_s__rosidl_typesupport_introspection_c"
+	@echo "... project2-client"
+	@echo "... project2-server"
 	@echo "... rosidl_generator_c/ece217_project2_tan/srv/detail/manipulation_query__description.o"
 	@echo "... rosidl_generator_c/ece217_project2_tan/srv/detail/manipulation_query__description.i"
 	@echo "... rosidl_generator_c/ece217_project2_tan/srv/detail/manipulation_query__description.s"
@@ -801,6 +877,12 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/ece217_project2_tan/srv/detail/manipulation_query__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/ece217_project2_tan/srv/detail/manipulation_query__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/ece217_project2_tan/srv/detail/manipulation_query__type_support.s"
+	@echo "... src/project2-client.o"
+	@echo "... src/project2-client.i"
+	@echo "... src/project2-client.s"
+	@echo "... src/project2-server.o"
+	@echo "... src/project2-server.i"
+	@echo "... src/project2-server.s"
 .PHONY : help
 
 
