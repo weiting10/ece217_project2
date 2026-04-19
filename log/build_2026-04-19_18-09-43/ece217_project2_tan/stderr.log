@@ -1,0 +1,82 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[33mCMake Warning (dev) at CMakeLists.txt:12 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:[m[K In function '[01m[Kint[01;32m[K main[m[K(int, char**)[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:52:145:[m[K [01;31m[Kerror: [m[Kconversion from '[01m[Kshared_ptr<[01;32m[Kece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> >[m[K>[m[K' to non-scalar type '[01m[Kshared_ptr<[01;32m[Kece217_project2_tan::srv::ManipulationQuery[m[K>[m[K' requested
+   52 | = [01;31m[Kstd::make_shared<ece217_project2_tan::srv::ManipulationQuery::Request >()[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:55:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kjoint_angles[m[K'
+   55 |   request->[01;31m[Kjoint_angles[m[K[0] = vm["joint1theta"].as<double>();
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:56:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kjoint_angles[m[K'
+   56 |   request->[01;31m[Kjoint_angles[m[K[1] = vm["joint2theta"].as<double>();
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:57:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kjoint_angles[m[K'
+   57 |   request->[01;31m[Kjoint_angles[m[K[2] = vm["joint3theta"].as<double>();
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:58:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kjoint_angles[m[K'
+   58 |   request->[01;31m[Kjoint_angles[m[K[3] = vm["joint4theta"].as<double>();
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:59:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kjoint_angles[m[K'
+   59 |   request->[01;31m[Kjoint_angles[m[K[4] = vm["joint5theta"].as<double>();
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:60:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kjoint_angles[m[K'
+   60 |   request->[01;31m[Kjoint_angles[m[K[5] = vm["joint6theta"].as<double>();
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:62:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kgoal[m[K'
+   62 |   request->[01;31m[Kgoal[m[K.position.x = vm["goal-x"].as<double>();
+      |            [01;31m[K^~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:63:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kgoal[m[K'
+   63 |   request->[01;31m[Kgoal[m[K.position.y = vm["goal-y"].as<double>();
+      |            [01;31m[K^~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:64:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kgoal[m[K'
+   64 |   request->[01;31m[Kgoal[m[K.position.z = vm["goal-z"].as<double>();
+      |            [01;31m[K^~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:66:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kgoal[m[K'
+   66 |   request->[01;31m[Kgoal[m[K.orientation.x = vm["quaternion-x"].as<double>();
+      |            [01;31m[K^~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:67:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kgoal[m[K'
+   67 |   request->[01;31m[Kgoal[m[K.orientation.y = vm["quaternion-y"].as<double>();
+      |            [01;31m[K^~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:68:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kgoal[m[K'
+   68 |   request->[01;31m[Kgoal[m[K.orientation.z = vm["quaternion-z"].as<double>();
+      |            [01;31m[K^~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:69:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kgoal[m[K'
+   69 |   request->[01;31m[Kgoal[m[K.orientation.w = vm["quaternion-w"].as<double>();
+      |            [01;31m[K^~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:81:63:[m[K [01;31m[Kerror: [m[K'[01m[Krequest[m[K' is not a member of '[01m[Kece217_project2_tan::srv::ManipulationQuery[m[K'
+   81 |   rclcpp::Client<ece217_project2_tan::srv::ManipulationQuery::[01;31m[Krequest[m[K>::FutureAndRequestId result = client->async_send_request( request );
+      |                                                               [01;31m[K^~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:81:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   81 | lcpp::Client<ece217_project2_tan::srv::ManipulationQuery::request[01;31m[K>[m[K::FutureAndRequestId result = client->async_send_request( request );
+      |                                                                  [01;31m[K^[m[K
+
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:81:92:[m[K [01;31m[Kerror: [m[Kexpected initializer before '[01m[Kresult[m[K'
+   81 | oject2_tan::srv::ManipulationQuery::request>::FutureAndRequestId [01;31m[Kresult[m[K = client->async_send_request( request );
+      |                                                                  [01;31m[K^~~~~~[m[K
+
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:82:48:[m[K [01;31m[Kerror: [m[K'[01m[Kresult[m[K' was not declared in this scope
+   82 |   if(rclcpp::spin_until_future_complete( node, [01;31m[Kresult[m[K) == rclcpp::FutureReturnCode::SUCCESS ){
+      |                                                [01;31m[K^~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:[m[K In member function '[01m[Kvoid ManipulationService::[01;32m[Kgenerate_manipulation[m[K(std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >, std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Response_<std::allocator<void> > >)[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:15:100:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kresponse[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   15 |                     [01;35m[Kconst std::shared_ptr< ece217_project2_tan::srv::ManipulationQuery::Response > response[m[K ){
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/project2-client.dir/build.make:79: CMakeFiles/project2-client.dir/src/project2-client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:771: CMakeFiles/project2-client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

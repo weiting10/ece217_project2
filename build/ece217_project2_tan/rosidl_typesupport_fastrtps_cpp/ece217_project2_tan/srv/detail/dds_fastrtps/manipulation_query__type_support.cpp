@@ -450,9 +450,9 @@ cdr_serialize(
   const ece217_project2_tan::srv::ManipulationQuery_Response & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: joint_anlges
+  // Member: joint_angles
   {
-    cdr << ros_message.joint_anlges;
+    cdr << ros_message.joint_angles;
   }
 
   return true;
@@ -464,9 +464,9 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   ece217_project2_tan::srv::ManipulationQuery_Response & ros_message)
 {
-  // Member: joint_anlges
+  // Member: joint_angles
   {
-    cdr >> ros_message.joint_anlges;
+    cdr >> ros_message.joint_angles;
   }
 
   return true;
@@ -486,12 +486,12 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: joint_anlges
+  // Member: joint_angles
   {
-    size_t array_size = ros_message.joint_anlges.size();
+    size_t array_size = ros_message.joint_angles.size();
     current_alignment += padding +
       eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
-    size_t item_size = sizeof(ros_message.joint_anlges[0]);
+    size_t item_size = sizeof(ros_message.joint_angles[0]);
     current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -519,7 +519,7 @@ max_serialized_size_ManipulationQuery_Response(
   full_bounded = true;
   is_plain = true;
 
-  // Member: joint_anlges
+  // Member: joint_angles
   {
     size_t array_size = 0;
     full_bounded = false;
@@ -539,7 +539,7 @@ max_serialized_size_ManipulationQuery_Response(
     using DataType = ece217_project2_tan::srv::ManipulationQuery_Response;
     is_plain =
       (
-      offsetof(DataType, joint_anlges) +
+      offsetof(DataType, joint_angles) +
       last_member_size
       ) == ret_val;
   }
@@ -553,9 +553,9 @@ cdr_serialize_key(
   const ece217_project2_tan::srv::ManipulationQuery_Response & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: joint_anlges
+  // Member: joint_angles
   {
-    cdr << ros_message.joint_anlges;
+    cdr << ros_message.joint_angles;
   }
 
   return true;
@@ -574,12 +574,12 @@ get_serialized_size_key(
   (void)padding;
   (void)wchar_size;
 
-  // Member: joint_anlges
+  // Member: joint_angles
   {
-    size_t array_size = ros_message.joint_anlges.size();
+    size_t array_size = ros_message.joint_angles.size();
     current_alignment += padding +
       eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
-    size_t item_size = sizeof(ros_message.joint_anlges[0]);
+    size_t item_size = sizeof(ros_message.joint_angles[0]);
     current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -606,7 +606,7 @@ max_serialized_size_key_ManipulationQuery_Response(
   full_bounded = true;
   is_plain = true;
 
-  // Member: joint_anlges
+  // Member: joint_angles
   {
     size_t array_size = 0;
     full_bounded = false;
@@ -626,7 +626,7 @@ max_serialized_size_key_ManipulationQuery_Response(
     using DataType = ece217_project2_tan::srv::ManipulationQuery_Response;
     is_plain =
       (
-      offsetof(DataType, joint_anlges) +
+      offsetof(DataType, joint_angles) +
       last_member_size
       ) == ret_val;
   }

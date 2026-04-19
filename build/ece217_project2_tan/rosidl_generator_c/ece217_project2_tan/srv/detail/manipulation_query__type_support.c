@@ -6,8 +6,8 @@
 
 #include "ece217_project2_tan/srv/detail/manipulation_query__functions.h"
 #include "ece217_project2_tan/srv/detail/manipulation_query__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "ece217_project2_tan/srv/detail/manipulation_query__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

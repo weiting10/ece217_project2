@@ -70,16 +70,16 @@ int main( int argc, char* argv[] ){
  
   sleep(1);
 
-  while( !client->wait_for_servie(std::chrono_literals::operator""s(1) ){
+  while( !client->wait_for_service(std::chrono_literals::operator""s(1)) ){
     if( !rclcpp::ok() ){
-      RCLCPPERROR( rclcpp::get_logger("rclcpp"), "Interrupted while waiting for server, exiting");
+      RCLCPP_ERROR( rclcpp::get_logger("rclcpp"), "Interrupted while waiting for server, exiting");
       return EXIT_FAILURE;	
     }
     RCLCPP_INFO( rclcpp::get_logger("rclcpp"), "service not available, waiting ..." );
   }
 
-  rclcpp::Client<ece217_project2_tan::srv::ManipulationQuery>::FutureAndRequestId result = client->async_send_request( request );
-  if(rclcpp::spin_until_future_complete( node, result) == rclcpp:FutureReturnCode::SUCCESS ){
+  rclcpp::Client<ece217_project2_tan::srv::ManipulationQuery::request>::FutureAndRequestId result = client->async_send_request( request );
+  if(rclcpp::spin_until_future_complete( node, result) == rclcpp::FutureReturnCode::SUCCESS ){
     RCLCPP_INFO( rclcpp::get_logger( "rclcpp" ), "Success in calling service" );
   }else{
     RCLCPP_ERROR( rclcpp::get_logger( "rclcpp" ), "Failed to call service" );

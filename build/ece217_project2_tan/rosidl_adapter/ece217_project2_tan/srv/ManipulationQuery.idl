@@ -12,7 +12,7 @@ module ece217_project2_tan {
       geometry_msgs::msg::Pose goal;
     };
     struct ManipulationQuery_Response {
-      sequence<float> joint_anlges;
+      sequence<float> joint_angles;
     };
   };
 };

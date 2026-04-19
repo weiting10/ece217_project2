@@ -161,14 +161,14 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: joint_anlges
+  // member: joint_angles
   {
-    if (msg.joint_anlges.size() == 0) {
-      out << "joint_anlges: []";
+    if (msg.joint_angles.size() == 0) {
+      out << "joint_angles: []";
     } else {
-      out << "joint_anlges: [";
-      size_t pending_items = msg.joint_anlges.size();
-      for (auto item : msg.joint_anlges) {
+      out << "joint_angles: [";
+      size_t pending_items = msg.joint_angles.size();
+      for (auto item : msg.joint_angles) {
         rosidl_generator_traits::value_to_yaml(item, out);
         if (--pending_items > 0) {
           out << ", ";
@@ -184,16 +184,16 @@ inline void to_block_style_yaml(
   const ManipulationQuery_Response & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: joint_anlges
+  // member: joint_angles
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    if (msg.joint_anlges.size() == 0) {
-      out << "joint_anlges: []\n";
+    if (msg.joint_angles.size() == 0) {
+      out << "joint_angles: []\n";
     } else {
-      out << "joint_anlges:\n";
-      for (auto item : msg.joint_anlges) {
+      out << "joint_angles:\n";
+      for (auto item : msg.joint_angles) {
         if (indentation > 0) {
           out << std::string(indentation, ' ');
         }

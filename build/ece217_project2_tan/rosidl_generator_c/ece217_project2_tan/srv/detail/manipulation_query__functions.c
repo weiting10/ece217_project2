@@ -272,7 +272,7 @@ ece217_project2_tan__srv__ManipulationQuery_Request__Sequence__copy(
 
 
 // Include directives for member types
-// Member `joint_anlges`
+// Member `joint_angles`
 // already included above
 // #include "rosidl_runtime_c/primitives_sequence_functions.h"
 
@@ -282,8 +282,8 @@ ece217_project2_tan__srv__ManipulationQuery_Response__init(ece217_project2_tan__
   if (!msg) {
     return false;
   }
-  // joint_anlges
-  if (!rosidl_runtime_c__float__Sequence__init(&msg->joint_anlges, 0)) {
+  // joint_angles
+  if (!rosidl_runtime_c__float__Sequence__init(&msg->joint_angles, 0)) {
     ece217_project2_tan__srv__ManipulationQuery_Response__fini(msg);
     return false;
   }
@@ -296,8 +296,8 @@ ece217_project2_tan__srv__ManipulationQuery_Response__fini(ece217_project2_tan__
   if (!msg) {
     return;
   }
-  // joint_anlges
-  rosidl_runtime_c__float__Sequence__fini(&msg->joint_anlges);
+  // joint_angles
+  rosidl_runtime_c__float__Sequence__fini(&msg->joint_angles);
 }
 
 bool
@@ -306,9 +306,9 @@ ece217_project2_tan__srv__ManipulationQuery_Response__are_equal(const ece217_pro
   if (!lhs || !rhs) {
     return false;
   }
-  // joint_anlges
+  // joint_angles
   if (!rosidl_runtime_c__float__Sequence__are_equal(
-      &(lhs->joint_anlges), &(rhs->joint_anlges)))
+      &(lhs->joint_angles), &(rhs->joint_angles)))
   {
     return false;
   }
@@ -323,9 +323,9 @@ ece217_project2_tan__srv__ManipulationQuery_Response__copy(
   if (!input || !output) {
     return false;
   }
-  // joint_anlges
+  // joint_angles
   if (!rosidl_runtime_c__float__Sequence__copy(
-      &(input->joint_anlges), &(output->joint_anlges)))
+      &(input->joint_angles), &(output->joint_angles)))
   {
     return false;
   }

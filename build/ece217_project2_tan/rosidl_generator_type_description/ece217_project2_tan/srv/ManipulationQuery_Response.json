@@ -4,7 +4,7 @@
       "type_name": "ece217_project2_tan/srv/ManipulationQuery_Response",
       "fields": [
         {
-          "name": "joint_anlges",
+          "name": "joint_angles",
           "type": {
             "type_id": 154,
             "capacity": 0,
@@ -20,7 +20,7 @@
   "type_hashes": [
     {
       "type_name": "ece217_project2_tan/srv/ManipulationQuery_Response",
-      "hash_string": "RIHS01_8139cafa9f1457482969a5c5004087fea95fea185550a4af34915eb58b955435"
+      "hash_string": "RIHS01_0ccecb71037621425b0aff036c39d2af88539f4dd33d79b2fc18d0ebd743d690"
     }
   ]
 }

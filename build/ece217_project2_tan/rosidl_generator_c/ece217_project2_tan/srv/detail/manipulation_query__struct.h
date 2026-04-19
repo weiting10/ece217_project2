@@ -46,14 +46,14 @@ typedef struct ece217_project2_tan__srv__ManipulationQuery_Request__Sequence
 // Constants defined in the message
 
 // Include directives for member types
-// Member 'joint_anlges'
+// Member 'joint_angles'
 // already included above
 // #include "rosidl_runtime_c/primitives_sequence.h"
 
 /// Struct defined in srv/ManipulationQuery in the package ece217_project2_tan.
 typedef struct ece217_project2_tan__srv__ManipulationQuery_Response
 {
-  rosidl_runtime_c__float__Sequence joint_anlges;
+  rosidl_runtime_c__float__Sequence joint_angles;
 } ece217_project2_tan__srv__ManipulationQuery_Response;
 
 // Struct for a sequence of ece217_project2_tan__srv__ManipulationQuery_Response.

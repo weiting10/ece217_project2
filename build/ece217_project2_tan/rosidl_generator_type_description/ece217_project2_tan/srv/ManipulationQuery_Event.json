@@ -90,7 +90,7 @@
         "type_name": "ece217_project2_tan/srv/ManipulationQuery_Response",
         "fields": [
           {
-            "name": "joint_anlges",
+            "name": "joint_angles",
             "type": {
               "type_id": 154,
               "capacity": 0,
@@ -256,7 +256,7 @@
   "type_hashes": [
     {
       "type_name": "ece217_project2_tan/srv/ManipulationQuery_Event",
-      "hash_string": "RIHS01_89dc329ae8545f17b5a0c8bf372efa743d3de567b4debc35dc566a44706cab0c"
+      "hash_string": "RIHS01_2bd87dd219af95d7158da5051e8c88f21a5dd7befffc3722cd18fc439d080c80"
     },
     {
       "type_name": "builtin_interfaces/msg/Time",
@@ -268,7 +268,7 @@
     },
     {
       "type_name": "ece217_project2_tan/srv/ManipulationQuery_Response",
-      "hash_string": "RIHS01_8139cafa9f1457482969a5c5004087fea95fea185550a4af34915eb58b955435"
+      "hash_string": "RIHS01_0ccecb71037621425b0aff036c39d2af88539f4dd33d79b2fc18d0ebd743d690"
     },
     {
       "type_name": "geometry_msgs/msg/Point",

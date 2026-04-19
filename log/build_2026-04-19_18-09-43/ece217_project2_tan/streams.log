@@ -1,0 +1,162 @@
+[0.016s] Invoking command in '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan': CONDA_PROMPT_MODIFIER=(ros2_env) _=/usr/bin/env /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/cmake --build /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan -- -j2 -l2
+[0.075s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.075s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.075s]   CMake.
+[0.075s] 
+[0.076s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.076s]   to tell CMake that the project requires at least <min> but has been updated
+[0.076s]   to work with policies introduced by <max> or earlier.
+[0.076s] 
+[0.076s] [0m
+[0.085s] -- Found ament_cmake: 2.5.4 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/ament_cmake/cmake)
+[0.250s] -- Found Python3: /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/python3 (found version "3.12.12") found components: Interpreter
+[0.355s] -- Found rclcpp: 28.1.15 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rclcpp/cmake)
+[0.394s] -- Found rosidl_generator_c: 4.6.7 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rosidl_generator_c/cmake)
+[0.409s] -- Found rosidl_generator_cpp: 4.6.7 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rosidl_generator_cpp/cmake)
+[0.428s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.451s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.556s] -- Found rmw_implementation_cmake: 7.3.2 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rmw_implementation_cmake/cmake)
+[0.558s] -- Found rmw_fastrtps_cpp: 8.4.3 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rmw_fastrtps_cpp/cmake)
+[1.181s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.286s] -- Found geometry_msgs: 5.3.6 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/geometry_msgs/cmake)
+[1.340s] [33mCMake Warning (dev) at CMakeLists.txt:12 (find_package):
+[1.340s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[1.340s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[1.340s]   set the policy and suppress this warning.
+[1.340s] 
+[1.340s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.340s] [0m
+[1.358s] -- Found rosidl_default_generators: 1.6.0 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rosidl_default_generators/cmake)
+[1.370s] -- Found rosidl_adapter: 4.6.7 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rosidl_adapter/cmake)
+[1.373s] -- Found nav_msgs: 5.3.6 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/nav_msgs/cmake)
+[1.417s] -- Found pluginlib: 5.4.4 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/pluginlib/cmake)
+[1.424s] -- Found visualization_msgs: 5.3.6 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/visualization_msgs/cmake)
+[2.272s] -- Found ament_cmake_ros: 0.12.0 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/ament_cmake_ros/cmake)
+[3.337s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.758s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.760s] -- Found python_cmake_module: 0.11.1 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/python_cmake_module/cmake)
+[4.361s] -- Found Python3: /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/python3 (found version "3.12.12") found components: Interpreter Development NumPy Development.Module Development.Embed
+[4.424s] -- Found ament_lint_auto: 0.17.3 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/ament_lint_auto/cmake)
+[4.442s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.443s] -- Configured cppcheck include dirs: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/include;$<BUILD_INTERFACE:/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/include>
+[4.443s] -- Configured cppcheck exclude dirs and/or files: 
+[4.444s] -- Added test 'lint_cmake' to check CMake code style
+[4.447s] -- Added test 'uncrustify' to check C / C++ code style
+[4.447s] -- Configured uncrustify additional arguments: 
+[4.447s] -- Added test 'xmllint' to check XML markup files
+[4.451s] -- Configuring done (4.4s)
+[4.634s] -- Generating done (0.2s)
+[4.718s] -- Build files have been written to: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan
+[4.767s] [  2%] [1m[34mGenerating type hashes for ROS interfaces[0m
+[4.779s] [  2%] Built target ament_cmake_python_copy_ece217_project2_tan
+[5.121s] running egg_info
+[5.153s] writing ece217_project2_tan.egg-info/PKG-INFO
+[5.153s] writing dependency_links to ece217_project2_tan.egg-info/dependency_links.txt
+[5.154s] writing top-level names to ece217_project2_tan.egg-info/top_level.txt
+[5.254s] reading manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+[5.255s] writing manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+[5.286s] [  2%] Built target ament_cmake_python_build_ece217_project2_tan_egg
+[5.357s] [  2%] Built target ece217_project2_tan__rosidl_generator_type_description
+[5.380s] [  5%] [1m[34mGenerating C code for ROS interfaces[0m
+[5.382s] [  7%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[5.863s] [  7%] Built target ece217_project2_tan__cpp
+[5.958s] [ 10%] [32mBuilding C object CMakeFiles/ece217_project2_tan__rosidl_generator_c.dir/rosidl_generator_c/ece217_project2_tan/srv/detail/manipulation_query__functions.c.o[0m
+[5.958s] [ 13%] [32mBuilding C object CMakeFiles/ece217_project2_tan__rosidl_generator_c.dir/rosidl_generator_c/ece217_project2_tan/srv/detail/manipulation_query__description.c.o[0m
+[6.098s] [ 15%] [32mBuilding C object CMakeFiles/ece217_project2_tan__rosidl_generator_c.dir/rosidl_generator_c/ece217_project2_tan/srv/detail/manipulation_query__type_support.c.o[0m
+[6.228s] [ 18%] [1m[32mLinking C shared library libece217_project2_tan__rosidl_generator_c.so[0m
+[6.275s] [ 18%] Built target ece217_project2_tan__rosidl_generator_c
+[6.287s] [ 21%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.289s] [ 23%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[6.570s] [ 26%] [32mBuilding CXX object CMakeFiles/ece217_project2_tan__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ece217_project2_tan/srv/manipulation_query__type_support.cpp.o[0m
+[6.686s] [ 28%] [32mBuilding CXX object CMakeFiles/ece217_project2_tan__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ece217_project2_tan/srv/detail/manipulation_query__type_support_c.cpp.o[0m
+[7.195s] [ 31%] [1m[32mLinking CXX shared library libece217_project2_tan__rosidl_typesupport_cpp.so[0m
+[7.276s] [ 31%] Built target ece217_project2_tan__rosidl_typesupport_cpp
+[7.289s] [ 34%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.519s] [ 36%] [1m[32mLinking CXX shared library libece217_project2_tan__rosidl_typesupport_fastrtps_c.so[0m
+[7.579s] [ 36%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_c
+[7.592s] [ 39%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[7.695s] [ 42%] [32mBuilding CXX object CMakeFiles/ece217_project2_tan__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ece217_project2_tan/srv/detail/dds_fastrtps/manipulation_query__type_support.cpp.o[0m
+[7.916s] [ 44%] [32mBuilding C object CMakeFiles/ece217_project2_tan__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ece217_project2_tan/srv/detail/manipulation_query__type_support.c.o[0m
+[8.037s] [ 47%] [1m[32mLinking C shared library libece217_project2_tan__rosidl_typesupport_introspection_c.so[0m
+[8.078s] [ 47%] Built target ece217_project2_tan__rosidl_typesupport_introspection_c
+[8.091s] [ 50%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[8.407s] [ 52%] [32mBuilding CXX object CMakeFiles/ece217_project2_tan__rosidl_typesupport_c.dir/rosidl_typesupport_c/ece217_project2_tan/srv/manipulation_query__type_support.cpp.o[0m
+[8.512s] [ 55%] [1m[32mLinking CXX shared library libece217_project2_tan__rosidl_typesupport_c.so[0m
+[8.560s] [ 55%] Built target ece217_project2_tan__rosidl_typesupport_c
+[8.573s] [ 57%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[8.867s] [ 60%] [1m[32mLinking CXX shared library libece217_project2_tan__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.952s] [ 63%] [32mBuilding CXX object CMakeFiles/ece217_project2_tan__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ece217_project2_tan/srv/detail/manipulation_query__type_support.cpp.o[0m
+[8.956s] [ 63%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_cpp
+[9.004s] [ 65%] [32mBuilding CXX object CMakeFiles/project2-client.dir/src/project2-client.cpp.o[0m
+[9.812s] [ 68%] [1m[32mLinking CXX shared library libece217_project2_tan__rosidl_typesupport_introspection_cpp.so[0m
+[9.897s] [ 68%] Built target ece217_project2_tan__rosidl_typesupport_introspection_cpp
+[9.946s] [ 71%] [32mBuilding CXX object CMakeFiles/project2-server.dir/src/project2-server.cpp.o[0m
+[12.186s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:[m[K In function '[01m[Kint[01;32m[K main[m[K(int, char**)[m[K':
+[12.186s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:52:145:[m[K [01;31m[Kerror: [m[Kconversion from '[01m[Kshared_ptr<[01;32m[Kece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> >[m[K>[m[K' to non-scalar type '[01m[Kshared_ptr<[01;32m[Kece217_project2_tan::srv::ManipulationQuery[m[K>[m[K' requested
+[12.186s]    52 | = [01;31m[Kstd::make_shared<ece217_project2_tan::srv::ManipulationQuery::Request >()[m[K;
+[12.186s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[12.186s] 
+[12.187s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:55:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kjoint_angles[m[K'
+[12.187s]    55 |   request->[01;31m[Kjoint_angles[m[K[0] = vm["joint1theta"].as<double>();
+[12.187s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[12.187s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:56:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kjoint_angles[m[K'
+[12.187s]    56 |   request->[01;31m[Kjoint_angles[m[K[1] = vm["joint2theta"].as<double>();
+[12.187s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[12.188s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:57:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kjoint_angles[m[K'
+[12.188s]    57 |   request->[01;31m[Kjoint_angles[m[K[2] = vm["joint3theta"].as<double>();
+[12.188s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[12.188s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:58:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kjoint_angles[m[K'
+[12.188s]    58 |   request->[01;31m[Kjoint_angles[m[K[3] = vm["joint4theta"].as<double>();
+[12.188s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[12.189s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:59:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kjoint_angles[m[K'
+[12.189s]    59 |   request->[01;31m[Kjoint_angles[m[K[4] = vm["joint5theta"].as<double>();
+[12.189s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[12.189s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:60:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kjoint_angles[m[K'
+[12.189s]    60 |   request->[01;31m[Kjoint_angles[m[K[5] = vm["joint6theta"].as<double>();
+[12.189s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[12.189s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:62:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kgoal[m[K'
+[12.189s]    62 |   request->[01;31m[Kgoal[m[K.position.x = vm["goal-x"].as<double>();
+[12.189s]       |            [01;31m[K^~~~[m[K
+[12.190s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:63:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kgoal[m[K'
+[12.190s]    63 |   request->[01;31m[Kgoal[m[K.position.y = vm["goal-y"].as<double>();
+[12.190s]       |            [01;31m[K^~~~[m[K
+[12.190s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:64:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kgoal[m[K'
+[12.190s]    64 |   request->[01;31m[Kgoal[m[K.position.z = vm["goal-z"].as<double>();
+[12.190s]       |            [01;31m[K^~~~[m[K
+[12.190s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:66:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kgoal[m[K'
+[12.190s]    66 |   request->[01;31m[Kgoal[m[K.orientation.x = vm["quaternion-x"].as<double>();
+[12.190s]       |            [01;31m[K^~~~[m[K
+[12.191s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:67:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kgoal[m[K'
+[12.191s]    67 |   request->[01;31m[Kgoal[m[K.orientation.y = vm["quaternion-y"].as<double>();
+[12.191s]       |            [01;31m[K^~~~[m[K
+[12.191s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:68:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kgoal[m[K'
+[12.191s]    68 |   request->[01;31m[Kgoal[m[K.orientation.z = vm["quaternion-z"].as<double>();
+[12.191s]       |            [01;31m[K^~~~[m[K
+[12.191s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:69:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kgoal[m[K'
+[12.192s]    69 |   request->[01;31m[Kgoal[m[K.orientation.w = vm["quaternion-w"].as<double>();
+[12.192s]       |            [01;31m[K^~~~[m[K
+[12.193s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:81:63:[m[K [01;31m[Kerror: [m[K'[01m[Krequest[m[K' is not a member of '[01m[Kece217_project2_tan::srv::ManipulationQuery[m[K'
+[12.193s]    81 |   rclcpp::Client<ece217_project2_tan::srv::ManipulationQuery::[01;31m[Krequest[m[K>::FutureAndRequestId result = client->async_send_request( request );
+[12.193s]       |                                                               [01;31m[K^~~~~~~[m[K
+[12.193s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:81:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[12.193s]    81 | lcpp::Client<ece217_project2_tan::srv::ManipulationQuery::request[01;31m[K>[m[K::FutureAndRequestId result = client->async_send_request( request );
+[12.193s]       |                                                                  [01;31m[K^[m[K
+[12.194s] 
+[12.194s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:81:92:[m[K [01;31m[Kerror: [m[Kexpected initializer before '[01m[Kresult[m[K'
+[12.194s]    81 | oject2_tan::srv::ManipulationQuery::request>::FutureAndRequestId [01;31m[Kresult[m[K = client->async_send_request( request );
+[12.194s]       |                                                                  [01;31m[K^~~~~~[m[K
+[12.194s] 
+[12.198s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:82:48:[m[K [01;31m[Kerror: [m[K'[01m[Kresult[m[K' was not declared in this scope
+[12.198s]    82 |   if(rclcpp::spin_until_future_complete( node, [01;31m[Kresult[m[K) == rclcpp::FutureReturnCode::SUCCESS ){
+[12.198s]       |                                                [01;31m[K^~~~~~[m[K
+[12.793s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:[m[K In member function '[01m[Kvoid ManipulationService::[01;32m[Kgenerate_manipulation[m[K(std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >, std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Response_<std::allocator<void> > >)[m[K':
+[12.793s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:15:100:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kresponse[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+[12.793s]    15 |                     [01;35m[Kconst std::shared_ptr< ece217_project2_tan::srv::ManipulationQuery::Response > response[m[K ){
+[12.793s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[13.305s] gmake[2]: *** [CMakeFiles/project2-client.dir/build.make:79: CMakeFiles/project2-client.dir/src/project2-client.cpp.o] Error 1
+[13.305s] gmake[1]: *** [CMakeFiles/Makefile2:771: CMakeFiles/project2-client.dir/all] Error 2
+[13.305s] gmake[1]: *** Waiting for unfinished jobs....
+[14.927s] [ 73%] [1m[32mLinking CXX executable project2-server[0m
+[15.096s] [ 73%] Built target project2-server
+[15.097s] gmake: *** [Makefile:146: all] Error 2
+[15.099s] Invoked command in '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan' returned '2': CONDA_PROMPT_MODIFIER=(ros2_env) _=/usr/bin/env /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/cmake --build /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan -- -j2 -l2
