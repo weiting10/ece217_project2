@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.000129] (ece217_project2_tan) JobQueued: {'identifier': 'ece217_project2_tan', 'dependencies': OrderedDict()}
+[0.000262] (ece217_project2_tan) JobStarted: {'identifier': 'ece217_project2_tan'}
+[0.014276] (ece217_project2_tan) JobProgress: {'identifier': 'ece217_project2_tan', 'progress': 'cmake'}
+[0.015000] (ece217_project2_tan) JobProgress: {'identifier': 'ece217_project2_tan', 'progress': 'build'}
+[0.015612] (ece217_project2_tan) Command: {'cmd': ['/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/cmake', '--build', '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan', '--', '-j2', '-l2'], 'cwd': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan', 'env': OrderedDict({'SHELL': '/bin/bash', 'ROS_VERSION': '2', 'SESSION_MANAGER': 'local/unix:@/tmp/.ICE-unix/3214806,unix/unix:/tmp/.ICE-unix/3214806', 'COLORTERM': 'truecolor', 'GCC_RANLIB': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib', 'SLURM_JOB_USER': 'wtan10', 'XDG_CONFIG_DIRS': '/sfw/rhel9-x86_64/circ/FastX4/xdg_gnome_rhel9_ECE:etc/fastx/xdg', 'SLURM_TASKS_PER_NODE': '1', 'SLURM_JOB_UID': '32583366', 'HISTCONTROL': 'ignoredups', 'XDG_MENU_PREFIX': 'gnome-', 'AUTH_SSH_DISABLE_PUBLIC_KEY_AUTHENTICATION': '1', 'FX_CONFIG_DIR': '/etc/fastx', 'SLURM_TASK_PID': '3214741', 'CONDA_EXE': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/bin/conda', '_CE_M': '', '__MODULES_LMALTNAME': 'slurm/24.05.0.b1&as|slurm/default&as|slurm/latest:ros2/14.1.19&as|ros2/default&as|ros2/latest', 'PKG_CONFIG_PATH': '/sfw/rhel9-x86_64/miniforge3/25.11.0-1/lib/pkgconfig', 'SLURM_LOCALID': '0', 'build_alias': 'x86_64-conda-linux-gnu', 'SLURM_SUBMIT_DIR': '/', 'ROS_PYTHON_VERSION': '3', 'CMAKE_ARGS': '-DCMAKE_AR=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-ar -DCMAKE_CXX_COMPILER_AR=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_C_COMPILER_AR=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_RANLIB=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_CXX_COMPILER_RANLIB=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_C_COMPILER_RANLIB=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_LINKER=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release', 'HISTSIZE': '1000', 'HOSTNAME': 'bhd0098', 'SLURMD_NODENAME': 'bhd0098', 'FX_NAME': 'ECE', 'SLURM_JOB_START_TIME': '1776631697', 'GPROF': 'x86_64-conda-linux-gnu-gprof', 'HYDRA_LAUNCHER_EXTRA_ARGS': '--external-launcher', 'CONDA_TOOLCHAIN_BUILD': 'x86_64-conda-linux-gnu', 'SSH_AUTH_SOCK': '/local_scratch/1062337/keyring/ssh', 'STRINGS': 'x86_64-conda-linux-gnu-strings', 'ROS_OS_OVERRIDE': 'conda:linux', 'CPP': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-cpp', 'SLURM_CLUSTER_NAME': 'bluehive', 'SLURM_JOB_END_TIME': '1776660497', 'SLURM_CPUS_ON_NODE': '2', 'XMODIFIERS': '@im=ibus', 'AUTH_SSH_ENABLE_BANNER': '0', 'LOGIN_THEME_HIDE_BACKGROUND': '0', 'SLURM_JOB_CPUS_PER_NODE': '2', 'XML_CATALOG_FILES': 'file:///gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/etc/xml/catalog file:///etc/xml/catalog', 'PRTE_MCA_plm_slurm_args': '--external-launcher', 'PWD': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan', 'SLURM_GTIDS': '0', 'GSETTINGS_SCHEMA_DIR': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/glib-2.0/schemas', 'LOGNAME': 'wtan10', 'XDG_SESSION_TYPE': 'x11', 'CONDA_PREFIX': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env', 'SLURM_JOB_PARTITION': 'ros2', 'MODULESHOME': '/sfw/rhel9-x86_64/modules/5.0.1', 'PORT': '3300', 'MANPATH': '/sfw/rhel9-x86_64/miniforge3/25.11.0-1/man:/sfw/rhel9-x86_64/miniforge3/25.11.0-1/share/man:/sfw/rhel9-x86_64/slurm/24.05.0.b1/share/man:/sfw/rhel9-x86_64/circ/share/man::', 'CA_FILE': '', 'SLURM_TRES_PER_TASK': 'cpu=2', 'ROS_DOMAIN_ID': '17', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'SLURM_JOB_NUM_NODES': '1', 'CXX': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++', 'CXXFLAGS': '-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include', 'XAUTHORITY': '/home/wtan10/.fastx_server/bhd0098/sessions/FX3-3a17093b18764fc3b42bdf370462cec4/authority', 'TEMPDIR': '/local_scratch/1062337', 'CONDA_TOOLCHAIN_HOST': 'x86_64-conda-linux-gnu', 'SLURM_JOBID': '1062337', 'DEBUG_CXXFLAGS': '-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include', 'SLURM_JOB_QOS': 'ros2', 'I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS': '--external-launcher', 'WEBLINK_URI': '/weblink', 'MOTD_SHOWN': 'pam', 'WEBLINK_URL': 'https://bh3fastx.bluehive.circ.private:3320', '__MODULES_SHARE_MANPATH': ':1', 'LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib -Wl,-rpath-link,/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib -L/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib', 'HOME': '/home/wtan10', 'LANG': 'en_US.UTF-8', 'MESON_ARGS': '-Dbuildtype=release', 'AUTH_SSH_HIDE_PASSWORD': '1', 'ROS_ETC_DIR': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/etc/ros', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:', 'DEBUG_CFLAGS': '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include', 'XDG_CURRENT_DESKTOP': 'GNOME', 'TEMP_DIR': '/local_scratch/1062337', '__MODULES_LMPREREQ': 'slurm/24.05.0.b1&circ:circ&slurm:ros2/14.1.19&miniforge3/25.11.0-1', 'LDFLAGS_LD': '-O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib -rpath-link /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib -L/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib', 'SLURM_PROCID': '0', '__MODULES_LMCONFLICT': 'miniforge3/25.11.0-1&miniforge3:ros2/14.1.19&ros2', 'SCRATCH': '/scratch/wtan10', 'VTE_VERSION': '6402', 'WEBLINK_TOKEN_NOAUTH': '1', 'FX_LOCAL_DIR': '/var/fastx-local', 'CHANGE_USER_SSH_KEY_FORMAT': 'PEM', 'CXX_FOR_BUILD': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++', 'FX_ROOT_DIR': '/usr/lib/fastx/4', 'ELFEDIT': 'x86_64-conda-linux-gnu-elfedit', 'CONDA_PROMPT_MODIFIER': '(ros2_env)', 'TMPDIR': '/local_scratch/1062337', 'AMENT_PREFIX_PATH': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env', 'CMAKE_PREFIX_PATH': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/x86_64-conda-linux-gnu/sysroot/usr', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/98265fbd_01c5_4a2b_bcf3_1ee67ad854a0', 'CPPFLAGS': '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SLURM_CPUS_PER_TASK': '2', 'TMP_DIR': '/local_scratch/1062337', 'LD': 'x86_64-conda-linux-gnu-ld', 'COLCON_PREFIX_PATH': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install', 'SLURM_TOPOLOGY_ADDR': 'bhd0098', '__MODULES_LMTAG': 'slurm/24.05.0.b1&auto-loaded:miniforge3/25.11.0-1&auto-loaded', 'CPP_FOR_BUILD': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-cpp', 'READELF': 'x86_64-conda-linux-gnu-readelf', 'GXX': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-g++', 'CHANGE_USER_SSH_KEY_TYPE': 'rsa', 'SCHEDULE_SESSION_CONNECT_SECONDS': '60', 'HYDRA_BOOTSTRAP': 'slurm', 'SLURM_TOPOLOGY_ADDR_PATTERN': 'node', 'GCC_AR': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar', '_CONDA_EXE': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/bin/conda', 'XDG_SESSION_CLASS': 'user', '_CONDA_ROOT': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1', 'ADDR2LINE': 'x86_64-conda-linux-gnu-addr2line', 'SLURM_SCRIPT_CONTEXT': 'prolog_task', 'SLURM_MEM_PER_NODE': '16384', 'LOGIN_THEME_LOGO_BACKGROUND': '', 'PYTHONPATH': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/python/site-packages:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/python3.12/site-packages:/sfw/rhel9-x86_64/miniforge3/25.11.0-1/lib/python3.12/site-packages:/sfw/rhel9-x86_64/miniforge3/25.11.0-1/lib/python3.1/site-packages:/usr/lib/fastx/4/integration/lib/python', 'COLCON': '1', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'CPLUS_INCLUDE_PATH': '/sfw/rhel9-x86_64/miniforge3/25.11.0-1/include:/sfw/rhel9-x86_64/slurm/24.05.0.b1/include', 'SIZE': 'x86_64-conda-linux-gnu-size', 'GCC_NM': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-nm', 'HOST': 'x86_64-conda-linux-gnu', 'WEBLINK_PORT': '3320', 'LAUNCH_AS_CURRENT_USER': '0', 'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'CC_FOR_BUILD': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc', 'USER': 'wtan10', 'CHANGE_USER_SSH_KEY_SIZE': '2048', 'LIBRARY_PATH': '/sfw/rhel9-x86_64/miniforge3/25.11.0-1/lib:/sfw/rhel9-x86_64/slurm/24.05.0.b1/lib64:/sfw/rhel9-x86_64/slurm/24.05.0.b1/lib', 'SLURM_NODELIST': 'bhd0098', 'ENVIRONMENT': 'BATCH', 'LOAD_BALANCER': 'session', 'GNOME_TERMINAL_SERVICE': ':1.74', 'KEEP_FAILED_SESSIONS': '1', 'CONDA_SHLVL': '1', 'AR': 'x86_64-conda-linux-gnu-ar', 'AS': 'x86_64-conda-linux-gnu-as', 'LOADEDMODULES': 'slurm/24.05.0.b1:circ:miniforge3/25.11.0-1:ros2/14.1.19', 'DEBUG_CPPFLAGS': '-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include', 'TEMP': '/scratch/wtan10/tmp', 'SLURM_JOB_ACCOUNT': 'ece217-417-202601', 'LOGIN_HIDE_ADMIN_BUTTON': '1', 'SLURM_PRIO_PROCESS': '0', 'host_alias': 'x86_64-conda-linux-gnu', 'DISPLAY': ':102', 'SHLVL': '2', 'SLURM_NNODES': '1', 'NM': 'x86_64-conda-linux-gnu-nm', 'BASH_ENV': '/etc/profile.d/modules.sh', 'GCC': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc', 'AUTH_SSH_HIDE_MANAGE_KEYS': '1', 'QT_IM_MODULE': 'ibus', 'AUTH_SSH_PASSWORD_PROMPT_REGEX': '^[p|P]assword', 'PROJ_DATA': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/proj', 'LOGIN_THEME_LOGO_POSITION': '', 'SLURM_SUBMIT_HOST': 'bh3fastx', 'CONDA_PYTHON_EXE': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/bin/python', 'LD_LIBRARY_PATH': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/opt/rviz_ogre_vendor/lib:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib:/sfw/rhel9-x86_64/miniforge3/25.11.0-1/lib:/sfw/rhel9-x86_64/slurm/24.05.0.b1/lib64:/sfw/rhel9-x86_64/slurm/24.05.0.b1/lib', 'LC_CTYPE': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/local_scratch/1062337', 'SLURM_JOB_ID': '1062337', 'SLURM_NODEID': '0', 'SSH_CLIENT': '127.0.0.1 48264 3322', 'CONDA_DEFAULT_ENV': 'ros2_env', 'OBJCOPY': 'x86_64-conda-linux-gnu-objcopy', 'which_declare': 'declare -f', 'STRIP': 'x86_64-conda-linux-gnu-strip', 'LOAD_BALANCER_SCRIPT': '', 'XDG_DATA_DIRS': '/home/wtan10/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/sfw/rhel9-x86_64/circ/FastX4/xdg_gnome_rhel9_ECE:/usr/local/share:/usr/share', 'OBJDUMP': 'x86_64-conda-linux-gnu-objdump', 'SLURM_CONF': '/sfw/rhel9-x86_64/slurm/24.05.0.b1/etc/slurm.conf', 'PATH': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/condabin:/sfw/rhel9-x86_64/miniforge3/25.11.0-1/bin:/sfw/rhel9-x86_64/modules/5.0.1/bin:/xcatpost:/usr/bin:/bin:/sbin:/usr/sbin:/mnt/sysimage/bin:/mnt/sysimage/usr/bin:/mnt/sysimage/usr/sbin:/mnt/sysimage/sbin:/sbin:/usr/sbin:/xcatpost:/usr/lpp/mmfs/bin', 'LOGIN_DISCLAIMER': 'This machine is private property of the University of Rochester. <br>Unauthorized access is strictly prohibited.<br>All activity may be monitored.', 'SLURM_JOB_NAME': 'ros2-fastx', 'AUTH_SSH_DISABLE': '0', 'MODULEPATH': '/sfw/rhel9-x86_64/modules/modulefiles', 'LOGIN_TAGLINE': 'Center for Integrated Research Computing', 'CC': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc', '_LMFILES_': '/sfw/rhel9-x86_64/modules/modulefiles/slurm/24.05.0.b1:/sfw/rhel9-x86_64/modules/modulefiles/circ:/sfw/rhel9-x86_64/modules/modulefiles/miniforge3/25.11.0-1:/sfw/rhel9-x86_64/modules/modulefiles/ros2/14.1.19', 'CFLAGS': '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include', 'CXXFILT': 'x86_64-conda-linux-gnu-c++filt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-C8WaXhqG20,guid=948ee09f7e2e1347e223032769e53f92', 'C_INCLUDE_PATH': '/sfw/rhel9-x86_64/miniforge3/25.11.0-1/include:/sfw/rhel9-x86_64/slurm/24.05.0.b1/include', 'LAUNCHER_ARGS': '', 'BUILD': 'x86_64-conda-linux-gnu', 'MAIL': '/var/spool/mail/wtan10', 'OMPI_MCA_plm_slurm_args': '--external-launcher', 'CONDA_BUILD_CROSS_COMPILATION': '', 'SLURM_JOB_GID': '32583366', 'FASTX_SESSION_ID': '3a17093b18764fc3b42bdf370462cec4', 'ROS_DISTRO': 'jazzy', 'PUBLIC': '/public/wtan10', 'RANLIB': 'x86_64-conda-linux-gnu-ranlib', 'FASTX_SESSION_DIR': '/home/wtan10/.fastx_server/bhd0098/sessions/FX3-3a17093b18764fc3b42bdf370462cec4', 'CONDA_BUILD_SYSROOT': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/x86_64-conda-linux-gnu/sysroot', 'PROJ_NETWORK': 'ON', 'SLURM_JOB_NODELIST': 'bhd0098', 'MODULES_CMD': '/sfw/rhel9-x86_64/modules/5.0.1/libexec/modulecmd.tcl', 'FX_CONFIG_WEBLINK_JSON': 'baseUrl:http://bh3fastx.bluehive.circ.private:3320,uri:/weblink', 'I_MPI_HYDRA_BOOTSTRAP': 'slurm', 'BASH_FUNC_ml%%': '() {  module ml "$@"\n}', 'BASH_FUNC_which%%': '() {  ( alias;\n eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@\n}', 'BASH_FUNC_module%%': '() {  _module_raw "$@" 2>&1\n}', 'BASH_FUNC__module_raw%%': '() {  eval `/usr/bin/tclsh /sfw/rhel9-x86_64/modules/5.0.1/libexec/modulecmd.tcl bash "$@"`;\n _mlstatus=$?;\n return $_mlstatus\n}', '_': '/usr/bin/env'}), 'shell': False}
+[0.099538] (-) TimerEvent: {}
+[0.124629] (ece217_project2_tan) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:34:\n'}
+[0.124918] (ece217_project2_tan) StderrLine: {'line': b'  Syntax Warning in cmake code at column 118\n'}
+[0.125024] (ece217_project2_tan) StderrLine: {'line': b'\n'}
+[0.125108] (ece217_project2_tan) StderrLine: {'line': b'  Argument not separated from preceding token by whitespace.\n'}
+[0.125181] (ece217_project2_tan) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.125254] (ece217_project2_tan) StderrLine: {'line': b'\x1b[0m\n'}
+[0.125326] (ece217_project2_tan) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.125396] (ece217_project2_tan) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.125466] (ece217_project2_tan) StderrLine: {'line': b'  CMake.\n'}
+[0.125535] (ece217_project2_tan) StderrLine: {'line': b'\n'}
+[0.125605] (ece217_project2_tan) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.125673] (ece217_project2_tan) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.125742] (ece217_project2_tan) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.125811] (ece217_project2_tan) StderrLine: {'line': b'\n'}
+[0.125878] (ece217_project2_tan) StderrLine: {'line': b'\x1b[0m\n'}
+[0.199627] (-) TimerEvent: {}
+[0.242017] (ece217_project2_tan) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/ament_cmake/cmake)\n'}
+[0.299720] (-) TimerEvent: {}
+[0.399825] (-) TimerEvent: {}
+[0.499941] (-) TimerEvent: {}
+[0.519035] (ece217_project2_tan) StdoutLine: {'line': b'-- Found Python3: /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/python3 (found version "3.12.12") found components: Interpreter\n'}
+[0.600014] (-) TimerEvent: {}
+[0.700130] (-) TimerEvent: {}
+[0.800249] (-) TimerEvent: {}
+[0.900402] (-) TimerEvent: {}
+[0.985001] (ece217_project2_tan) StdoutLine: {'line': b'-- Found rclcpp: 28.1.15 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rclcpp/cmake)\n'}
+[1.000461] (-) TimerEvent: {}
+[1.100567] (-) TimerEvent: {}
+[1.200677] (-) TimerEvent: {}
+[1.300787] (-) TimerEvent: {}
+[1.400927] (-) TimerEvent: {}
+[1.409246] (ece217_project2_tan) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rosidl_generator_c/cmake)\n'}
+[1.484459] (ece217_project2_tan) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rosidl_generator_cpp/cmake)\n'}
+[1.500985] (-) TimerEvent: {}
+[1.601087] (-) TimerEvent: {}
+[1.608256] (ece217_project2_tan) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.701163] (-) TimerEvent: {}
+[1.798479] (ece217_project2_tan) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.801224] (-) TimerEvent: {}
+[1.901303] (-) TimerEvent: {}
+[2.001417] (-) TimerEvent: {}
+[2.101560] (-) TimerEvent: {}
+[2.201655] (-) TimerEvent: {}
+[2.301737] (-) TimerEvent: {}
+[2.401838] (-) TimerEvent: {}
+[2.403805] (ece217_project2_tan) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rmw_implementation_cmake/cmake)\n'}
+[2.442361] (ece217_project2_tan) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.501927] (-) TimerEvent: {}
+[2.602059] (-) TimerEvent: {}
+[2.702158] (-) TimerEvent: {}
+[2.802274] (-) TimerEvent: {}
+[2.902422] (-) TimerEvent: {}
+[3.002574] (-) TimerEvent: {}
+[3.102692] (-) TimerEvent: {}
+[3.202808] (-) TimerEvent: {}
+[3.302921] (-) TimerEvent: {}
+[3.403041] (-) TimerEvent: {}
+[3.503160] (-) TimerEvent: {}
+[3.597430] (ece217_project2_tan) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.603222] (-) TimerEvent: {}
+[3.703317] (-) TimerEvent: {}
+[3.803414] (-) TimerEvent: {}
+[3.903541] (-) TimerEvent: {}
+[4.003644] (-) TimerEvent: {}
+[4.103752] (-) TimerEvent: {}
+[4.203844] (-) TimerEvent: {}
+[4.216850] (ece217_project2_tan) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/geometry_msgs/cmake)\n'}
+[4.303939] (-) TimerEvent: {}
+[4.406387] (-) TimerEvent: {}
+[4.506527] (-) TimerEvent: {}
+[4.606672] (-) TimerEvent: {}
+[4.632454] (ece217_project2_tan) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:12 (find_package):\n'}
+[4.632619] (ece217_project2_tan) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[4.632700] (ece217_project2_tan) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[4.632773] (ece217_project2_tan) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[4.632843] (ece217_project2_tan) StderrLine: {'line': b'\n'}
+[4.632912] (ece217_project2_tan) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.632983] (ece217_project2_tan) StderrLine: {'line': b'\x1b[0m\n'}
+[4.694182] (ece217_project2_tan) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rosidl_default_generators/cmake)\n'}
+[4.706759] (-) TimerEvent: {}
+[4.770830] (ece217_project2_tan) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rosidl_adapter/cmake)\n'}
+[4.806844] (-) TimerEvent: {}
+[4.855559] (ece217_project2_tan) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/nav_msgs/cmake)\n'}
+[4.906926] (-) TimerEvent: {}
+[5.007067] (-) TimerEvent: {}
+[5.044597] (ece217_project2_tan) StdoutLine: {'line': b'-- Found pluginlib: 5.4.4 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/pluginlib/cmake)\n'}
+[5.107132] (-) TimerEvent: {}
+[5.122620] (ece217_project2_tan) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.6 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/visualization_msgs/cmake)\n'}
+[5.207197] (-) TimerEvent: {}
+[5.307275] (-) TimerEvent: {}
+[5.407363] (-) TimerEvent: {}
+[5.507480] (-) TimerEvent: {}
+[5.607628] (-) TimerEvent: {}
+[5.707745] (-) TimerEvent: {}
+[5.807868] (-) TimerEvent: {}
+[5.907974] (-) TimerEvent: {}
+[6.008079] (-) TimerEvent: {}
+[6.108177] (-) TimerEvent: {}
+[6.208277] (-) TimerEvent: {}
+[6.308382] (-) TimerEvent: {}
+[6.408540] (-) TimerEvent: {}
+[6.508658] (-) TimerEvent: {}
+[6.608774] (-) TimerEvent: {}
+[6.708927] (-) TimerEvent: {}
+[6.719923] (ece217_project2_tan) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/ament_cmake_ros/cmake)\n'}
+[6.809000] (-) TimerEvent: {}
+[6.909123] (-) TimerEvent: {}
+[7.009245] (-) TimerEvent: {}
+[7.109372] (-) TimerEvent: {}
+[7.209494] (-) TimerEvent: {}
+[7.309611] (-) TimerEvent: {}
+[7.409728] (-) TimerEvent: {}
+[7.509847] (-) TimerEvent: {}
+[7.609972] (-) TimerEvent: {}
+[7.710062] (-) TimerEvent: {}
+[7.810179] (-) TimerEvent: {}
+[7.910298] (-) TimerEvent: {}
+[8.010418] (-) TimerEvent: {}
+[8.110535] (-) TimerEvent: {}
+[8.120585] (ece217_project2_tan) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.210635] (-) TimerEvent: {}
+[8.310747] (-) TimerEvent: {}
+[8.410878] (-) TimerEvent: {}
+[8.511045] (-) TimerEvent: {}
+[8.611160] (-) TimerEvent: {}
+[8.700634] (ece217_project2_tan) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.711224] (-) TimerEvent: {}
+[8.714845] (ece217_project2_tan) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/python_cmake_module/cmake)\n'}
+[8.811305] (-) TimerEvent: {}
+[8.911423] (-) TimerEvent: {}
+[9.011537] (-) TimerEvent: {}
+[9.111649] (-) TimerEvent: {}
+[9.211759] (-) TimerEvent: {}
+[9.289506] (ece217_project2_tan) StdoutLine: {'line': b'-- Found Python3: /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/python3 (found version "3.12.12") found components: Interpreter Development NumPy Development.Module Development.Embed\n'}
+[9.311826] (-) TimerEvent: {}
+[9.411961] (-) TimerEvent: {}
+[9.434965] (ece217_project2_tan) StderrLine: {'line': b'\x1b[31mCMake Error at /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):\n'}
+[9.435137] (ece217_project2_tan) StderrLine: {'line': b'  ament_target_dependencies() the first argument must be a valid target name\n'}
+[9.435216] (ece217_project2_tan) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[9.435289] (ece217_project2_tan) StderrLine: {'line': b'  CMakeLists.txt:43 (ament_target_dependencies)\n'}
+[9.435367] (ece217_project2_tan) StderrLine: {'line': b'\n'}
+[9.435441] (ece217_project2_tan) StderrLine: {'line': b'\x1b[0m\n'}
+[9.435555] (ece217_project2_tan) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[9.512080] (-) TimerEvent: {}
+[9.535351] (ece217_project2_tan) StderrLine: {'line': b'gmake: *** [Makefile:815: cmake_check_build_system] Error 1\n'}
+[9.536840] (ece217_project2_tan) CommandEnded: {'returncode': 2}
+[9.559186] (ece217_project2_tan) JobEnded: {'identifier': 'ece217_project2_tan', 'rc': 2}
+[9.569588] (-) EventReactorShutdown: {}

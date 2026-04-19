@@ -14,6 +14,24 @@ class ManipulationService : public rclcpp::Node {
     void generate_manipulation( const std::shared_ptr< ece217_project2_tan::srv::ManipulationQuery::Request> request,
 		    const std::shared_ptr< ece217_project2_tan::srv::ManipulationQuery::Response > response ){
       RCLCPP_INFO( rclcpp::get_logger( "rclcpp" ), "Incoming manipulation request");
+      
+      // printing out the starting joint angles and goal from client
+      std::cout << "Request starting joint thetas: " << std::endl 
+	      <<request->joint_angles[0] << " " 
+	      <<request->joint_angles[1] << " " 
+	      <<request->joint_angles[2] << " " 
+	      <<request->joint_angles[3] << " " 
+	      <<request->joint_angles[4] << " " 
+	      <<request->joint_angles[5]<< std::endl<< std::endl;
+
+     std::cout << "Request goal position: " << "(" << request->goal.position.x <<"," << request->goal.position.y <<","<< request->goal.position.z<<")" << std::endl;
+     std::cout << "Request goal orientation: " << "[(" <<request->goal.orientation.x <<"," << request->goal.orientation.y << "," << request->goal.orientation.z << "), " << request->goal.orientation.w << " ]" <<std::endl;
+
+
+
+
+
+
 
       RCLCPP_INFO( rclcpp::get_logger( "rclcpp" ), "Outgoing manipulation response");
 
