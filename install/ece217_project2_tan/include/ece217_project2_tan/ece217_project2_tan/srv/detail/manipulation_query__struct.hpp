@@ -172,15 +172,15 @@ struct ManipulationQuery_Response_
   }
 
   // field types and members
-  using _joint_anlges_type =
+  using _joint_angles_type =
     std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>>;
-  _joint_anlges_type joint_anlges;
+  _joint_angles_type joint_angles;
 
   // setters for named parameter idiom
-  Type & set__joint_anlges(
+  Type & set__joint_angles(
     const std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>> & _arg)
   {
-    this->joint_anlges = _arg;
+    this->joint_angles = _arg;
     return *this;
   }
 
@@ -226,7 +226,7 @@ struct ManipulationQuery_Response_
   // comparison operators
   bool operator==(const ManipulationQuery_Response_ & other) const
   {
-    if (this->joint_anlges != other.joint_anlges) {
+    if (this->joint_angles != other.joint_angles) {
       return false;
     }
     return true;

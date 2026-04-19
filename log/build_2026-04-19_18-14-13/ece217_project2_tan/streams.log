@@ -1,0 +1,102 @@
+[0.021s] Invoking command in '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan': CONDA_PROMPT_MODIFIER=(ros2_env) _=/usr/bin/env /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/cmake --build /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan -- -j2 -l2
+[0.097s] [  2%] Built target ece217_project2_tan__rosidl_generator_type_description
+[0.121s] [  5%] Built target ece217_project2_tan__cpp
+[0.152s] [ 18%] Built target ece217_project2_tan__rosidl_generator_c
+[0.172s] [ 18%] Built target ament_cmake_python_copy_ece217_project2_tan
+[0.186s] [ 26%] Built target ece217_project2_tan__rosidl_typesupport_cpp
+[0.227s] [ 39%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_c
+[0.227s] [ 42%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_cpp
+[0.259s] [ 50%] Built target ece217_project2_tan__rosidl_typesupport_introspection_c
+[0.259s] [ 57%] Built target ece217_project2_tan__rosidl_typesupport_c
+[0.293s] [ 65%] Built target ece217_project2_tan__rosidl_typesupport_introspection_cpp
+[0.342s] [ 68%] [32mBuilding CXX object CMakeFiles/project2-client.dir/src/project2-client.cpp.o[0m
+[0.604s] running egg_info
+[0.637s] writing ece217_project2_tan.egg-info/PKG-INFO
+[0.638s] writing dependency_links to ece217_project2_tan.egg-info/dependency_links.txt
+[0.638s] writing top-level names to ece217_project2_tan.egg-info/top_level.txt
+[0.740s] reading manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+[0.741s] writing manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+[0.772s] [ 68%] Built target ament_cmake_python_build_ece217_project2_tan_egg
+[0.822s] [ 73%] Built target project2-server
+[0.846s] [ 73%] Built target ece217_project2_tan
+[0.892s] [ 76%] [1m[34mGenerating Python code for ROS interfaces[0m
+[1.519s] [ 76%] Built target ece217_project2_tan__py
+[1.550s] [ 78%] [32mBuilding C object CMakeFiles/ece217_project2_tan__rosidl_generator_py.dir/rosidl_generator_py/ece217_project2_tan/srv/_manipulation_query_s.c.o[0m
+[2.007s] [ 81%] [1m[32mLinking C shared library libece217_project2_tan__rosidl_generator_py.so[0m
+[2.067s] [ 81%] Built target ece217_project2_tan__rosidl_generator_py
+[2.097s] [ 84%] [32mBuilding C object CMakeFiles/ece217_project2_tan_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/ece217_project2_tan/_ece217_project2_tan_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.295s] [ 86%] [1m[32mLinking C shared module rosidl_generator_py/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_fastrtps_c.so[0m
+[2.338s] [ 86%] Built target ece217_project2_tan_s__rosidl_typesupport_fastrtps_c
+[2.369s] [ 89%] [32mBuilding C object CMakeFiles/ece217_project2_tan_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/ece217_project2_tan/_ece217_project2_tan_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.563s] [ 92%] [1m[32mLinking C shared module rosidl_generator_py/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_introspection_c.so[0m
+[2.605s] [ 92%] Built target ece217_project2_tan_s__rosidl_typesupport_introspection_c
+[2.636s] [ 94%] [32mBuilding C object CMakeFiles/ece217_project2_tan_s__rosidl_typesupport_c.dir/rosidl_generator_py/ece217_project2_tan/_ece217_project2_tan_s.ep.rosidl_typesupport_c.c.o[0m
+[2.830s] [ 97%] [1m[32mLinking C shared module rosidl_generator_py/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_c.so[0m
+[2.871s] [ 97%] Built target ece217_project2_tan_s__rosidl_typesupport_c
+[3.518s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:[m[K In function '[01m[Kint[01;32m[K main[m[K(int, char**)[m[K':
+[3.518s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:52:64:[m[K [01;31m[Kerror: [m[K'[01m[Krequest[m[K' is not a member of '[01m[Kece217_project2_tan::srv::ManipulationQuery[m[K'
+[3.518s]    52 |   std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery::[01;31m[Krequest[m[K> request = std::make_shared<ece217_project2_tan::srv::ManipulationQuery::Request >();
+[3.518s]       |                                                                [01;31m[K^~~~~~~[m[K
+[3.519s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:52:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.519s]    52 |   std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery::request[01;31m[K>[m[K request = std::make_shared<ece217_project2_tan::srv::ManipulationQuery::Request >();
+[3.519s]       |                                                                       [01;31m[K^[m[K
+[3.519s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:52:154:[m[K [01;31m[Kerror: [m[Kcannot convert '[01m[Kstd::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >[m[K' to '[01m[Kint[m[K' in initialization
+[3.519s]    52 |   std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery::request> request = [01;31m[Kstd::make_shared<ece217_project2_tan::srv::ManipulationQuery::Request >()[m[K;
+[3.519s]       |                                                                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.519s]       |                                                                                                                                                          [01;31m[K|[m[K
+[3.519s]       |                                                                                                                                                          [01;31m[Kstd::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >[m[K
+[3.520s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:55:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+[3.520s]    55 |   request[01;31m[K->[m[Kjoint_angles[0] = vm["joint1theta"].as<double>();
+[3.520s]       |          [01;31m[K^~[m[K
+[3.520s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:56:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+[3.520s]    56 |   request[01;31m[K->[m[Kjoint_angles[1] = vm["joint2theta"].as<double>();
+[3.520s]       |          [01;31m[K^~[m[K
+[3.520s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:57:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+[3.520s]    57 |   request[01;31m[K->[m[Kjoint_angles[2] = vm["joint3theta"].as<double>();
+[3.520s]       |          [01;31m[K^~[m[K
+[3.520s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:58:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+[3.520s]    58 |   request[01;31m[K->[m[Kjoint_angles[3] = vm["joint4theta"].as<double>();
+[3.520s]       |          [01;31m[K^~[m[K
+[3.520s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:59:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+[3.521s]    59 |   request[01;31m[K->[m[Kjoint_angles[4] = vm["joint5theta"].as<double>();
+[3.521s]       |          [01;31m[K^~[m[K
+[3.521s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:60:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+[3.521s]    60 |   request[01;31m[K->[m[Kjoint_angles[5] = vm["joint6theta"].as<double>();
+[3.521s]       |          [01;31m[K^~[m[K
+[3.521s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:62:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+[3.521s]    62 |   request[01;31m[K->[m[Kgoal.position.x = vm["goal-x"].as<double>();
+[3.521s]       |          [01;31m[K^~[m[K
+[3.522s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:63:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+[3.522s]    63 |   request[01;31m[K->[m[Kgoal.position.y = vm["goal-y"].as<double>();
+[3.522s]       |          [01;31m[K^~[m[K
+[3.522s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:64:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+[3.522s]    64 |   request[01;31m[K->[m[Kgoal.position.z = vm["goal-z"].as<double>();
+[3.522s]       |          [01;31m[K^~[m[K
+[3.522s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:66:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+[3.522s]    66 |   request[01;31m[K->[m[Kgoal.orientation.x = vm["quaternion-x"].as<double>();
+[3.522s]       |          [01;31m[K^~[m[K
+[3.522s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:67:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+[3.522s]    67 |   request[01;31m[K->[m[Kgoal.orientation.y = vm["quaternion-y"].as<double>();
+[3.522s]       |          [01;31m[K^~[m[K
+[3.522s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:68:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+[3.522s]    68 |   request[01;31m[K->[m[Kgoal.orientation.z = vm["quaternion-z"].as<double>();
+[3.523s]       |          [01;31m[K^~[m[K
+[3.523s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:69:10:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+[3.523s]    69 |   request[01;31m[K->[m[Kgoal.orientation.w = vm["quaternion-w"].as<double>();
+[3.523s]       |          [01;31m[K^~[m[K
+[3.523s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:81:63:[m[K [01;31m[Kerror: [m[K'[01m[Krequest[m[K' is not a member of '[01m[Kece217_project2_tan::srv::ManipulationQuery[m[K'
+[3.523s]    81 |   rclcpp::Client<ece217_project2_tan::srv::ManipulationQuery::[01;31m[Krequest[m[K>::FutureAndRequestId result = client->async_send_request( request );
+[3.523s]       |                                                               [01;31m[K^~~~~~~[m[K
+[3.523s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:81:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.523s]    81 |   rclcpp::Client<ece217_project2_tan::srv::ManipulationQuery::request[01;31m[K>[m[K::FutureAndRequestId result = client->async_send_request( request );
+[3.523s]       |                                                                      [01;31m[K^[m[K
+[3.523s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:81:92:[m[K [01;31m[Kerror: [m[Kexpected initializer before '[01m[Kresult[m[K'
+[3.523s]    81 |   rclcpp::Client<ece217_project2_tan::srv::ManipulationQuery::request>::FutureAndRequestId [01;31m[Kresult[m[K = client->async_send_request( request );
+[3.523s]       |                                                                                            [01;31m[K^~~~~~[m[K
+[3.525s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:82:48:[m[K [01;31m[Kerror: [m[K'[01m[Kresult[m[K' was not declared in this scope
+[3.525s]    82 |   if(rclcpp::spin_until_future_complete( node, [01;31m[Kresult[m[K) == rclcpp::FutureReturnCode::SUCCESS ){
+[3.525s]       |                                                [01;31m[K^~~~~~[m[K
+[4.610s] gmake[2]: *** [CMakeFiles/project2-client.dir/build.make:79: CMakeFiles/project2-client.dir/src/project2-client.cpp.o] Error 1
+[4.611s] gmake[1]: *** [CMakeFiles/Makefile2:771: CMakeFiles/project2-client.dir/all] Error 2
+[4.611s] gmake: *** [Makefile:146: all] Error 2
+[4.613s] Invoked command in '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan' returned '2': CONDA_PROMPT_MODIFIER=(ros2_env) _=/usr/bin/env /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/cmake --build /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan -- -j2 -l2

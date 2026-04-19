@@ -49,7 +49,7 @@ int main( int argc, char* argv[] ){
 
   rclcpp::Client<ece217_project2_tan::srv::ManipulationQuery>::SharedPtr client = node->create_client<ece217_project2_tan::srv::ManipulationQuery>("manipulation_query");
 
-  std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery> request = std::make_shared<ece217_project2_tan::srv::ManipulationQuery::Request >();
+  std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery::Request> request = std::make_shared<ece217_project2_tan::srv::ManipulationQuery::Request >();
 
   // sending input from client to server
   request->joint_angles[0] = vm["joint1theta"].as<double>();
@@ -78,7 +78,7 @@ int main( int argc, char* argv[] ){
     RCLCPP_INFO( rclcpp::get_logger("rclcpp"), "service not available, waiting ..." );
   }
 
-  rclcpp::Client<ece217_project2_tan::srv::ManipulationQuery::request>::FutureAndRequestId result = client->async_send_request( request );
+  rclcpp::Client<ece217_project2_tan::srv::ManipulationQuery>::FutureAndRequestId result = client->async_send_request( request );
   if(rclcpp::spin_until_future_complete( node, result) == rclcpp::FutureReturnCode::SUCCESS ){
     RCLCPP_INFO( rclcpp::get_logger( "rclcpp" ), "Success in calling service" );
   }else{

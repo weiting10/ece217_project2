@@ -187,7 +187,7 @@ class ManipulationQuery_Request(metaclass=Metaclass_ManipulationQuery_Request):
 
 # Import statements for member types
 
-# Member 'joint_anlges'
+# Member 'joint_angles'
 # already imported above
 # import array
 
@@ -246,12 +246,12 @@ class ManipulationQuery_Response(metaclass=Metaclass_ManipulationQuery_Response)
     """Message class 'ManipulationQuery_Response'."""
 
     __slots__ = [
-        '_joint_anlges',
+        '_joint_angles',
         '_check_fields',
     ]
 
     _fields_and_field_types = {
-        'joint_anlges': 'sequence<float>',
+        'joint_angles': 'sequence<float>',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
@@ -269,7 +269,7 @@ class ManipulationQuery_Response(metaclass=Metaclass_ManipulationQuery_Response)
             assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
                 'Invalid arguments passed to constructor: %s' % \
                 ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.joint_anlges = array.array('f', kwargs.get('joint_anlges', []))
+        self.joint_angles = array.array('f', kwargs.get('joint_angles', []))
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -301,7 +301,7 @@ class ManipulationQuery_Response(metaclass=Metaclass_ManipulationQuery_Response)
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.joint_anlges != other.joint_anlges:
+        if self.joint_angles != other.joint_angles:
             return False
         return True
 
@@ -311,17 +311,17 @@ class ManipulationQuery_Response(metaclass=Metaclass_ManipulationQuery_Response)
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def joint_anlges(self):
-        """Message field 'joint_anlges'."""
-        return self._joint_anlges
+    def joint_angles(self):
+        """Message field 'joint_angles'."""
+        return self._joint_angles
 
-    @joint_anlges.setter
-    def joint_anlges(self, value):
+    @joint_angles.setter
+    def joint_angles(self, value):
         if self._check_fields:
             if isinstance(value, array.array):
                 assert value.typecode == 'f', \
-                    "The 'joint_anlges' array.array() must have the type code of 'f'"
-                self._joint_anlges = value
+                    "The 'joint_angles' array.array() must have the type code of 'f'"
+                self._joint_angles = value
                 return
             from collections.abc import Sequence
             from collections.abc import Set
@@ -335,8 +335,8 @@ class ManipulationQuery_Response(metaclass=Metaclass_ManipulationQuery_Response)
                  not isinstance(value, UserString) and
                  all(isinstance(v, float) for v in value) and
                  all(not (val < -3.402823466e+38 or val > 3.402823466e+38) or math.isinf(val) for val in value)), \
-                "The 'joint_anlges' field must be a set or sequence and each value of type 'float' and each float in [-340282346600000016151267322115014000640.000000, 340282346600000016151267322115014000640.000000]"
-        self._joint_anlges = array.array('f', value)
+                "The 'joint_angles' field must be a set or sequence and each value of type 'float' and each float in [-340282346600000016151267322115014000640.000000, 340282346600000016151267322115014000640.000000]"
+        self._joint_angles = array.array('f', value)
 
 
 # Import statements for member types

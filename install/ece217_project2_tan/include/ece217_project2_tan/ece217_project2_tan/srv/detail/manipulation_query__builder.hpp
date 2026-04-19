@@ -82,15 +82,15 @@ namespace srv
 namespace builder
 {
 
-class Init_ManipulationQuery_Response_joint_anlges
+class Init_ManipulationQuery_Response_joint_angles
 {
 public:
-  Init_ManipulationQuery_Response_joint_anlges()
+  Init_ManipulationQuery_Response_joint_angles()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::ece217_project2_tan::srv::ManipulationQuery_Response joint_anlges(::ece217_project2_tan::srv::ManipulationQuery_Response::_joint_anlges_type arg)
+  ::ece217_project2_tan::srv::ManipulationQuery_Response joint_angles(::ece217_project2_tan::srv::ManipulationQuery_Response::_joint_angles_type arg)
   {
-    msg_.joint_anlges = std::move(arg);
+    msg_.joint_angles = std::move(arg);
     return std::move(msg_);
   }
 
@@ -109,7 +109,7 @@ template<>
 inline
 auto build<::ece217_project2_tan::srv::ManipulationQuery_Response>()
 {
-  return ece217_project2_tan::srv::builder::Init_ManipulationQuery_Response_joint_anlges();
+  return ece217_project2_tan::srv::builder::Init_ManipulationQuery_Response_joint_angles();
 }
 
 }  // namespace ece217_project2_tan

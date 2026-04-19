@@ -281,8 +281,8 @@ bool ece217_project2_tan__srv__manipulation_query__response__convert_from_py(PyO
     assert(strncmp("ece217_project2_tan.srv._manipulation_query.ManipulationQuery_Response", full_classname_dest, 70) == 0);
   }
   ece217_project2_tan__srv__ManipulationQuery_Response * ros_message = _ros_message;
-  {  // joint_anlges
-    PyObject * field = PyObject_GetAttrString(_pymsg, "joint_anlges");
+  {  // joint_angles
+    PyObject * field = PyObject_GetAttrString(_pymsg, "joint_angles");
     if (!field) {
       return false;
     }
@@ -295,13 +295,13 @@ bool ece217_project2_tan__srv__manipulation_query__response__convert_from_py(PyO
         return false;
       }
       Py_ssize_t size = view.len / sizeof(float);
-      if (!rosidl_runtime_c__float__Sequence__init(&(ros_message->joint_anlges), size)) {
+      if (!rosidl_runtime_c__float__Sequence__init(&(ros_message->joint_angles), size)) {
         PyErr_SetString(PyExc_RuntimeError, "unable to create float__Sequence ros_message");
         PyBuffer_Release(&view);
         Py_DECREF(field);
         return false;
       }
-      float * dest = ros_message->joint_anlges.data;
+      float * dest = ros_message->joint_angles.data;
       rc = PyBuffer_ToContiguous(dest, &view, view.len, 'C');
       if (rc < 0) {
         PyBuffer_Release(&view);
@@ -310,7 +310,7 @@ bool ece217_project2_tan__srv__manipulation_query__response__convert_from_py(PyO
       }
       PyBuffer_Release(&view);
     } else {
-      PyObject * seq_field = PySequence_Fast(field, "expected a sequence in 'joint_anlges'");
+      PyObject * seq_field = PySequence_Fast(field, "expected a sequence in 'joint_angles'");
       if (!seq_field) {
         Py_DECREF(field);
         return false;
@@ -321,13 +321,13 @@ bool ece217_project2_tan__srv__manipulation_query__response__convert_from_py(PyO
         Py_DECREF(field);
         return false;
       }
-      if (!rosidl_runtime_c__float__Sequence__init(&(ros_message->joint_anlges), size)) {
+      if (!rosidl_runtime_c__float__Sequence__init(&(ros_message->joint_angles), size)) {
         PyErr_SetString(PyExc_RuntimeError, "unable to create float__Sequence ros_message");
         Py_DECREF(seq_field);
         Py_DECREF(field);
         return false;
       }
-      float * dest = ros_message->joint_anlges.data;
+      float * dest = ros_message->joint_angles.data;
       for (Py_ssize_t i = 0; i < size; ++i) {
         PyObject * item = PySequence_Fast_GET_ITEM(seq_field, i);
         if (!item) {
@@ -365,9 +365,9 @@ PyObject * ece217_project2_tan__srv__manipulation_query__response__convert_to_py
     }
   }
   ece217_project2_tan__srv__ManipulationQuery_Response * ros_message = (ece217_project2_tan__srv__ManipulationQuery_Response *)raw_ros_message;
-  {  // joint_anlges
+  {  // joint_angles
     PyObject * field = NULL;
-    field = PyObject_GetAttrString(_pymessage, "joint_anlges");
+    field = PyObject_GetAttrString(_pymessage, "joint_angles");
     if (!field) {
       return NULL;
     }
@@ -404,12 +404,12 @@ PyObject * ece217_project2_tan__srv__manipulation_query__response__convert_to_py
       }
       Py_DECREF(pop);
     }
-    if (ros_message->joint_anlges.size > 0) {
+    if (ros_message->joint_angles.size > 0) {
       // populating the array.array using the frombytes method
       PyObject * frombytes = PyObject_GetAttrString(field, "frombytes");
       assert(frombytes != NULL);
-      float * src = &(ros_message->joint_anlges.data[0]);
-      PyObject * data = PyBytes_FromStringAndSize((const char *)src, ros_message->joint_anlges.size * sizeof(float));
+      float * src = &(ros_message->joint_angles.data[0]);
+      PyObject * data = PyBytes_FromStringAndSize((const char *)src, ros_message->joint_angles.size * sizeof(float));
       assert(data != NULL);
       PyObject * ret = PyObject_CallFunctionObjArgs(frombytes, data, NULL);
       Py_DECREF(data);

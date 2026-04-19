@@ -1,0 +1,121 @@
+[0.210s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/colcon', 'build'][0m
+[0.210s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x14a3fd7dacc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x14a3fd779760>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x14a3fd779760>>, mixin_verb=('build',))[0m
+[0.255s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.255s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.255s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.255s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.255s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.255s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.255s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ece217_project2_tan) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ece217_project2_tan) by extension 'ignore'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ece217_project2_tan) by extension 'ignore_ament_install'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ece217_project2_tan) by extensions ['colcon_pkg']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ece217_project2_tan) by extension 'colcon_pkg'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ece217_project2_tan) by extensions ['colcon_meta']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ece217_project2_tan) by extension 'colcon_meta'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ece217_project2_tan) by extensions ['ros']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ece217_project2_tan) by extension 'ros'
+[0.294s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ece217_project2_tan' with type 'ros.ament_cmake' and name 'ece217_project2_tan'[0m
+[0.294s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.294s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.294s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.294s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.294s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ece217_project2_tan' build argument 'cmake_args' from command line to 'None'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ece217_project2_tan' build argument 'cmake_target' from command line to 'None'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ece217_project2_tan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ece217_project2_tan' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ece217_project2_tan' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ece217_project2_tan' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ece217_project2_tan' build argument 'ament_cmake_args' from command line to 'None'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ece217_project2_tan' build argument 'catkin_cmake_args' from command line to 'None'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ece217_project2_tan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ece217_project2_tan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan', 'merge_install': False, 'path': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan', 'symlink_install': False, 'test_result_base': None}[0m
+[0.311s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.312s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.312s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan' with build type 'ament_cmake'
+[0.312s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan'
+[0.314s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.314s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.314s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.330s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan': CONDA_PROMPT_MODIFIER=(ros2_env) _=/usr/bin/env /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/cmake --build /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan -- -j2 -l2[0m
+[4.867s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan' returned '2': CONDA_PROMPT_MODIFIER=(ros2_env) _=/usr/bin/env /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/cmake --build /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan -- -j2 -l2[0m
+[4.868s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ece217_project2_tan)
+[4.870s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan' for CMake module files
+[4.871s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan' for CMake config files
+[4.872s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ece217_project2_tan', 'cmake_prefix_path')
+[4.872s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/hook/cmake_prefix_path.ps1'
+[4.873s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/hook/cmake_prefix_path.dsv'
+[4.874s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/hook/cmake_prefix_path.sh'
+[4.875s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib'
+[4.875s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ece217_project2_tan', 'ld_library_path_lib')
+[4.875s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/hook/ld_library_path_lib.ps1'
+[4.876s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/hook/ld_library_path_lib.dsv'
+[4.876s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/hook/ld_library_path_lib.sh'
+[4.877s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/bin'
+[4.877s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/pkgconfig/ece217_project2_tan.pc'
+[4.882s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages'
+[4.882s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ece217_project2_tan', 'pythonpath')
+[4.882s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/hook/pythonpath.ps1'
+[4.883s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/hook/pythonpath.dsv'
+[4.883s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/hook/pythonpath.sh'
+[4.884s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/bin'
+[4.884s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/package.ps1'
+[4.886s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/package.dsv'
+[4.886s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/package.sh'
+[4.887s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/package.bash'
+[4.888s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/package.zsh'
+[4.888s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/colcon-core/packages/ece217_project2_tan)
+[4.899s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[4.899s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[4.899s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '2'[0m
+[4.899s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[4.899s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[4.900s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/local_setup.ps1'
+[4.900s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/_local_setup_util_ps1.py'
+[4.902s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/setup.ps1'
+[4.903s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/local_setup.sh'
+[4.905s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/_local_setup_util_sh.py'
+[4.910s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/setup.sh'
+[4.911s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/local_setup.bash'
+[4.911s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/setup.bash'
+[4.912s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/local_setup.zsh'
+[4.914s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/setup.zsh'

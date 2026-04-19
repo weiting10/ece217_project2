@@ -1,0 +1,98 @@
+[  2%] Built target ece217_project2_tan__rosidl_generator_type_description
+[  2%] Built target ament_cmake_python_copy_ece217_project2_tan
+[  5%] Built target ece217_project2_tan__cpp
+[ 18%] Built target ece217_project2_tan__rosidl_generator_c
+[ 26%] Built target ece217_project2_tan__rosidl_typesupport_cpp
+[ 34%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_c
+[ 42%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_cpp
+[ 50%] Built target ece217_project2_tan__rosidl_typesupport_introspection_c
+[ 57%] Built target ece217_project2_tan__rosidl_typesupport_c
+[ 65%] Built target ece217_project2_tan__rosidl_typesupport_introspection_cpp
+[ 68%] [32mBuilding CXX object CMakeFiles/project2-client.dir/src/project2-client.cpp.o[0m
+running egg_info
+writing ece217_project2_tan.egg-info/PKG-INFO
+writing dependency_links to ece217_project2_tan.egg-info/dependency_links.txt
+writing top-level names to ece217_project2_tan.egg-info/top_level.txt
+reading manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+writing manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+[ 68%] Built target ament_cmake_python_build_ece217_project2_tan_egg
+[ 73%] Built target project2-server
+[ 73%] Built target ece217_project2_tan
+[ 76%] Built target ece217_project2_tan__py
+[ 81%] Built target ece217_project2_tan__rosidl_generator_py
+[ 86%] Built target ece217_project2_tan_s__rosidl_typesupport_fastrtps_c
+[ 92%] Built target ece217_project2_tan_s__rosidl_typesupport_introspection_c
+[ 97%] Built target ece217_project2_tan_s__rosidl_typesupport_c
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:[m[K In function '[01m[Kint[01;32m[K main[m[K(int, char**)[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:52:145:[m[K [01;31m[Kerror: [m[Kconversion from '[01m[Kshared_ptr<[01;32m[Kece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> >[m[K>[m[K' to non-scalar type '[01m[Kshared_ptr<[01;32m[Kece217_project2_tan::srv::ManipulationQuery[m[K>[m[K' requested
+   52 |   std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery> request = [01;31m[Kstd::make_shared<ece217_project2_tan::srv::ManipulationQuery::Request >()[m[K;
+      |                                                                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:55:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kjoint_angles[m[K'
+   55 |   request->[01;31m[Kjoint_angles[m[K[0] = vm["joint1theta"].as<double>();
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:56:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kjoint_angles[m[K'
+   56 |   request->[01;31m[Kjoint_angles[m[K[1] = vm["joint2theta"].as<double>();
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:57:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kjoint_angles[m[K'
+   57 |   request->[01;31m[Kjoint_angles[m[K[2] = vm["joint3theta"].as<double>();
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:58:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kjoint_angles[m[K'
+   58 |   request->[01;31m[Kjoint_angles[m[K[3] = vm["joint4theta"].as<double>();
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:59:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kjoint_angles[m[K'
+   59 |   request->[01;31m[Kjoint_angles[m[K[4] = vm["joint5theta"].as<double>();
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:60:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kjoint_angles[m[K'
+   60 |   request->[01;31m[Kjoint_angles[m[K[5] = vm["joint6theta"].as<double>();
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:62:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kgoal[m[K'
+   62 |   request->[01;31m[Kgoal[m[K.position.x = vm["goal-x"].as<double>();
+      |            [01;31m[K^~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:63:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kgoal[m[K'
+   63 |   request->[01;31m[Kgoal[m[K.position.y = vm["goal-y"].as<double>();
+      |            [01;31m[K^~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:64:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kgoal[m[K'
+   64 |   request->[01;31m[Kgoal[m[K.position.z = vm["goal-z"].as<double>();
+      |            [01;31m[K^~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:66:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kgoal[m[K'
+   66 |   request->[01;31m[Kgoal[m[K.orientation.x = vm["quaternion-x"].as<double>();
+      |            [01;31m[K^~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:67:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kgoal[m[K'
+   67 |   request->[01;31m[Kgoal[m[K.orientation.y = vm["quaternion-y"].as<double>();
+      |            [01;31m[K^~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:68:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kgoal[m[K'
+   68 |   request->[01;31m[Kgoal[m[K.orientation.z = vm["quaternion-z"].as<double>();
+      |            [01;31m[K^~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:69:12:[m[K [01;31m[Kerror: [m[K'[01m[Kusing std::__shared_ptr_access<ece217_project2_tan::srv::ManipulationQuery, __gnu_cxx::_S_atomic, false, false>::element_type = struct ece217_project2_tan::srv::ManipulationQuery[m[K' {aka '[01m[Kstruct ece217_project2_tan::srv::ManipulationQuery[m[K'} has no member named '[01m[Kgoal[m[K'
+   69 |   request->[01;31m[Kgoal[m[K.orientation.w = vm["quaternion-w"].as<double>();
+      |            [01;31m[K^~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:81:118:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[Krclcpp::Client<ece217_project2_tan::srv::ManipulationQuery>::async_send_request(std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery>&)[m[K'
+   81 |   rclcpp::Client<ece217_project2_tan::srv::ManipulationQuery>::FutureAndRequestId result = [01;31m[Kclient->async_send_request( request )[m[K;
+      |                                                                                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+                 from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+                 from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-client.cpp:1[m[K:
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/client.hpp:672:3:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::[01;32m[Kasync_send_request[m[K(SharedRequest, CallbackT&&) [35m[K[with typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = CallbackT; ServiceT = ece217_project2_tan::srv::ManipulationQuery][m[K[m[K'
+  672 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/client.hpp:672:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/client.hpp:703:3:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >, std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequestAndRequestId rclcpp::Client<ServiceT>::[01;32m[Kasync_send_request[m[K(SharedRequest, CallbackT&&) [35m[K[with typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = CallbackT; ServiceT = ece217_project2_tan::srv::ManipulationQuery][m[K[m[K'
+  703 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/client.hpp:703:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/client.hpp:637:3:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Krclcpp::Client<ServiceT>::FutureAndRequestId rclcpp::Client<ServiceT>::[01;32m[Kasync_send_request[m[K(SharedRequest) [35m[K[with ServiceT = ece217_project2_tan::srv::ManipulationQuery; SharedRequest = std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >][m[K[m[K'
+  637 |   [01;36m[Kasync_send_request[m[K(SharedRequest request)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/client.hpp:637:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[Kshared_ptr<[01;32m[Kece217_project2_tan::srv::ManipulationQuery[m[K>[m[K' to '[01m[Kshared_ptr<[01;32m[Kece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> >[m[K>[m[K'
+  637 |   async_send_request([01;36m[KSharedRequest request[m[K)
+      |                      [01;36m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/project2-client.dir/build.make:79: CMakeFiles/project2-client.dir/src/project2-client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:771: CMakeFiles/project2-client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

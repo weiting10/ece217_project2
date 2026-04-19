@@ -1,0 +1,30 @@
+[  2%] Built target ece217_project2_tan__rosidl_generator_type_description
+[  5%] Built target ece217_project2_tan__cpp
+[  5%] Built target ament_cmake_python_copy_ece217_project2_tan
+[ 18%] Built target ece217_project2_tan__rosidl_generator_c
+[ 26%] Built target ece217_project2_tan__rosidl_typesupport_cpp
+[ 34%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_c
+[ 42%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_cpp
+[ 50%] Built target ece217_project2_tan__rosidl_typesupport_introspection_c
+[ 57%] Built target ece217_project2_tan__rosidl_typesupport_c
+[ 65%] Built target ece217_project2_tan__rosidl_typesupport_introspection_cpp
+[ 68%] [32mBuilding CXX object CMakeFiles/project2-client.dir/src/project2-client.cpp.o[0m
+running egg_info
+writing ece217_project2_tan.egg-info/PKG-INFO
+writing dependency_links to ece217_project2_tan.egg-info/dependency_links.txt
+writing top-level names to ece217_project2_tan.egg-info/top_level.txt
+reading manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+writing manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+[ 68%] Built target ament_cmake_python_build_ece217_project2_tan_egg
+[ 73%] Built target project2-server
+[ 73%] Built target ece217_project2_tan
+[ 76%] Built target ece217_project2_tan__py
+[ 81%] Built target ece217_project2_tan__rosidl_generator_py
+[ 86%] Built target ece217_project2_tan_s__rosidl_typesupport_fastrtps_c
+[ 92%] Built target ece217_project2_tan_s__rosidl_typesupport_introspection_c
+[ 97%] Built target ece217_project2_tan_s__rosidl_typesupport_c
+gmake[2]: *** [CMakeFiles/project2-client.dir/build.make:79: CMakeFiles/project2-client.dir/src/project2-client.cpp.o] Interrupt
+gmake[1]: *** wait: No child processes.  Stop.
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** wait: No child processes.  Stop.
+gmake: *** [Makefile:146: all] Error 2

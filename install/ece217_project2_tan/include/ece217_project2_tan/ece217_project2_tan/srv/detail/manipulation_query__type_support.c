@@ -189,7 +189,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspecti
 
 
 // Include directives for member types
-// Member `joint_anlges`
+// Member `joint_angles`
 // already included above
 // #include "rosidl_runtime_c/primitives_sequence_functions.h"
 
@@ -212,7 +212,7 @@ void ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_in
   ece217_project2_tan__srv__ManipulationQuery_Response__fini(message_memory);
 }
 
-size_t ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__size_function__ManipulationQuery_Response__joint_anlges(
+size_t ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__size_function__ManipulationQuery_Response__joint_angles(
   const void * untyped_member)
 {
   const rosidl_runtime_c__float__Sequence * member =
@@ -220,7 +220,7 @@ size_t ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_
   return member->size;
 }
 
-const void * ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__get_const_function__ManipulationQuery_Response__joint_anlges(
+const void * ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__get_const_function__ManipulationQuery_Response__joint_angles(
   const void * untyped_member, size_t index)
 {
   const rosidl_runtime_c__float__Sequence * member =
@@ -228,7 +228,7 @@ const void * ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesu
   return &member->data[index];
 }
 
-void * ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__get_function__ManipulationQuery_Response__joint_anlges(
+void * ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__get_function__ManipulationQuery_Response__joint_angles(
   void * untyped_member, size_t index)
 {
   rosidl_runtime_c__float__Sequence * member =
@@ -236,29 +236,29 @@ void * ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_
   return &member->data[index];
 }
 
-void ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__fetch_function__ManipulationQuery_Response__joint_anlges(
+void ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__fetch_function__ManipulationQuery_Response__joint_angles(
   const void * untyped_member, size_t index, void * untyped_value)
 {
   const float * item =
     ((const float *)
-    ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__get_const_function__ManipulationQuery_Response__joint_anlges(untyped_member, index));
+    ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__get_const_function__ManipulationQuery_Response__joint_angles(untyped_member, index));
   float * value =
     (float *)(untyped_value);
   *value = *item;
 }
 
-void ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__assign_function__ManipulationQuery_Response__joint_anlges(
+void ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__assign_function__ManipulationQuery_Response__joint_angles(
   void * untyped_member, size_t index, const void * untyped_value)
 {
   float * item =
     ((float *)
-    ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__get_function__ManipulationQuery_Response__joint_anlges(untyped_member, index));
+    ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__get_function__ManipulationQuery_Response__joint_angles(untyped_member, index));
   const float * value =
     (const float *)(untyped_value);
   *item = *value;
 }
 
-bool ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__resize_function__ManipulationQuery_Response__joint_anlges(
+bool ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__resize_function__ManipulationQuery_Response__joint_angles(
   void * untyped_member, size_t size)
 {
   rosidl_runtime_c__float__Sequence * member =
@@ -269,7 +269,7 @@ bool ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_in
 
 static rosidl_typesupport_introspection_c__MessageMember ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__ManipulationQuery_Response_message_member_array[1] = {
   {
-    "joint_anlges",  // name
+    "joint_angles",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
@@ -277,14 +277,14 @@ static rosidl_typesupport_introspection_c__MessageMember ece217_project2_tan__sr
     true,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(ece217_project2_tan__srv__ManipulationQuery_Response, joint_anlges),  // bytes offset in struct
+    offsetof(ece217_project2_tan__srv__ManipulationQuery_Response, joint_angles),  // bytes offset in struct
     NULL,  // default value
-    ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__size_function__ManipulationQuery_Response__joint_anlges,  // size() function pointer
-    ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__get_const_function__ManipulationQuery_Response__joint_anlges,  // get_const(index) function pointer
-    ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__get_function__ManipulationQuery_Response__joint_anlges,  // get(index) function pointer
-    ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__fetch_function__ManipulationQuery_Response__joint_anlges,  // fetch(index, &value) function pointer
-    ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__assign_function__ManipulationQuery_Response__joint_anlges,  // assign(index, value) function pointer
-    ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__resize_function__ManipulationQuery_Response__joint_anlges  // resize(index) function pointer
+    ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__size_function__ManipulationQuery_Response__joint_angles,  // size() function pointer
+    ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__get_const_function__ManipulationQuery_Response__joint_angles,  // get_const(index) function pointer
+    ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__get_function__ManipulationQuery_Response__joint_angles,  // get(index) function pointer
+    ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__fetch_function__ManipulationQuery_Response__joint_angles,  // fetch(index, &value) function pointer
+    ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__assign_function__ManipulationQuery_Response__joint_angles,  // assign(index, value) function pointer
+    ece217_project2_tan__srv__ManipulationQuery_Response__rosidl_typesupport_introspection_c__resize_function__ManipulationQuery_Response__joint_angles  // resize(index) function pointer
   }
 };
 
