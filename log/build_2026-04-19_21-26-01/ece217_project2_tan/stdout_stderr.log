@@ -1,0 +1,39 @@
+[  2%] Built target ament_cmake_python_copy_ece217_project2_tan
+[  2%] Built target ece217_project2_tan__rosidl_generator_type_description
+[  7%] Built target ece217_project2_tan__cpp
+[ 18%] Built target ece217_project2_tan__rosidl_generator_c
+running egg_info
+writing ece217_project2_tan.egg-info/PKG-INFO
+[ 26%] Built target ece217_project2_tan__rosidl_typesupport_cpp
+writing dependency_links to ece217_project2_tan.egg-info/dependency_links.txt
+writing top-level names to ece217_project2_tan.egg-info/top_level.txt
+[ 34%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_c
+[ 42%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_cpp
+[ 50%] Built target ece217_project2_tan__rosidl_typesupport_introspection_c
+[ 57%] Built target ece217_project2_tan__rosidl_typesupport_c
+reading manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+writing manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+[ 65%] Built target ece217_project2_tan__rosidl_typesupport_introspection_cpp
+[ 65%] Built target ament_cmake_python_build_ece217_project2_tan_egg
+[ 71%] Built target project2-client
+[ 73%] [32mBuilding CXX object CMakeFiles/project2-server.dir/src/project2-server.cpp.o[0m
+[ 73%] Built target ece217_project2_tan
+[ 76%] Built target ece217_project2_tan__py
+[ 81%] Built target ece217_project2_tan__rosidl_generator_py
+[ 84%] [32mBuilding C object CMakeFiles/ece217_project2_tan_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/ece217_project2_tan/_ece217_project2_tan_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 86%] [1m[32mLinking C shared module rosidl_generator_py/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 86%] Built target ece217_project2_tan_s__rosidl_typesupport_fastrtps_c
+[ 89%] [32mBuilding C object CMakeFiles/ece217_project2_tan_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/ece217_project2_tan/_ece217_project2_tan_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 92%] [1m[32mLinking C shared module rosidl_generator_py/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_introspection_c.so[0m
+[ 92%] Built target ece217_project2_tan_s__rosidl_typesupport_introspection_c
+[ 94%] [32mBuilding C object CMakeFiles/ece217_project2_tan_s__rosidl_typesupport_c.dir/rosidl_generator_py/ece217_project2_tan/_ece217_project2_tan_s.ep.rosidl_typesupport_c.c.o[0m
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kproject2-server.h: No such file or directory
+    5 | #include [01;31m[K"project2-server.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/project2-server.dir/build.make:79: CMakeFiles/project2-server.dir/src/project2-server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:805: CMakeFiles/project2-server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 97%] [1m[32mLinking C shared module rosidl_generator_py/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_c.so[0m
+[ 97%] Built target ece217_project2_tan_s__rosidl_typesupport_c
+gmake: *** [Makefile:146: all] Error 2

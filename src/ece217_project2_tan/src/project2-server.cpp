@@ -2,7 +2,7 @@
 #include <rclcpp/rclcpp.hpp>
 
 #include "ece217_project2_tan/srv/manipulation_query.hpp"
-#include "project2-server.h"
+#include "ece217_project2_tan/project2-server.h"
 
 class ManipulationService : public rclcpp::Node {
   public:
