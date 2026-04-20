@@ -1,0 +1,11 @@
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:[m[K In member function '[01m[Kvoid ManipulationService::[01;32m[Kgenerate_manipulation[m[K(std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >, std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Response_<std::allocator<void> > >)[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:16:100:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kresponse[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   16 | [01;35m[Kconst std::shared_ptr< ece217_project2_tan::srv::ManipulationQuery::Response > response[m[K ){
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.3.0/ld: CMakeFiles/project2-server.dir/src/project2-server.cpp.o: in function `ManipulationService::generate_manipulation(std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >, std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Response_<std::allocator<void> > >)':
+project2-server.cpp:(.text._ZN19ManipulationService21generate_manipulationESt10shared_ptrIN19ece217_project2_tan3srv26ManipulationQuery_Request_ISaIvEEEES0_INS2_27ManipulationQuery_Response_IS4_EEE[_ZN19ManipulationService21generate_manipulationESt10shared_ptrIN19ece217_project2_tan3srv26ManipulationQuery_Request_ISaIvEEEES0_INS2_27ManipulationQuery_Response_IS4_EEE]+0x66e): undefined reference to `kinematic(double, double, double, double, double, double, double, double, double, double, double, double, double)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/project2-server.dir/build.make:208: project2-server] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:805: CMakeFiles/project2-server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -30,7 +30,21 @@ class ManipulationService : public rclcpp::Node {
 
 
     // call algorithm function "kinematic"
-    kinematic();
+    kinematic(request->joint_angles[0],
+	      request->joint_angles[1],
+	      request->joint_angles[2],
+	      request->joint_angles[3],
+	      request->joint_angles[4],
+	      request->joint_angles[5],
+  	      request->goal.position.x,	
+	      request->goal.position.y,	
+	      request->goal.position.z,
+	      request->goal.orientation.x,
+	      request->goal.orientation.y, 
+	      request->goal.orientation.z,
+	      request->goal.orientation.w); 
+		      
+		
 
 
 

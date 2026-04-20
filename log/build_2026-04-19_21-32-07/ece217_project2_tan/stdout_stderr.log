@@ -1,0 +1,39 @@
+[  2%] Built target ece217_project2_tan__rosidl_generator_type_description
+[  2%] Built target ament_cmake_python_copy_ece217_project2_tan
+[  5%] Built target ece217_project2_tan__cpp
+[ 18%] Built target ece217_project2_tan__rosidl_generator_c
+[ 26%] Built target ece217_project2_tan__rosidl_typesupport_cpp
+[ 34%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_c
+[ 42%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_cpp
+[ 50%] Built target ece217_project2_tan__rosidl_typesupport_introspection_c
+[ 57%] Built target ece217_project2_tan__rosidl_typesupport_c
+[ 65%] Built target ece217_project2_tan__rosidl_typesupport_introspection_cpp
+[ 71%] Built target project2-client
+[ 73%] [32mBuilding CXX object CMakeFiles/project2-server.dir/src/project2-server.cpp.o[0m
+running egg_info
+writing ece217_project2_tan.egg-info/PKG-INFO
+writing dependency_links to ece217_project2_tan.egg-info/dependency_links.txt
+writing top-level names to ece217_project2_tan.egg-info/top_level.txt
+reading manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+writing manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+[ 73%] Built target ament_cmake_python_build_ece217_project2_tan_egg
+[ 73%] Built target ece217_project2_tan
+[ 76%] Built target ece217_project2_tan__py
+[ 81%] Built target ece217_project2_tan__rosidl_generator_py
+[ 86%] Built target ece217_project2_tan_s__rosidl_typesupport_fastrtps_c
+[ 92%] Built target ece217_project2_tan_s__rosidl_typesupport_introspection_c
+[ 97%] Built target ece217_project2_tan_s__rosidl_typesupport_c
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:[m[K In member function '[01m[Kvoid ManipulationService::[01;32m[Kgenerate_manipulation[m[K(std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >, std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Response_<std::allocator<void> > >)[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:33:14:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function '[01m[Kint[01;32m[K kinematic[m[K(double, double, double, double, double, double, double, double, double, double, double, double, double)[m[K'
+   33 |     [01;31m[Kkinematic()[m[K;
+      |     [01;31m[K~~~~~~~~~^~[m[K
+In file included from [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:5[m[K:
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/include/ece217_project2_tan/project2-server.h:4:5:[m[K [01;36m[Knote: [m[Kdeclared here
+    4 | int [01;36m[Kkinematic[m[K(double joint1theta, double joint2theta, double joint3theta, double joint4theta, double joint5theta, double joint6theta,
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:16:100:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kresponse[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   16 |                     [01;35m[Kconst std::shared_ptr< ece217_project2_tan::srv::ManipulationQuery::Response > response[m[K ){
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/project2-server.dir/build.make:79: CMakeFiles/project2-server.dir/src/project2-server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:805: CMakeFiles/project2-server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

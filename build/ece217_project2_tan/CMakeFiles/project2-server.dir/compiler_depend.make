@@ -8,6 +8,7 @@ CMakeFiles/project2-server.dir/src/project2-server.cpp.o: /gpfs/fs1/home/wtan10/
   rosidl_generator_cpp/ece217_project2_tan/srv/detail/manipulation_query__traits.hpp \
   rosidl_generator_cpp/ece217_project2_tan/srv/detail/manipulation_query__type_support.hpp \
   rosidl_generator_cpp/ece217_project2_tan/srv/manipulation_query.hpp \
+  /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/include/ece217_project2_tan/project2-server.h \
   /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
@@ -856,8 +857,6 @@ libece217_project2_tan__rosidl_generator_c.so:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/libtype_description_interfaces__rosidl_typesupport_introspection_cpp.so:
 
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_cpp.so:
-
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_c.so:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/libtype_description_interfaces__rosidl_typesupport_cpp.so:
@@ -1197,6 +1196,8 @@ libece217_project2_tan__rosidl_generator_c.so:
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/cxxabi.h:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/cwctype:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/csignal:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp:
 
@@ -1572,14 +1573,6 @@ rosidl_generator_cpp/ece217_project2_tan/srv/detail/manipulation_query__struct.h
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h:
 
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/cstdio:
-
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:
-
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/x86_64-conda-linux-gnu/sysroot/usr/include/wctype.h:
-
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp:
-
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/sstream:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rmw/rmw/dynamic_message_type_support.h:
@@ -1588,9 +1581,31 @@ rosidl_generator_cpp/ece217_project2_tan/srv/detail/manipulation_query__struct.h
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h:
 
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/cstdio:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/x86_64-conda-linux-gnu/sysroot/usr/include/wctype.h:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp:
+
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/debug/debug.h:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/libservice_msgs__rosidl_generator_c.so:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl/rcl/event.h:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/parameter_value.hpp:
 
@@ -1627,20 +1642,6 @@ rosidl_generator_cpp/ece217_project2_tan/srv/detail/manipulation_query__type_sup
 rosidl_generator_cpp/ece217_project2_tan/srv/detail/manipulation_query__traits.hpp:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
-
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:
-
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
-
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/libservice_msgs__rosidl_generator_c.so:
-
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
-
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp:
-
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp:
-
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl/rcl/event.h:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
 
@@ -1791,6 +1792,12 @@ rosidl_generator_cpp/ece217_project2_tan/srv/manipulation_query.hpp:
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_deque.h:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl/rcl/macros.h:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_cpp.so:
+
+/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/include/ece217_project2_tan/project2-server.h:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/istream:
 
@@ -1962,17 +1969,15 @@ rosidl_generator_cpp/ece217_project2_tan/srv/detail/manipulation_query__builder.
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/locale_facets_nonio.tcc:
 
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp:
-
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/tr1/gamma.tcc:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/qos.hpp:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so:
 
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp:
-
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp:
 
@@ -2109,8 +2114,6 @@ rosidl_generator_cpp/ece217_project2_tan/srv/detail/manipulation_query__builder.
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcutils/rcutils/types/string_array.h:
-
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/csignal:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/sstream.tcc:
 
