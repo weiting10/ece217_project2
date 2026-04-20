@@ -27,7 +27,7 @@ int main( int argc, char* argv[] ){
 	  ("quaternion-x", boost::program_options::value<double>()->default_value(0.0),"quaternion x value")
 	  ("quaternion-y", boost::program_options::value<double>()->default_value(0.0),"quaternion y value")
 	  ("quaternion-z", boost::program_options::value<double>()->default_value(0.0),"quaternion z value")
-	  ("quaternion-w", boost::program_options::value<double>()->default_value(0.0),"quaternion w value")
+	  ("quaternion-w", boost::program_options::value<double>()->default_value(1.0),"quaternion w value")
  
 	  ("output", boost::program_options::value<std::string>(), "output file");
   
@@ -52,6 +52,7 @@ int main( int argc, char* argv[] ){
   std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery::Request> request = std::make_shared<ece217_project2_tan::srv::ManipulationQuery::Request >();
 
   // sending input from client to server
+  request->joint_angles.resize(6);
   request->joint_angles[0] = vm["joint1theta"].as<double>();
   request->joint_angles[1] = vm["joint2theta"].as<double>();
   request->joint_angles[2] = vm["joint3theta"].as<double>();

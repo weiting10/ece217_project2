@@ -2,11 +2,12 @@
 #include <rclcpp/rclcpp.hpp>
 
 #include "ece217_project2_tan/srv/manipulation_query.hpp"
+#include "project2-server.h"
 
 class ManipulationService : public rclcpp::Node {
   public:
     ManipulationService() : rclcpp::Node( "project2_server" ){
-      service = this->create_service< ece217_project2_tan::srv::ManipulationQuery >( "manipulaiton_query", std::bind( &ManipulationService::generate_manipulation, this, std::placeholders::_1, std::placeholders::_2 ) );
+      service = this->create_service< ece217_project2_tan::srv::ManipulationQuery >( "manipulation_query", std::bind( &ManipulationService::generate_manipulation, this, std::placeholders::_1, std::placeholders::_2 ) );
 
       RCLCPP_INFO( rclcpp::get_logger( "rclcpp" ), "Ready to generate plans." );
     }
@@ -28,6 +29,8 @@ class ManipulationService : public rclcpp::Node {
      std::cout << "Request goal orientation: " << "[(" <<request->goal.orientation.x <<"," << request->goal.orientation.y << "," << request->goal.orientation.z << "), " << request->goal.orientation.w << " ]" <<std::endl;
 
 
+    // call algorithm function "kinematic"
+    kinematic();
 
 
 

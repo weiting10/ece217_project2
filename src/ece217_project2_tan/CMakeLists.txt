@@ -29,6 +29,7 @@ rosidl_get_typesupport_target(cpp_typesupport_target
 include_directories(
   include 
   ${Boost_INCLUDE_DIR}
+  ${EIGEN3_INCLUDE_DIR}
 )
 
 set(dependencies "rclcpp" "pluginlib" "builtin_interfaces" "std_msgs" "geometry_msgs" "nav_msgs" "visualization_msgs" "Eigen3")

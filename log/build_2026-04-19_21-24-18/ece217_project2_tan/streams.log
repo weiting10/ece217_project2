@@ -1,0 +1,95 @@
+[0.017s] Invoking command in '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan': CONDA_PROMPT_MODIFIER=(ros2_env) _=/usr/bin/env /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/cmake --build /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan -- -j2 -l2
+[0.078s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.078s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.078s]   CMake.
+[0.079s] 
+[0.079s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.079s]   to tell CMake that the project requires at least <min> but has been updated
+[0.079s]   to work with policies introduced by <max> or earlier.
+[0.079s] 
+[0.079s] [0m
+[0.106s] -- Found ament_cmake: 2.5.4 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/ament_cmake/cmake)
+[0.274s] -- Found Python3: /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/python3 (found version "3.12.12") found components: Interpreter
+[0.720s] -- Found rclcpp: 28.1.15 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rclcpp/cmake)
+[0.807s] -- Found rosidl_generator_c: 4.6.7 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rosidl_generator_c/cmake)
+[0.822s] -- Found rosidl_generator_cpp: 4.6.7 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rosidl_generator_cpp/cmake)
+[0.873s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.898s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.121s] -- Found rmw_implementation_cmake: 7.3.2 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rmw_implementation_cmake/cmake)
+[1.189s] -- Found rmw_fastrtps_cpp: 8.4.3 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rmw_fastrtps_cpp/cmake)
+[1.972s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.109s] -- Found geometry_msgs: 5.3.6 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/geometry_msgs/cmake)
+[2.212s] [33mCMake Warning (dev) at CMakeLists.txt:12 (find_package):
+[2.212s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.212s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.212s]   set the policy and suppress this warning.
+[2.212s] 
+[2.212s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.212s] [0m
+[2.219s] -- Found rosidl_default_generators: 1.6.0 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rosidl_default_generators/cmake)
+[2.231s] -- Found rosidl_adapter: 4.6.7 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/rosidl_adapter/cmake)
+[2.234s] -- Found nav_msgs: 5.3.6 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/nav_msgs/cmake)
+[2.327s] -- Found pluginlib: 5.4.4 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/pluginlib/cmake)
+[2.363s] -- Found visualization_msgs: 5.3.6 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/visualization_msgs/cmake)
+[3.830s] -- Found ament_cmake_ros: 0.12.0 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/ament_cmake_ros/cmake)
+[5.080s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.646s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.648s] -- Found python_cmake_module: 0.11.1 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/python_cmake_module/cmake)
+[7.773s] -- Found Python3: /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/python3 (found version "3.12.12") found components: Interpreter Development NumPy Development.Module Development.Embed
+[7.950s] -- Found ament_lint_auto: 0.17.3 (/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/ament_lint_auto/cmake)
+[8.234s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.236s] -- Configured cppcheck include dirs: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/include;$<BUILD_INTERFACE:/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/include>
+[8.236s] -- Configured cppcheck exclude dirs and/or files: 
+[8.237s] -- Added test 'lint_cmake' to check CMake code style
+[8.239s] -- Added test 'uncrustify' to check C / C++ code style
+[8.239s] -- Configured uncrustify additional arguments: 
+[8.241s] -- Added test 'xmllint' to check XML markup files
+[8.561s] -- Configuring done (8.5s)
+[9.526s] -- Generating done (1.0s)
+[9.794s] -- Build files have been written to: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan
+[9.841s] [  2%] Built target ece217_project2_tan__rosidl_generator_type_description
+[9.860s] [  2%] Built target ament_cmake_python_copy_ece217_project2_tan
+[9.875s] [  5%] Built target ece217_project2_tan__cpp
+[9.891s] [  7%] [32mBuilding C object CMakeFiles/ece217_project2_tan__rosidl_generator_c.dir/rosidl_generator_c/ece217_project2_tan/srv/detail/manipulation_query__description.c.o[0m
+[10.020s] [ 10%] [32mBuilding C object CMakeFiles/ece217_project2_tan__rosidl_generator_c.dir/rosidl_generator_c/ece217_project2_tan/srv/detail/manipulation_query__functions.c.o[0m
+[10.283s] [ 13%] [32mBuilding C object CMakeFiles/ece217_project2_tan__rosidl_generator_c.dir/rosidl_generator_c/ece217_project2_tan/srv/detail/manipulation_query__type_support.c.o[0m
+[10.295s] running egg_info
+[10.330s] writing ece217_project2_tan.egg-info/PKG-INFO
+[10.331s] writing dependency_links to ece217_project2_tan.egg-info/dependency_links.txt
+[10.331s] writing top-level names to ece217_project2_tan.egg-info/top_level.txt
+[10.402s] [ 15%] [1m[32mLinking C shared library libece217_project2_tan__rosidl_generator_c.so[0m
+[10.439s] reading manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+[10.440s] writing manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+[10.450s] [ 18%] Built target ece217_project2_tan__rosidl_generator_c
+[10.472s] [ 18%] Built target ament_cmake_python_build_ece217_project2_tan_egg
+[10.503s] [ 21%] [32mBuilding CXX object CMakeFiles/ece217_project2_tan__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ece217_project2_tan/srv/manipulation_query__type_support.cpp.o[0m
+[10.506s] [ 23%] [32mBuilding CXX object CMakeFiles/ece217_project2_tan__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ece217_project2_tan/srv/detail/manipulation_query__type_support_c.cpp.o[0m
+[11.142s] [ 26%] [1m[32mLinking CXX shared library libece217_project2_tan__rosidl_typesupport_cpp.so[0m
+[11.225s] [ 28%] Built target ece217_project2_tan__rosidl_typesupport_cpp
+[11.259s] [ 31%] [32mBuilding CXX object CMakeFiles/ece217_project2_tan__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ece217_project2_tan/srv/detail/dds_fastrtps/manipulation_query__type_support.cpp.o[0m
+[11.373s] [ 34%] [1m[32mLinking CXX shared library libece217_project2_tan__rosidl_typesupport_fastrtps_c.so[0m
+[11.433s] [ 36%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_c
+[11.463s] [ 39%] [32mBuilding C object CMakeFiles/ece217_project2_tan__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ece217_project2_tan/srv/detail/manipulation_query__type_support.c.o[0m
+[11.582s] [ 42%] [1m[32mLinking C shared library libece217_project2_tan__rosidl_typesupport_introspection_c.so[0m
+[11.677s] [ 44%] Built target ece217_project2_tan__rosidl_typesupport_introspection_c
+[11.757s] [ 47%] [32mBuilding CXX object CMakeFiles/ece217_project2_tan__rosidl_typesupport_c.dir/rosidl_typesupport_c/ece217_project2_tan/srv/manipulation_query__type_support.cpp.o[0m
+[11.844s] [ 50%] [1m[32mLinking CXX shared library libece217_project2_tan__rosidl_typesupport_c.so[0m
+[11.893s] [ 52%] Built target ece217_project2_tan__rosidl_typesupport_c
+[11.925s] [ 55%] [32mBuilding CXX object CMakeFiles/ece217_project2_tan__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ece217_project2_tan/srv/detail/manipulation_query__type_support.cpp.o[0m
+[12.437s] [ 57%] [1m[32mLinking CXX shared library libece217_project2_tan__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.522s] [ 60%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_cpp
+[12.570s] [ 63%] [32mBuilding CXX object CMakeFiles/project2-client.dir/src/project2-client.cpp.o[0m
+[12.756s] [ 65%] [1m[32mLinking CXX shared library libece217_project2_tan__rosidl_typesupport_introspection_cpp.so[0m
+[12.842s] [ 68%] Built target ece217_project2_tan__rosidl_typesupport_introspection_cpp
+[12.888s] [ 71%] [32mBuilding CXX object CMakeFiles/project2-server.dir/src/project2-server.cpp.o[0m
+[13.613s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kproject2-server.h: No such file or directory
+[13.613s]     5 | #include [01;31m[K"project2-server.h"[m[K
+[13.613s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[13.613s] compilation terminated.
+[13.616s] gmake[2]: *** [CMakeFiles/project2-server.dir/build.make:79: CMakeFiles/project2-server.dir/src/project2-server.cpp.o] Error 1
+[13.617s] gmake[1]: *** [CMakeFiles/Makefile2:805: CMakeFiles/project2-server.dir/all] Error 2
+[13.618s] gmake[1]: *** Waiting for unfinished jobs....
+[19.598s] [ 73%] [1m[32mLinking CXX executable project2-client[0m
+[19.759s] [ 73%] Built target project2-client
+[19.760s] gmake: *** [Makefile:146: all] Error 2
+[19.762s] Invoked command in '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan' returned '2': CONDA_PROMPT_MODIFIER=(ros2_env) _=/usr/bin/env /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/cmake --build /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan -- -j2 -l2
