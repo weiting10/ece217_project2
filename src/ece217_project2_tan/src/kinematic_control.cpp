@@ -11,8 +11,8 @@
 Eigen::MatrixXd compute_dh_table(double theta1, double theta2, double theta3, double theta4, double theta5, double theta6);
 Eigen::Matrix4d dhTransform(double a, double alpha, double d, double theta);
 
-Eigen::VectorXd kinematic(double joint1theta=0.0, double joint2theta=0.0, double joint3theta=0.0, double joint4theta=0.0, double joint5theta=0.0, double joint6theta=0.0, 
-		double goal_x=0.0, double goal_y=0.0, double goal_z=0.0, double q_x=0.0, double q_y=0.0, double q_z=0.0, double q_w=1.0){
+Eigen::VectorXd kinematic(double joint1theta, double joint2theta, double joint3theta, double joint4theta, double joint5theta, double joint6theta, 
+		double goal_x, double goal_y, double goal_z, double q_x, double q_y, double q_z, double q_w){
 
 	// initialize a 6 * 6 matrix
 	Eigen::MatrixXd dh_table(6,6);
@@ -101,7 +101,7 @@ Eigen::VectorXd kinematic(double joint1theta=0.0, double joint2theta=0.0, double
 	Eigen::Vector3d jo6 = z5;
 
 	// put the components together into the Jacobian matrix
-	Eigen::Matrix6d Jacobian;
+	Eigen::MatrixXd Jacobian(6,6);
 	Jacobian.block<3,1>(0,0) = jp1;
 	Jacobian.block<3,1>(0,1) = jp2;
 	Jacobian.block<3,1>(0,2) = jp3;
@@ -116,7 +116,7 @@ Eigen::VectorXd kinematic(double joint1theta=0.0, double joint2theta=0.0, double
 	Jacobian.block<3,1>(3,4) = jo5;
 	Jacobian.block<3,1>(3,5) = jo6;
 
-	Eigen::Matrix6d inverse_jacobian;
+	Eigen::MatrixXd inverse_jacobian(6,6);
 	inverse_jacobian = Jacobian.inverse();
 
 	// joint velocity = inverse jacobian * end effector velocity
