@@ -1,0 +1,8 @@
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:[m[K In function '[01m[Kint[01;32m[K kinematic[m[K(double, double, double, double, double, double, double, double, double, double, double, double, double)[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:21:20:[m[K [01;31m[Kerror: [m[K'[01m[Kcompute_dh_table[m[K' was not declared in this scope; did you mean '[01m[Kcompute_dh_tabel[m[K'?
+   21 |         dh_table = [01;31m[Kcompute_dh_table[m[K(joint1theta, joint2theta, joint3theta, joint4theta, joint5theta, joint6theta);
+      |                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                    [32m[Kcompute_dh_tabel[m[K
+gmake[2]: *** [CMakeFiles/project2-server.dir/build.make:93: CMakeFiles/project2-server.dir/src/kinematic_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:805: CMakeFiles/project2-server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

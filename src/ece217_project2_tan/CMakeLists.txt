@@ -44,7 +44,7 @@ target_compile_features(project2-client PUBLIC c_std_99 cxx_std_17)
 ament_target_dependencies(project2-client rclcpp geometry_msgs nav_msgs visualization_msgs Eigen3)
 target_link_libraries(project2-client ${Boost_PROGRAM_OPTIONS_LIBRARY} ${cpp_typesupport_target})
 
-add_executable(project2-server src/project2-server.cpp)
+add_executable(project2-server src/project2-server.cpp src/kinematic_control.cpp)
 target_include_directories(project2-server PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include/${PROJECT_NAME}>)

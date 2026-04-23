@@ -1,0 +1,47 @@
+[  2%] Built target ece217_project2_tan__rosidl_generator_type_description
+[  5%] Built target ece217_project2_tan__cpp
+[  5%] Built target ament_cmake_python_copy_ece217_project2_tan
+[ 17%] Built target ece217_project2_tan__rosidl_generator_c
+running egg_info
+writing ece217_project2_tan.egg-info/PKG-INFO
+writing dependency_links to ece217_project2_tan.egg-info/dependency_links.txt
+writing top-level names to ece217_project2_tan.egg-info/top_level.txt
+reading manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+writing manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+[ 17%] Built target ament_cmake_python_build_ece217_project2_tan_egg
+[ 33%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_c
+[ 33%] Built target ece217_project2_tan__rosidl_typesupport_cpp
+[ 41%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_cpp
+[ 48%] Built target ece217_project2_tan__rosidl_typesupport_introspection_c
+[ 56%] Built target ece217_project2_tan__rosidl_typesupport_c
+[ 64%] Built target ece217_project2_tan__rosidl_typesupport_introspection_cpp
+[ 66%] [32mBuilding CXX object CMakeFiles/project2-server.dir/src/kinematic_control.cpp.o[0m
+[ 71%] Built target project2-client
+[ 71%] Built target ece217_project2_tan
+[ 74%] [32mBuilding CXX object CMakeFiles/project2-server.dir/src/project2-server.cpp.o[0m
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:[m[K In function '[01m[Kint[01;32m[K kinematic[m[K(double, double, double, double, double, double, double, double, double, double, double, double, double)[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:18:20:[m[K [01;31m[Kerror: [m[K'[01m[Kcompute_dh_table[m[K' was not declared in this scope
+   18 |         dh_table = [01;31m[Kcompute_dh_table[m[K(joint1theta, joint2theta, joint3theta, joint4theta, joint5theta, joint6theta);
+      |                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:21:31:[m[K [01;31m[Kerror: [m[K'[01m[KdhTransform[m[K' was not declared in this scope
+   21 |         Eigen::Matrix4d t01 = [01;31m[KdhTransform[m[K(dh_table(0,0),dh_table(0,1),dh_table(0,2),dh_table(0,3));
+      |                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:40:9:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K,[m[K' or '[01m[K;[m[K' before '[01m[KEigen[m[K'
+   40 |         [01;31m[KEigen[m[K::Quaterniond q(rotation_matrix);
+      |         [01;31m[K^~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:42:57:[m[K [01;31m[Kerror: [m[K'[01m[Kq[m[K' was not declared in this scope
+   42 |         std::cout << "the current Quaternion is: [(" << [01;31m[Kq[m[K.x() << " , " << q.y() << " , " << q.z() << "), " << q.w() << "]" << std::endl << std::endl;
+      |                                                         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/project2-server.dir/build.make:93: CMakeFiles/project2-server.dir/src/kinematic_control.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[ 76%] Built target ece217_project2_tan__py
+[ 82%] Built target ece217_project2_tan__rosidl_generator_py
+[ 87%] Built target ece217_project2_tan_s__rosidl_typesupport_fastrtps_c
+[ 92%] Built target ece217_project2_tan_s__rosidl_typesupport_introspection_c
+[ 97%] Built target ece217_project2_tan_s__rosidl_typesupport_c
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:[m[K In member function '[01m[Kvoid ManipulationService::[01;32m[Kgenerate_manipulation[m[K(std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >, std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Response_<std::allocator<void> > >)[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:16:100:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kresponse[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   16 |                     [01;35m[Kconst std::shared_ptr< ece217_project2_tan::srv::ManipulationQuery::Response > response[m[K ){
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[1]: *** [CMakeFiles/Makefile2:805: CMakeFiles/project2-server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

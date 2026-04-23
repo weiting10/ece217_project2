@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp" "CMakeFiles/project2-server.dir/src/kinematic_control.cpp.o" "gcc" "CMakeFiles/project2-server.dir/src/kinematic_control.cpp.o.d"
   "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp" "CMakeFiles/project2-server.dir/src/project2-server.cpp.o" "gcc" "CMakeFiles/project2-server.dir/src/project2-server.cpp.o.d"
   "" "project2-server" "gcc" "CMakeFiles/project2-server.dir/link.d"
   )

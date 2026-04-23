@@ -803,12 +803,12 @@ CMakeFiles/project2-server.dir/all: CMakeFiles/ece217_project2_tan__cpp.dir/all
 CMakeFiles/project2-server.dir/all: CMakeFiles/ece217_project2_tan__rosidl_typesupport_cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2-server.dir/build.make CMakeFiles/project2-server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2-server.dir/build.make CMakeFiles/project2-server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/CMakeFiles --progress-num=37,38 "Built target project2-server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/CMakeFiles --progress-num=37,38,39 "Built target project2-server"
 .PHONY : CMakeFiles/project2-server.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/project2-server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/project2-server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/CMakeFiles 0
 .PHONY : CMakeFiles/project2-server.dir/rule
@@ -820,7 +820,7 @@ project2-server: CMakeFiles/project2-server.dir/rule
 # codegen rule for target.
 CMakeFiles/project2-server.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2-server.dir/build.make CMakeFiles/project2-server.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/CMakeFiles --progress-num=37,38 "Finished codegen for target project2-server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/CMakeFiles --progress-num=37,38,39 "Finished codegen for target project2-server"
 .PHONY : CMakeFiles/project2-server.dir/codegen
 
 # clean rule for target.

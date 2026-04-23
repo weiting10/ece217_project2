@@ -3,6 +3,7 @@ project2-server: \
   /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o \
   /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/crtbeginS.o \
   CMakeFiles/project2-server.dir/src/project2-server.cpp.o \
+  CMakeFiles/project2-server.dir/src/kinematic_control.cpp.o \
   /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/librclcpp.so \
   /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so \
   /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so \
@@ -150,6 +151,8 @@ project2-server: \
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/../lib/gcc/x86_64-conda-linux-gnu/14.3.0/crtbeginS.o:
 
 CMakeFiles/project2-server.dir/src/project2-server.cpp.o:
+
+CMakeFiles/project2-server.dir/src/kinematic_control.cpp.o:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/librclcpp.so:
 

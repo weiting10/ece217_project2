@@ -756,6 +756,30 @@ rosidl_typesupport_introspection_cpp/ece217_project2_tan/srv/detail/manipulation
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ece217_project2_tan__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/ece217_project2_tan__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ece217_project2_tan/srv/detail/manipulation_query__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/ece217_project2_tan/srv/detail/manipulation_query__type_support.cpp.s
 
+src/kinematic_control.o: src/kinematic_control.cpp.o
+.PHONY : src/kinematic_control.o
+
+# target to build an object file
+src/kinematic_control.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2-server.dir/build.make CMakeFiles/project2-server.dir/src/kinematic_control.cpp.o
+.PHONY : src/kinematic_control.cpp.o
+
+src/kinematic_control.i: src/kinematic_control.cpp.i
+.PHONY : src/kinematic_control.i
+
+# target to preprocess a source file
+src/kinematic_control.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2-server.dir/build.make CMakeFiles/project2-server.dir/src/kinematic_control.cpp.i
+.PHONY : src/kinematic_control.cpp.i
+
+src/kinematic_control.s: src/kinematic_control.cpp.s
+.PHONY : src/kinematic_control.s
+
+# target to generate assembly for a file
+src/kinematic_control.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2-server.dir/build.make CMakeFiles/project2-server.dir/src/kinematic_control.cpp.s
+.PHONY : src/kinematic_control.cpp.s
+
 src/project2-client.o: src/project2-client.cpp.o
 .PHONY : src/project2-client.o
 
@@ -877,6 +901,9 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/ece217_project2_tan/srv/detail/manipulation_query__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/ece217_project2_tan/srv/detail/manipulation_query__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/ece217_project2_tan/srv/detail/manipulation_query__type_support.s"
+	@echo "... src/kinematic_control.o"
+	@echo "... src/kinematic_control.i"
+	@echo "... src/kinematic_control.s"
 	@echo "... src/project2-client.o"
 	@echo "... src/project2-client.i"
 	@echo "... src/project2-client.s"

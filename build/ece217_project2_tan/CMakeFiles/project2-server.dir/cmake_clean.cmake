@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/project2-server.dir/link.d"
+  "CMakeFiles/project2-server.dir/src/kinematic_control.cpp.o"
+  "CMakeFiles/project2-server.dir/src/kinematic_control.cpp.o.d"
   "CMakeFiles/project2-server.dir/src/project2-server.cpp.o"
   "CMakeFiles/project2-server.dir/src/project2-server.cpp.o.d"
   "project2-server"

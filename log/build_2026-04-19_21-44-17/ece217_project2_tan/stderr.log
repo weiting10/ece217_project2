@@ -1,0 +1,56 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[33mCMake Warning (dev) at CMakeLists.txt:12 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:[m[K In function '[01m[Kint[01;32m[K kinematic[m[K(double, double, double, double, double, double, double, double, double, double, double, double, double)[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:11:22:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kjoint1theta[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   11 | int kinematic([01;35m[Kdouble joint1theta=0.0[m[K, double joint2theta=0.0, double joint3theta=0.0, double joint4theta=0.0, double joint5theta=0.0, double joint6theta=0.0,
+      |               [01;35m[K~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:11:46:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kjoint2theta[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   11 | int kinematic(double joint1theta=0.0, [01;35m[Kdouble joint2theta=0.0[m[K, double joint3theta=0.0, double joint4theta=0.0, double joint5theta=0.0, double joint6theta=0.0,
+      |                                       [01;35m[K~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:11:70:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kjoint3theta[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   11 | int kinematic(double joint1theta=0.0, double joint2theta=0.0, [01;35m[Kdouble joint3theta=0.0[m[K, double joint4theta=0.0, double joint5theta=0.0, double joint6theta=0.0,
+      |                                                               [01;35m[K~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:11:94:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kjoint4theta[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   11 | int kinematic(double joint1theta=0.0, double joint2theta=0.0, double joint3theta=0.0, [01;35m[Kdouble joint4theta=0.0[m[K, double joint5theta=0.0, double joint6theta=0.0,
+      |                                                                                       [01;35m[K~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:11:118:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kjoint5theta[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   11 | int kinematic(double joint1theta=0.0, double joint2theta=0.0, double joint3theta=0.0, double joint4theta=0.0, [01;35m[Kdouble joint5theta=0.0[m[K, double joint6theta=0.0,
+      |                                                                                                               [01;35m[K~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:11:142:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kjoint6theta[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   11 | int kinematic(double joint1theta=0.0, double joint2theta=0.0, double joint3theta=0.0, double joint4theta=0.0, double joint5theta=0.0, [01;35m[Kdouble joint6theta=0.0[m[K,
+      |                                                                                                                                       [01;35m[K~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:12:24:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kgoal_x[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   12 |                 [01;35m[Kdouble goal_x=0.0[m[K, double goal_y=0.0, double goal_z=0.0, double q_x=0.0, double q_y=0.0, double q_z=0.0, double q_w=1.0){
+      |                 [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:12:43:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kgoal_y[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   12 |                 double goal_x=0.0, [01;35m[Kdouble goal_y=0.0[m[K, double goal_z=0.0, double q_x=0.0, double q_y=0.0, double q_z=0.0, double q_w=1.0){
+      |                                    [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:12:62:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kgoal_z[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   12 |                 double goal_x=0.0, double goal_y=0.0, [01;35m[Kdouble goal_z=0.0[m[K, double q_x=0.0, double q_y=0.0, double q_z=0.0, double q_w=1.0){
+      |                                                       [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:12:81:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kq_x[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   12 |                 double goal_x=0.0, double goal_y=0.0, double goal_z=0.0, [01;35m[Kdouble q_x=0.0[m[K, double q_y=0.0, double q_z=0.0, double q_w=1.0){
+      |                                                                          [01;35m[K~~~~~~~^~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:12:97:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kq_y[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   12 |                 double goal_x=0.0, double goal_y=0.0, double goal_z=0.0, double q_x=0.0, [01;35m[Kdouble q_y=0.0[m[K, double q_z=0.0, double q_w=1.0){
+      |                                                                                          [01;35m[K~~~~~~~^~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:12:113:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kq_z[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   12 |                 double goal_x=0.0, double goal_y=0.0, double goal_z=0.0, double q_x=0.0, double q_y=0.0, [01;35m[Kdouble q_z=0.0[m[K, double q_w=1.0){
+      |                                                                                                          [01;35m[K~~~~~~~^~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:12:129:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kq_w[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   12 |                 double goal_x=0.0, double goal_y=0.0, double goal_z=0.0, double q_x=0.0, double q_y=0.0, double q_z=0.0, [01;35m[Kdouble q_w=1.0[m[K){
+      |                                                                                                                          [01;35m[K~~~~~~~^~~~~~~[m[K
