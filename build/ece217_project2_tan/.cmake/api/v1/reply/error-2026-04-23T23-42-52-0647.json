@@ -23,31 +23,14 @@
 			"suffix" : ""
 		}
 	},
-	"objects" : 
-	[
-		{
-			"jsonFile" : "codemodel-v2-aa05c738c94440c6a38c.json",
-			"kind" : "codemodel",
-			"version" : 
-			{
-				"major" : 2,
-				"minor" : 9
-			}
-		}
-	],
+	"objects" : [],
 	"reply" : 
 	{
 		"client-colcon-cmake" : 
 		{
 			"codemodel-v2" : 
 			{
-				"jsonFile" : "codemodel-v2-aa05c738c94440c6a38c.json",
-				"kind" : "codemodel",
-				"version" : 
-				{
-					"major" : 2,
-					"minor" : 9
-				}
+				"error" : "no buildsystem generated"
 			}
 		}
 	}

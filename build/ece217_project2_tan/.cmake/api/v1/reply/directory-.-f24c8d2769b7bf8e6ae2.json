@@ -386,13 +386,13 @@
 			{
 				"command" : 0,
 				"file" : 2,
-				"line" : 55,
+				"line" : 64,
 				"parent" : 0
 			},
 			{
 				"command" : 12,
 				"file" : 2,
-				"line" : 77,
+				"line" : 87,
 				"parent" : 0
 			},
 			{
@@ -1047,7 +1047,7 @@
 				"project2-client"
 			],
 			"targetId" : "project2-client::@6890427a1f51a3e7e1df",
-			"targetIndex" : 18,
+			"targetIndex" : 19,
 			"type" : "target"
 		},
 		{
@@ -1056,7 +1056,7 @@
 			"cxxModuleBmiTarget" : 
 			{
 				"id" : "project2-client::@6890427a1f51a3e7e1df",
-				"index" : 18
+				"index" : 19
 			},
 			"destination" : "lib/ece217_project2_tan",
 			"type" : "cxxModuleBmi"
@@ -1070,7 +1070,7 @@
 				"project2-server"
 			],
 			"targetId" : "project2-server::@6890427a1f51a3e7e1df",
-			"targetIndex" : 19,
+			"targetIndex" : 20,
 			"type" : "target"
 		},
 		{
@@ -1079,7 +1079,30 @@
 			"cxxModuleBmiTarget" : 
 			{
 				"id" : "project2-server::@6890427a1f51a3e7e1df",
-				"index" : 19
+				"index" : 20
+			},
+			"destination" : "lib/ece217_project2_tan",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 59,
+			"component" : "Unspecified",
+			"destination" : "lib/ece217_project2_tan",
+			"paths" : 
+			[
+				"joint-state-publisher"
+			],
+			"targetId" : "joint-state-publisher::@6890427a1f51a3e7e1df",
+			"targetIndex" : 18,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 59,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "joint-state-publisher::@6890427a1f51a3e7e1df",
+				"index" : 18
 			},
 			"destination" : "lib/ece217_project2_tan",
 			"type" : "cxxModuleBmi"

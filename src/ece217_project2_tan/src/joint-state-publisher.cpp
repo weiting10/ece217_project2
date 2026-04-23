@@ -5,11 +5,14 @@
 #include <tf2_geometry_msgs/tf_geometry_msgs.hpp>
 #include <sensor_msgs/msg/joint_state.hpp>
 
+
+// this calss is a ROS2 node
 class RobotJointStatePublisher : public rclcpp::Node {
   public:
     RobotJointStatePublisher() : rclcpp::Node( "project2_robot_joint_state_publisher") {
       
       //create a publisher of datatype sensor_mgsg::msg::JointState; this has property of float64[] position
+      // create a publisher on topic "joint_state"
       joint_state_publisher = this->create_publisher< sensor_msgs::msg::JointState >( "joint_state",1);
       
       //This class provides an easy way to publish coordinate frame transform information
@@ -17,7 +20,7 @@ class RobotJointStatePublisher : public rclcpp::Node {
 
       loop_rate = std::make_shared< rclcpp::Rate >( std::chrono_literals::operator""ms(100) );
 
-      //this line is calling the publish function
+      //this line is calling the publish function every 100ms
       timer = this->create_wall_timer( std::chrono_literals::operator""ms(100), std::bind(&RobotJointStatePublisher::publish, this) );
 
       joint_angles.resize(6);
@@ -51,18 +54,18 @@ class RobotJointStatePublisher : public rclcpp::Node {
       tf2::Quaternion q;
       q.setRPY( 0.0, 0.0, 0.0 );
       transform_msg.transform.rotation.x = q.x();
-      transform_msg.transform.rotation.x = q.y();
-      transform_msg.transform.rotation.x = q.z();
-      transform_msg.transform.rotation.x = q.w();
+      transform_msg.transform.rotation.y = q.y();
+      transform_msg.transform.rotation.z = q.z();
+      transform_msg.transform.rotation.w = q.w();
 
-      broadcaster->sendTranform(tranform_msg);
+      broadcaster->sendTranform(transform_msg);
       joint_state_publisher->publish( joint_state_msg );
 
     }
 
     //declaring the variables for what is inside the RobotJointStatePublisher()
     std::shared_ptr< rclcpp::Publisher< sensor_msgs::msg::JointState_<std::allocator<void> >, std::allocator<void> > > joint_state_publisher;
-    std::shared_ptr< tf2_ros::TransformBroadcaster > broadcaster;
+    std::shared_ptr< tf2_ros2::TransformBroadcaster > broadcaster;
     rclcpp::Rate::SharedPtr loop_rate;
     rclcpp::TimerBase::SharedPtr timer;
 
@@ -70,7 +73,14 @@ class RobotJointStatePublisher : public rclcpp::Node {
 
 };
 
+int main( int argc, char* argv[]){
+  rclcpp::init( argc, argv);
+  rclcpp::spin( std::make_shared<RobotJointStatePublisher>() );
+  rclcpp::shutdown();
 
+  return 0;
+
+}
 
 
 

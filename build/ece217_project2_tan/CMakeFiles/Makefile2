@@ -78,6 +78,7 @@ all: CMakeFiles/ece217_project2_tan_s__rosidl_typesupport_introspection_c.dir/al
 all: CMakeFiles/ece217_project2_tan_s__rosidl_typesupport_c.dir/all
 all: CMakeFiles/project2-client.dir/all
 all: CMakeFiles/project2-server.dir/all
+all: CMakeFiles/joint-state-publisher.dir/all
 all: ece217_project2_tan__py/all
 .PHONY : all
 
@@ -97,6 +98,7 @@ codegen: CMakeFiles/ece217_project2_tan_s__rosidl_typesupport_introspection_c.di
 codegen: CMakeFiles/ece217_project2_tan_s__rosidl_typesupport_c.dir/codegen
 codegen: CMakeFiles/project2-client.dir/codegen
 codegen: CMakeFiles/project2-server.dir/codegen
+codegen: CMakeFiles/joint-state-publisher.dir/codegen
 codegen: ece217_project2_tan__py/codegen
 .PHONY : codegen
 
@@ -125,6 +127,7 @@ clean: CMakeFiles/ece217_project2_tan_s__rosidl_typesupport_introspection_c.dir/
 clean: CMakeFiles/ece217_project2_tan_s__rosidl_typesupport_c.dir/clean
 clean: CMakeFiles/project2-client.dir/clean
 clean: CMakeFiles/project2-server.dir/clean
+clean: CMakeFiles/joint-state-publisher.dir/clean
 clean: ece217_project2_tan__py/clean
 .PHONY : clean
 
@@ -769,7 +772,7 @@ CMakeFiles/project2-client.dir/all: CMakeFiles/ece217_project2_tan__cpp.dir/all
 CMakeFiles/project2-client.dir/all: CMakeFiles/ece217_project2_tan__rosidl_typesupport_cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2-client.dir/build.make CMakeFiles/project2-client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2-client.dir/build.make CMakeFiles/project2-client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/CMakeFiles --progress-num=35,36 "Built target project2-client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/CMakeFiles --progress-num=37,38 "Built target project2-client"
 .PHONY : CMakeFiles/project2-client.dir/all
 
 # Build rule for subdir invocation for target.
@@ -786,7 +789,7 @@ project2-client: CMakeFiles/project2-client.dir/rule
 # codegen rule for target.
 CMakeFiles/project2-client.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2-client.dir/build.make CMakeFiles/project2-client.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/CMakeFiles --progress-num=35,36 "Finished codegen for target project2-client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/CMakeFiles --progress-num=37,38 "Finished codegen for target project2-client"
 .PHONY : CMakeFiles/project2-client.dir/codegen
 
 # clean rule for target.
@@ -803,7 +806,7 @@ CMakeFiles/project2-server.dir/all: CMakeFiles/ece217_project2_tan__cpp.dir/all
 CMakeFiles/project2-server.dir/all: CMakeFiles/ece217_project2_tan__rosidl_typesupport_cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2-server.dir/build.make CMakeFiles/project2-server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2-server.dir/build.make CMakeFiles/project2-server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/CMakeFiles --progress-num=37,38,39 "Built target project2-server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/CMakeFiles --progress-num=39,40,41 "Built target project2-server"
 .PHONY : CMakeFiles/project2-server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -820,13 +823,47 @@ project2-server: CMakeFiles/project2-server.dir/rule
 # codegen rule for target.
 CMakeFiles/project2-server.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2-server.dir/build.make CMakeFiles/project2-server.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/CMakeFiles --progress-num=37,38,39 "Finished codegen for target project2-server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/CMakeFiles --progress-num=39,40,41 "Finished codegen for target project2-server"
 .PHONY : CMakeFiles/project2-server.dir/codegen
 
 # clean rule for target.
 CMakeFiles/project2-server.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2-server.dir/build.make CMakeFiles/project2-server.dir/clean
 .PHONY : CMakeFiles/project2-server.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/joint-state-publisher.dir
+
+# All Build rule for target.
+CMakeFiles/joint-state-publisher.dir/all: CMakeFiles/ece217_project2_tan__rosidl_generator_c.dir/all
+CMakeFiles/joint-state-publisher.dir/all: CMakeFiles/ece217_project2_tan__cpp.dir/all
+CMakeFiles/joint-state-publisher.dir/all: CMakeFiles/ece217_project2_tan__rosidl_typesupport_cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint-state-publisher.dir/build.make CMakeFiles/joint-state-publisher.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint-state-publisher.dir/build.make CMakeFiles/joint-state-publisher.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/CMakeFiles --progress-num=35,36 "Built target joint-state-publisher"
+.PHONY : CMakeFiles/joint-state-publisher.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/joint-state-publisher.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/joint-state-publisher.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/CMakeFiles 0
+.PHONY : CMakeFiles/joint-state-publisher.dir/rule
+
+# Convenience name for target.
+joint-state-publisher: CMakeFiles/joint-state-publisher.dir/rule
+.PHONY : joint-state-publisher
+
+# codegen rule for target.
+CMakeFiles/joint-state-publisher.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint-state-publisher.dir/build.make CMakeFiles/joint-state-publisher.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/CMakeFiles --progress-num=35,36 "Finished codegen for target joint-state-publisher"
+.PHONY : CMakeFiles/joint-state-publisher.dir/codegen
+
+# clean rule for target.
+CMakeFiles/joint-state-publisher.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint-state-publisher.dir/build.make CMakeFiles/joint-state-publisher.dir/clean
+.PHONY : CMakeFiles/joint-state-publisher.dir/clean
 
 #=============================================================================
 # Target rules for target /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/ece217_project2_tan__py/CMakeFiles/ece217_project2_tan__py.dir

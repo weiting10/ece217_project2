@@ -52,9 +52,19 @@ target_compile_features(project2-server PUBLIC c_std_99 cxx_std_17)
 ament_target_dependencies(project2-server rclcpp geometry_msgs nav_msgs visualization_msgs Eigen3)
 target_link_libraries(project2-server ${Boost_PROGRAM_OPTIONS_LIBRARY} ${cpp_typesupport_target})
 
+add_executable(joint-state-publisher src/joint-state-publisher.cpp)
+target_include_directories(joint-state-publisher PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include/${PROJECT_NAME}>)
+target_compile_features(joint-state-publisher PUBLIC c_std_99 cxx_std_17)
+ament_target_dependencies(joint-state-publisher rclcpp geometry_msgs nav_msgs visualization_msgs Eigen3 tf2_ros tf_geometry_msgs sensor_msgs)
+target_link_libraries(joint-state-publisher ${Boost_PROGRAM_OPTIONS_LIBRARY} ${cpp_typesupport_target})
+
+
 install(TARGETS
 	project2-client
 	project2-server
+	joint-state-publisher
 	DESTINATION lib/${PROJECT_NAME}
 )
 

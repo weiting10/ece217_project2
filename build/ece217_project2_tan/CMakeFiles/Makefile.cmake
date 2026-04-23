@@ -965,5 +965,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ece217_project2_tan_s__rosidl_typesupport_c.dir/DependInfo.cmake"
   "CMakeFiles/project2-client.dir/DependInfo.cmake"
   "CMakeFiles/project2-server.dir/DependInfo.cmake"
+  "CMakeFiles/joint-state-publisher.dir/DependInfo.cmake"
   "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/ece217_project2_tan__py/CMakeFiles/ece217_project2_tan__py.dir/DependInfo.cmake"
   )

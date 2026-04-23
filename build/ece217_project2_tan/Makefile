@@ -432,6 +432,19 @@ project2-server/fast:
 .PHONY : project2-server/fast
 
 #=============================================================================
+# Target rules for targets named joint-state-publisher
+
+# Build rule for target.
+joint-state-publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 joint-state-publisher
+.PHONY : joint-state-publisher
+
+# fast build rule for target.
+joint-state-publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint-state-publisher.dir/build.make CMakeFiles/joint-state-publisher.dir/build
+.PHONY : joint-state-publisher/fast
+
+#=============================================================================
 # Target rules for targets named ece217_project2_tan__py
 
 # Build rule for target.
@@ -756,6 +769,30 @@ rosidl_typesupport_introspection_cpp/ece217_project2_tan/srv/detail/manipulation
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ece217_project2_tan__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/ece217_project2_tan__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ece217_project2_tan/srv/detail/manipulation_query__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/ece217_project2_tan/srv/detail/manipulation_query__type_support.cpp.s
 
+src/joint-state-publisher.o: src/joint-state-publisher.cpp.o
+.PHONY : src/joint-state-publisher.o
+
+# target to build an object file
+src/joint-state-publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint-state-publisher.dir/build.make CMakeFiles/joint-state-publisher.dir/src/joint-state-publisher.cpp.o
+.PHONY : src/joint-state-publisher.cpp.o
+
+src/joint-state-publisher.i: src/joint-state-publisher.cpp.i
+.PHONY : src/joint-state-publisher.i
+
+# target to preprocess a source file
+src/joint-state-publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint-state-publisher.dir/build.make CMakeFiles/joint-state-publisher.dir/src/joint-state-publisher.cpp.i
+.PHONY : src/joint-state-publisher.cpp.i
+
+src/joint-state-publisher.s: src/joint-state-publisher.cpp.s
+.PHONY : src/joint-state-publisher.s
+
+# target to generate assembly for a file
+src/joint-state-publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint-state-publisher.dir/build.make CMakeFiles/joint-state-publisher.dir/src/joint-state-publisher.cpp.s
+.PHONY : src/joint-state-publisher.cpp.s
+
 src/kinematic_control.o: src/kinematic_control.cpp.o
 .PHONY : src/kinematic_control.o
 
@@ -860,6 +897,7 @@ help:
 	@echo "... ece217_project2_tan_s__rosidl_typesupport_c"
 	@echo "... ece217_project2_tan_s__rosidl_typesupport_fastrtps_c"
 	@echo "... ece217_project2_tan_s__rosidl_typesupport_introspection_c"
+	@echo "... joint-state-publisher"
 	@echo "... project2-client"
 	@echo "... project2-server"
 	@echo "... rosidl_generator_c/ece217_project2_tan/srv/detail/manipulation_query__description.o"
@@ -901,6 +939,9 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/ece217_project2_tan/srv/detail/manipulation_query__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/ece217_project2_tan/srv/detail/manipulation_query__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/ece217_project2_tan/srv/detail/manipulation_query__type_support.s"
+	@echo "... src/joint-state-publisher.o"
+	@echo "... src/joint-state-publisher.i"
+	@echo "... src/joint-state-publisher.s"
 	@echo "... src/kinematic_control.o"
 	@echo "... src/kinematic_control.i"
 	@echo "... src/kinematic_control.s"
