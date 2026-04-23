@@ -66,9 +66,9 @@ Eigen::VectorXd kinematic(double joint1theta, double joint2theta, double joint3t
 	Eigen::Vector3d erroro;
 	Eigen::Vector3d quaternion_vector = q.vec();
 	Eigen::Vector3d goal_quaternion_vector = goal_q.vec();
-	Eigen::Vector3d cross = goal_q.vec() * q.vec();
+	Eigen::Vector3d cross = goal_q.vec().cross(q.vec());
 
-	erroro = quaternion_vector * goal_q.w - goal_quaternion_vector * q.w - cross;
+	erroro = quaternion_vector * goal_q.w() - goal_quaternion_vector * q.w() - cross;
 
 	// to obtain Jacobian matrix, need to get p0-5 and z0-5
 	Eigen::Vector3d p0(0,0,0);
