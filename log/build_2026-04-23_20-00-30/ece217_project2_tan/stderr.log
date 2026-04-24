@@ -1,0 +1,35 @@
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:68:22:[m[K [01;31m[Kerror: [m[K'[01m[Ktf2_ros2[m[K' was not declared in this scope; did you mean '[01m[Ktf2_ros[m[K'?
+   68 |     std::shared_ptr< [01;31m[Ktf2_ros2[m[K::TransformBroadcaster > broadcaster;
+      |                      [01;31m[K^~~~~~~~[m[K
+      |                      [32m[Ktf2_ros[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:68:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   68 |     std::shared_ptr< tf2_ros2::TransformBroadcaster [01;31m[K>[m[K broadcaster;
+      |                                                     [01;31m[K^[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:[m[K In constructor '[01m[KRobotJointStatePublisher::[01;32m[KRobotJointStatePublisher[m[K()[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:19:38:[m[K [01;31m[Kerror: [m[K'[01m[Ktf2_ros2[m[K' was not declared in this scope; did you mean '[01m[Ktf2_ros[m[K'?
+   19 |       broadcaster = std::make_shared<[01;31m[Ktf2_ros2[m[K::TransformBroadcaster>(this);
+      |                                      [01;31m[K^~~~~~~~[m[K
+      |                                      [32m[Ktf2_ros[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:19:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   19 |       broadcaster = std::[01;31m[Kmake_shared<tf2_ros2::TransformBroadcaster>[m[K(this);
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:19:69:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[Kmake_shared<<expression error> >(RobotJointStatePublisher*)[m[K'
+   19 |       broadcaster = [01;31m[Kstd::make_shared<tf2_ros2::TransformBroadcaster>(this)[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/memory:80[m[K,
+                 from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+                 from [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:3[m[K:
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/shared_ptr.h:1003:5:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array<_Tp>::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K'
+ 1003 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/shared_ptr.h:1003:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:19:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   19 |       broadcaster = [01;31m[Kstd::make_shared<tf2_ros2::TransformBroadcaster>(this)[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:[m[K In member function '[01m[Kvoid RobotJointStatePublisher::[01;32m[Kpublish[m[K()[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:61:18:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+   61 |       broadcaster[01;31m[K->[m[KsendTranform(transform_msg);
+      |                  [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/joint-state-publisher.dir/build.make:79: CMakeFiles/joint-state-publisher.dir/src/joint-state-publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:842: CMakeFiles/joint-state-publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

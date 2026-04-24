@@ -1,1 +1,1 @@
-rclcpp;pluginlib;std_msgs;geometry_msgs;nav_msgs;visualization_msgs;Eigen3;rosidl_default_runtime;ament_lint_auto;ament_lint_common
+rclcpp;pluginlib;std_msgs;geometry_msgs;nav_msgs;visualization_msgs;Eigen3;tf2_ros;tf2_geometry_msgs;sensor_msgs;rosidl_default_runtime;ament_lint_auto;ament_lint_common

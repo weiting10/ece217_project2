@@ -1,0 +1,20 @@
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:68:22:[m[K [01;31m[Kerror: [m[K'[01m[Ktf2_ros2[m[K' was not declared in this scope; did you mean '[01m[Ktf2_ros[m[K'?
+   68 |     std::shared_ptr< [01;31m[Ktf2_ros2[m[K::TransformBroadcaster > broadcaster;
+      |                      [01;31m[K^~~~~~~~[m[K
+      |                      [32m[Ktf2_ros[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:68:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   68 |     std::shared_ptr< tf2_ros2::TransformBroadcaster [01;31m[K>[m[K broadcaster;
+      |                                                     [01;31m[K^[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:[m[K In constructor '[01m[KRobotJointStatePublisher::[01;32m[KRobotJointStatePublisher[m[K()[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:19:68:[m[K [01;31m[Kerror: [m[Kcannot convert '[01m[Kstd::shared_ptr<tf2_ros::TransformBroadcaster>[m[K' to '[01m[Kint[m[K' in assignment
+   19 |       broadcaster = [01;31m[Kstd::make_shared<tf2_ros::TransformBroadcaster>(this)[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+      |                                                                    [01;31m[K|[m[K
+      |                                                                    [01;31m[Kstd::shared_ptr<tf2_ros::TransformBroadcaster>[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:[m[K In member function '[01m[Kvoid RobotJointStatePublisher::[01;32m[Kpublish[m[K()[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:61:18:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+   61 |       broadcaster[01;31m[K->[m[KsendTranform(transform_msg);
+      |                  [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/joint-state-publisher.dir/build.make:79: CMakeFiles/joint-state-publisher.dir/src/joint-state-publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:842: CMakeFiles/joint-state-publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

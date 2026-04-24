@@ -1,0 +1,61 @@
+[  2%] Built target ece217_project2_tan__rosidl_generator_type_description
+[  2%] Built target ament_cmake_python_copy_ece217_project2_tan
+[  4%] Built target ece217_project2_tan__cpp
+[ 17%] Built target ece217_project2_tan__rosidl_generator_c
+[ 24%] Built target ece217_project2_tan__rosidl_typesupport_cpp
+[ 31%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_c
+[ 39%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_cpp
+[ 46%] Built target ece217_project2_tan__rosidl_typesupport_introspection_c
+[ 53%] Built target ece217_project2_tan__rosidl_typesupport_c
+[ 60%] Built target ece217_project2_tan__rosidl_typesupport_introspection_cpp
+[ 65%] Built target project2-client
+running egg_info
+writing ece217_project2_tan.egg-info/PKG-INFO
+writing dependency_links to ece217_project2_tan.egg-info/dependency_links.txt
+writing top-level names to ece217_project2_tan.egg-info/top_level.txt
+reading manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+writing manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+[ 65%] Built target ament_cmake_python_build_ece217_project2_tan_egg
+[ 68%] [32mBuilding CXX object CMakeFiles/joint-state-publisher.dir/src/joint-state-publisher.cpp.o[0m
+[ 75%] Built target project2-server
+[ 75%] Built target ece217_project2_tan
+[ 78%] Built target ece217_project2_tan__py
+[ 82%] Built target ece217_project2_tan__rosidl_generator_py
+[ 87%] Built target ece217_project2_tan_s__rosidl_typesupport_fastrtps_c
+[ 92%] Built target ece217_project2_tan_s__rosidl_typesupport_introspection_c
+[ 97%] Built target ece217_project2_tan_s__rosidl_typesupport_c
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:68:22:[m[K [01;31m[Kerror: [m[K'[01m[Ktf2_ros2[m[K' was not declared in this scope; did you mean '[01m[Ktf2_ros[m[K'?
+   68 |     std::shared_ptr< [01;31m[Ktf2_ros2[m[K::TransformBroadcaster > broadcaster;
+      |                      [01;31m[K^~~~~~~~[m[K
+      |                      [32m[Ktf2_ros[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:68:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   68 |     std::shared_ptr< tf2_ros2::TransformBroadcaster [01;31m[K>[m[K broadcaster;
+      |                                                     [01;31m[K^[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:[m[K In constructor '[01m[KRobotJointStatePublisher::[01;32m[KRobotJointStatePublisher[m[K()[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:19:38:[m[K [01;31m[Kerror: [m[K'[01m[Ktf2_ros2[m[K' was not declared in this scope; did you mean '[01m[Ktf2_ros[m[K'?
+   19 |       broadcaster = std::make_shared<[01;31m[Ktf2_ros2[m[K::TransformBroadcaster>(this);
+      |                                      [01;31m[K^~~~~~~~[m[K
+      |                                      [32m[Ktf2_ros[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:19:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   19 |       broadcaster = std::[01;31m[Kmake_shared<tf2_ros2::TransformBroadcaster>[m[K(this);
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:19:69:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[Kmake_shared<<expression error> >(RobotJointStatePublisher*)[m[K'
+   19 |       broadcaster = [01;31m[Kstd::make_shared<tf2_ros2::TransformBroadcaster>(this)[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/memory:80[m[K,
+                 from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+                 from [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:3[m[K:
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/shared_ptr.h:1003:5:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array<_Tp>::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K'
+ 1003 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/shared_ptr.h:1003:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:19:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   19 |       broadcaster = [01;31m[Kstd::make_shared<tf2_ros2::TransformBroadcaster>(this)[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:[m[K In member function '[01m[Kvoid RobotJointStatePublisher::[01;32m[Kpublish[m[K()[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:61:18:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' is not a pointer
+   61 |       broadcaster[01;31m[K->[m[KsendTranform(transform_msg);
+      |                  [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/joint-state-publisher.dir/build.make:79: CMakeFiles/joint-state-publisher.dir/src/joint-state-publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:842: CMakeFiles/joint-state-publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
