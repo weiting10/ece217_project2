@@ -3,7 +3,7 @@
 #include <Eigen/Dense>
 #include <Eigen/Core>
 #include <tuple>
-
+#include <sensor_msgs/msg/joint_state.hpp>
 #include "ece217_project2_tan/srv/manipulation_query.hpp"
 #include "ece217_project2_tan/project2-server.h"
 
@@ -46,7 +46,15 @@ class ManipulationService : public rclcpp::Node {
 	      			 request->goal.orientation.y, 
 	      			 request->goal.orientation.z,
 	      			 request->goal.orientation.w); 
-		      
+
+    // create a publisher to publish new_joint_angles to the "joint-state-publihser.cpp" 
+    sensor_msgs::msg::JointState new_joint_angles_msg;
+    new_joint_angles_msg.header.stamp = this->get_clock()->now();
+    new_joint_angles_msg.name = { "joint1theta", "joint2theta", "joint3theta", "joint4theta", "joint5theta", "joint6theta" };
+    
+    auto new_joint_angles_publisher = this->create_publisher< sensor_msgs::msg::JointState >( "new_joint_angles",1);
+
+
     while( check == false ){
 	    std::tie(check,new_joint_angles) = kinematic(new_joint_angles[0],
                                  new_joint_angles[1],
@@ -61,8 +69,8 @@ class ManipulationService : public rclcpp::Node {
                                  request->goal.orientation.y,
                                  request->goal.orientation.z,
                                  request->goal.orientation.w);
-	  
-      }
+	    new_joint_angles_msg = {new_joint_angles[0],new_joint_angles[1],new_joint_angles[2],new_joint_angles[3],new_joint_angles[4],new_joint_angles[5]};
+	    new_joint_angles_publisher -> publish( new_joint_angles_msg );
 
 
 
@@ -75,6 +83,7 @@ class ManipulationService : public rclcpp::Node {
     //    std::shared_ptr< rclcpp::Publisher< visualization_msgs::msg::MarkerArray_<std::allocator<void> >, std::allocator<void> > > planner_viz_publisher;
  
 };
+};
 
 int main( int argc, char* argv[] ){
   rclcpp::init( argc, argv);
@@ -83,3 +92,5 @@ int main( int argc, char* argv[] ){
   return EXIT_SUCCESS;
 
 }
+
+

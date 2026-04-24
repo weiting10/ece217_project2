@@ -1,0 +1,55 @@
+[  2%] Built target ece217_project2_tan__rosidl_generator_type_description
+[  4%] Built target ece217_project2_tan__cpp
+[ 17%] Built target ece217_project2_tan__rosidl_generator_c
+[ 24%] Built target ece217_project2_tan__rosidl_typesupport_cpp
+[ 31%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_c
+[ 39%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_cpp
+[ 46%] Built target ece217_project2_tan__rosidl_typesupport_introspection_c
+[ 53%] Built target ece217_project2_tan__rosidl_typesupport_c
+[ 60%] Built target ece217_project2_tan__rosidl_typesupport_introspection_cpp
+[ 60%] Built target ece217_project2_tan
+[ 60%] Built target ament_cmake_python_copy_ece217_project2_tan
+running egg_info
+writing ece217_project2_tan.egg-info/PKG-INFO
+writing dependency_links to ece217_project2_tan.egg-info/dependency_links.txt
+writing top-level names to ece217_project2_tan.egg-info/top_level.txt
+reading manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+writing manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+[ 60%] Built target ament_cmake_python_build_ece217_project2_tan_egg
+[ 63%] Built target ece217_project2_tan__py
+[ 68%] Built target ece217_project2_tan__rosidl_generator_py
+[ 73%] Built target ece217_project2_tan_s__rosidl_typesupport_fastrtps_c
+[ 78%] Built target ece217_project2_tan_s__rosidl_typesupport_introspection_c
+[ 82%] Built target ece217_project2_tan_s__rosidl_typesupport_c
+[ 85%] [32mBuilding CXX object CMakeFiles/project2-client.dir/src/project2-client.cpp.o[0m
+[ 87%] [1m[32mLinking CXX executable project2-client[0m
+[ 87%] Built target project2-client
+[ 90%] [32mBuilding CXX object CMakeFiles/project2-server.dir/src/project2-server.cpp.o[0m
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:94:2:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' after class definition
+   94 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:[m[K In constructor '[01m[KManipulationService::[01;32m[KManipulationService[m[K()[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:13:7:[m[K [01;31m[Kerror: [m[K'[01m[Kservice[m[K' was not declared in this scope
+   13 |       [01;31m[Kservice[m[K = this->create_service< ece217_project2_tan::srv::ManipulationQuery >( "manipulation_query", std::bind( &ManipulationService::generate_manipulation, this, std::placeholders::_1, std::placeholders::_2 ) );
+      |       [01;31m[K^~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:[m[K In member function '[01m[Kvoid ManipulationService::[01;32m[Kgenerate_manipulation[m[K(std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >, std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Response_<std::allocator<void> > >)[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:72:156:[m[K [01;31m[Kerror: [m[Kno match for '[01m[Koperator=[m[K' (operand types are '[01m[Ksensor_msgs::msg::JointState[m[K' {aka '[01m[Ksensor_msgs::msg::JointState_<std::allocator<void> >[m[K'} and '[01m[K<brace-enclosed initializer list>[m[K')
+   72 | 0],new_joint_angles[1],new_joint_angles[2],new_joint_angles[3],new_joint_angles[4],new_joint_angles[5][01;31m[K}[m[K;
+      |                                                                                                       [01;31m[K^[m[K
+
+In file included from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp:7[m[K,
+                 from [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:6[m[K:
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:40:8:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ksensor_msgs::msg::JointState_<std::allocator<void> >& sensor_msgs::msg::JointState_<std::allocator<void> >::[01;32m[Koperator=[m[K(const sensor_msgs::msg::JointState_<std::allocator<void> >&)[m[K'
+   40 | struct [01;36m[KJointState_[m[K
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:40:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[K<brace-enclosed initializer list>[m[K' to '[01m[Kconst sensor_msgs::msg::JointState_<std::allocator<void> >&[m[K'
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:40:8:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ksensor_msgs::msg::JointState_<std::allocator<void> >& sensor_msgs::msg::JointState_<std::allocator<void> >::[01;32m[Koperator=[m[K(sensor_msgs::msg::JointState_<std::allocator<void> >&&)[m[K'
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:40:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[K<brace-enclosed initializer list>[m[K' to '[01m[Ksensor_msgs::msg::JointState_<std::allocator<void> >&&[m[K'
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:19:100:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kresponse[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   19 |               [01;35m[Kconst std::shared_ptr< ece217_project2_tan::srv::ManipulationQuery::Response > response[m[K ){
+      |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/project2-server.dir/build.make:79: CMakeFiles/project2-server.dir/src/project2-server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:808: CMakeFiles/project2-server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

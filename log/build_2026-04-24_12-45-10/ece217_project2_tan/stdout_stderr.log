@@ -1,0 +1,75 @@
+[  2%] Built target ece217_project2_tan__rosidl_generator_type_description
+[  4%] Built target ece217_project2_tan__cpp
+[ 17%] Built target ece217_project2_tan__rosidl_generator_c
+[ 24%] Built target ece217_project2_tan__rosidl_typesupport_cpp
+[ 31%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_c
+[ 39%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_cpp
+[ 46%] Built target ece217_project2_tan__rosidl_typesupport_introspection_c
+[ 53%] Built target ece217_project2_tan__rosidl_typesupport_c
+[ 60%] Built target ece217_project2_tan__rosidl_typesupport_introspection_cpp
+[ 60%] Built target ece217_project2_tan
+[ 60%] Built target ament_cmake_python_copy_ece217_project2_tan
+running egg_info
+writing ece217_project2_tan.egg-info/PKG-INFO
+writing dependency_links to ece217_project2_tan.egg-info/dependency_links.txt
+writing top-level names to ece217_project2_tan.egg-info/top_level.txt
+reading manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+writing manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+[ 60%] Built target ament_cmake_python_build_ece217_project2_tan_egg
+[ 63%] Built target ece217_project2_tan__py
+[ 68%] Built target ece217_project2_tan__rosidl_generator_py
+[ 73%] Built target ece217_project2_tan_s__rosidl_typesupport_fastrtps_c
+[ 78%] Built target ece217_project2_tan_s__rosidl_typesupport_introspection_c
+[ 82%] Built target ece217_project2_tan_s__rosidl_typesupport_c
+[ 87%] Built target project2-client
+[ 90%] [32mBuilding CXX object CMakeFiles/project2-server.dir/src/kinematic_control.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/project2-server.dir/src/project2-server.cpp.o[0m
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:93:2:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K}[m[K' at end of input
+   93 | }
+      |  [01;31m[K^[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:10:49:[m[K [01;36m[Knote: [m[Kto match this '[01m[K{[m[K'
+   10 | class ManipulationService : public rclcpp::Node [01;36m[K{[m[K
+      |                                                 [01;36m[K^[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:[m[K In constructor '[01m[KManipulationService::[01;32m[KManipulationService[m[K()[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:13:7:[m[K [01;31m[Kerror: [m[K'[01m[Kservice[m[K' was not declared in this scope
+   13 |       [01;31m[Kservice[m[K = this->create_service< ece217_project2_tan::srv::ManipulationQuery >( "manipulation_query", std::bind( &ManipulationService::generate_manipulation, this, std::placeholders::_1, std::placeholders::_2 ) );
+      |       [01;31m[K^~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:[m[K In member function '[01m[Kvoid ManipulationService::[01;32m[Kgenerate_manipulation[m[K(std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >, std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Response_<std::allocator<void> > >)[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:51:5:[m[K [01;31m[Kerror: [m[K'[01m[Ksensor_msgs[m[K' has not been declared
+   51 |     [01;31m[Ksensor_msgs[m[K::msg::JointState new_joint_angles_msg;
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:52:5:[m[K [01;31m[Kerror: [m[K'[01m[Knew_joint_angles_msg[m[K' was not declared in this scope; did you mean '[01m[Knew_joint_angles[m[K'?
+   52 |     [01;31m[Knew_joint_angles_msg[m[K.header.stamp = this->get_clock()->now();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Knew_joint_angles[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:55:63:[m[K [01;31m[Kerror: [m[K'[01m[Ksensor_msgs[m[K' was not declared in this scope
+   55 |     auto new_joint_angles_publisher = this->create_publisher< [01;31m[Ksensor_msgs[m[K::msg::JointState >( "new_joint_angles",1);
+      |                                                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:55:45:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   55 |     auto new_joint_angles_publisher = this->[01;31m[Kcreate_publisher< sensor_msgs::msg::JointState >[m[K( "new_joint_angles",1);
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:55:93:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[KManipulationService::create_publisher<<expression error> >(const char [17], int)[m[K'
+   55 |     auto new_joint_angles_publisher = [01;31m[Kthis->create_publisher< sensor_msgs::msg::JointState >( "new_joint_angles",1)[m[K;
+      |                                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:2[m[K:
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K'
+  197 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:55:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   55 |     auto new_joint_angles_publisher = [01;31m[Kthis->create_publisher< sensor_msgs::msg::JointState >( "new_joint_angles",1)[m[K;
+      |                                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:19:100:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kresponse[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   19 |               [01;35m[Kconst std::shared_ptr< ece217_project2_tan::srv::ManipulationQuery::Response > response[m[K ){
+      |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:[m[K At global scope:
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:93:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   93 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/project2-server.dir/build.make:79: CMakeFiles/project2-server.dir/src/project2-server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:808: CMakeFiles/project2-server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
