@@ -1,0 +1,51 @@
+[0.015s] Invoking command in '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan': CONDA_PROMPT_MODIFIER=(ros2_env) _=/usr/bin/env /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/cmake --build /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan -- -j1 -l1
+[0.098s] [  2%] Built target ece217_project2_tan__rosidl_generator_type_description
+[0.121s] [  4%] Built target ece217_project2_tan__cpp
+[0.146s] [ 17%] Built target ece217_project2_tan__rosidl_generator_c
+[0.200s] [ 24%] Built target ece217_project2_tan__rosidl_typesupport_cpp
+[0.229s] [ 31%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_c
+[2.933s] [ 39%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_cpp
+[2.958s] [ 46%] Built target ece217_project2_tan__rosidl_typesupport_introspection_c
+[4.307s] [ 53%] Built target ece217_project2_tan__rosidl_typesupport_c
+[4.333s] [ 60%] Built target ece217_project2_tan__rosidl_typesupport_introspection_cpp
+[4.355s] [ 60%] Built target ece217_project2_tan
+[6.982s] [ 60%] Built target ament_cmake_python_copy_ece217_project2_tan
+[7.258s] running egg_info
+[7.283s] writing ece217_project2_tan.egg-info/PKG-INFO
+[7.283s] writing dependency_links to ece217_project2_tan.egg-info/dependency_links.txt
+[7.284s] writing top-level names to ece217_project2_tan.egg-info/top_level.txt
+[7.362s] reading manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+[7.363s] writing manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+[7.391s] [ 60%] Built target ament_cmake_python_build_ece217_project2_tan_egg
+[7.415s] [ 63%] Built target ece217_project2_tan__py
+[7.442s] [ 68%] Built target ece217_project2_tan__rosidl_generator_py
+[7.468s] [ 73%] Built target ece217_project2_tan_s__rosidl_typesupport_fastrtps_c
+[7.493s] [ 78%] Built target ece217_project2_tan_s__rosidl_typesupport_introspection_c
+[7.518s] [ 82%] Built target ece217_project2_tan_s__rosidl_typesupport_c
+[7.620s] [ 87%] Built target project2-client
+[7.671s] [ 95%] Built target project2-server
+[7.848s] [ 97%] [32mBuilding CXX object CMakeFiles/joint-state-publisher.dir/src/joint-state-publisher.cpp.o[0m
+[10.470s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:38:30:[m[K [01;35m[Kwarning: [m[Kuse of '[01m[Kauto[m[K' in parameter declaration only available with '[01m[K-std=c++20[m[K' or '[01m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/C_002b_002b-Dialect-Options.html#index-fconcepts-fconcepts]8;;[m[K'
+[10.470s]    38 |     void subscriber_callback([01;35m[Kauto[m[K msg){
+[10.470s]       |                              [01;35m[K^~~~[m[K
+[10.483s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:[m[K In member function '[01m[Kvoid RobotJointStatePublisher::[01;32m[Kpublish[m[K()[m[K':
+[10.483s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:48:97:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[KRobotJointStatePublisher::create_subscription<sensor_msgs::msg::JointState>(const char [17], int, <unresolved overloaded function type>)[m[K'
+[10.483s]    48 | nt_angles_subscriber = [01;31m[Kthis->create_subscription<sensor_msgs::msg::JointState>("new_joint_anlges",1,subscriber_callback)[m[K;
+[10.483s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.483s] 
+[10.483s] In file included from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[10.483s]                  from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[10.483s]                  from [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[10.484s]                  from [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:3[m[K:
+[10.484s] [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/node.hpp:221:3:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::[01;32m[Kcreate_subscription[m[K(const std::string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K'
+[10.485s]   221 |   [01;36m[Kcreate_subscription[m[K(
+[10.485s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.485s] [01m[K/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/node.hpp:221:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.485s] [01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:48:97:[m[K [01;36m[Knote: [m[K  couldn't deduce template parameter '[01m[KCallbackT[m[K'
+[10.485s]    48 | nt_angles_subscriber = [01;36m[Kthis->create_subscription<sensor_msgs::msg::JointState>("new_joint_anlges",1,subscriber_callback)[m[K;
+[10.485s]       |                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.485s] 
+[11.612s] gmake[2]: *** [CMakeFiles/joint-state-publisher.dir/build.make:79: CMakeFiles/joint-state-publisher.dir/src/joint-state-publisher.cpp.o] Error 1
+[11.612s] gmake[1]: *** [CMakeFiles/Makefile2:842: CMakeFiles/joint-state-publisher.dir/all] Error 2
+[11.612s] gmake: *** [Makefile:146: all] Error 2
+[11.613s] Invoked command in '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan' returned '2': CONDA_PROMPT_MODIFIER=(ros2_env) _=/usr/bin/env /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/cmake --build /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan -- -j1 -l1

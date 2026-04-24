@@ -35,7 +35,18 @@ class RobotJointStatePublisher : public rclcpp::Node {
 
     }
 
+    void subscriber_callback(auto msg){
+      std::cout << "In subscriber_callback" << std::endl;
+      std::cout << "joint1theta:" << msg[0] << " joint2theta:" << msg[1] << std::endl;
+
+
+    }
+
     void publish( void ){
+
+      // create subscriber to subscribe from the server
+      auto new_joint_angles_subscriber = this->create_subscription<sensor_msgs::msg::JointState>("new_joint_anlges",1,subscriber_callback);
+
       sensor_msgs::msg::JointState joint_state_msg;
       joint_state_msg.header.stamp = this->get_clock()->now();
       joint_state_msg.name = { "joint1theta", "joint2theta", "joint3theta", "joint4theta", "joint5theta", "joint6theta" };

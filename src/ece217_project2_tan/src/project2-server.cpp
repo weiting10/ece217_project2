@@ -69,7 +69,7 @@ class ManipulationService : public rclcpp::Node {
                                  request->goal.orientation.y,
                                  request->goal.orientation.z,
                                  request->goal.orientation.w);
-	    new_joint_angles_msg = {new_joint_angles[0],new_joint_angles[1],new_joint_angles[2],new_joint_angles[3],new_joint_angles[4],new_joint_angles[5]};
+	    new_joint_angles_msg.position = {new_joint_angles[0],new_joint_angles[1],new_joint_angles[2],new_joint_angles[3],new_joint_angles[4],new_joint_angles[5]};
 	    new_joint_angles_publisher -> publish( new_joint_angles_msg );
 
       }
