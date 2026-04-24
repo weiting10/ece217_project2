@@ -2,6 +2,7 @@
 #include <rclcpp/rclcpp.hpp>
 #include <Eigen/Dense>
 #include <Eigen/Core>
+#include <tuple>
 
 #include "ece217_project2_tan/srv/manipulation_query.hpp"
 #include "ece217_project2_tan/project2-server.h"
@@ -47,12 +48,12 @@ class ManipulationService : public rclcpp::Node {
 	      			 request->goal.orientation.w); 
 		      
     while( check == false ){
-      auto [check,new_joint_angles] = kinematic((double)new_joint_angles[0],
-                                 (double)new_joint_angles[1],
-                                 (double)new_joint_angles[2],
-                                 (double)new_joint_angles[3],
-                                 (double)new_joint_angles[4],
-                                 (double)new_joint_angles[5],
+	    std::tie(check,new_joint_angles) = kinematic(new_joint_angles[0],
+                                 new_joint_angles[1],
+                                 new_joint_angles[2],
+                                 new_joint_angles[3],
+                                 new_joint_angles[4],
+                                 new_joint_angles[5],
                                  request->goal.position.x,
                                  request->goal.position.y, 
                                  request->goal.position.z,

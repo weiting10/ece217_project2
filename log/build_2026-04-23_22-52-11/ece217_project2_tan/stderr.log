@@ -1,0 +1,25 @@
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:[m[K In member function '[01m[Kvoid ManipulationService::[01;32m[Kgenerate_manipulation[m[K(std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >, std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Response_<std::allocator<void> > >)[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:50:57:[m[K [01;31m[Kerror: [m[Kuse of '[01m[Knew_joint_angles[m[K' before deduction of '[01m[Kauto[m[K'
+   50 |       auto [check,new_joint_angles] = kinematic((double)[01;31m[Knew_joint_angles[m[K[0],
+      |                                                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:51:42:[m[K [01;31m[Kerror: [m[Kuse of '[01m[Knew_joint_angles[m[K' before deduction of '[01m[Kauto[m[K'
+   51 |                                  (double)[01;31m[Knew_joint_angles[m[K[1],
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:52:42:[m[K [01;31m[Kerror: [m[Kuse of '[01m[Knew_joint_angles[m[K' before deduction of '[01m[Kauto[m[K'
+   52 |                                  (double)[01;31m[Knew_joint_angles[m[K[2],
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:53:42:[m[K [01;31m[Kerror: [m[Kuse of '[01m[Knew_joint_angles[m[K' before deduction of '[01m[Kauto[m[K'
+   53 |                                  (double)[01;31m[Knew_joint_angles[m[K[3],
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:54:42:[m[K [01;31m[Kerror: [m[Kuse of '[01m[Knew_joint_angles[m[K' before deduction of '[01m[Kauto[m[K'
+   54 |                                  (double)[01;31m[Knew_joint_angles[m[K[4],
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:55:42:[m[K [01;31m[Kerror: [m[Kuse of '[01m[Knew_joint_angles[m[K' before deduction of '[01m[Kauto[m[K'
+   55 |                                  (double)[01;31m[Knew_joint_angles[m[K[5],
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:18:100:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kresponse[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   18 |                     [01;35m[Kconst std::shared_ptr< ece217_project2_tan::srv::ManipulationQuery::Response > response[m[K ){
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/project2-server.dir/build.make:79: CMakeFiles/project2-server.dir/src/project2-server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:808: CMakeFiles/project2-server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
