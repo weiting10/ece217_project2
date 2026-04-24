@@ -22,6 +22,9 @@ class RobotJointStatePublisher : public rclcpp::Node {
 
       //this line is calling the publish function every 100ms
       timer = this->create_wall_timer( std::chrono_literals::operator""ms(100), std::bind(&RobotJointStatePublisher::publish, this) );
+	
+      // i don't understand the subscriber_callback
+      new_joint_angles_subscriber = this->create_subscription<sensor_msgs::msg::JointState>("new_joint_anlges",1,std::bind(&RobotJointStatePublisher::subscriber_callback, this, std::placeholdes::_1);
 
       joint_angles.resize(6);
       joint_angles[0] = 0.0;
@@ -35,9 +38,10 @@ class RobotJointStatePublisher : public rclcpp::Node {
 
     }
 
-    void subscriber_callback(auto msg){
+    //i don't understand the input datatype
+    void subscriber_callback(const sensor_msgs::msg::JointState::SharedPtr msg){
       std::cout << "In subscriber_callback" << std::endl;
-      std::cout << "joint1theta:" << msg[0] << " joint2theta:" << msg[1] << std::endl;
+      std::cout << "joint1theta:" << msg->position[0] << " joint2theta:" << msg->position[1] << std::endl;
 
 
     }

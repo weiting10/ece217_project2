@@ -1,0 +1,19 @@
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:[m[K In constructor '[01m[KRobotJointStatePublisher::[01;32m[KRobotJointStatePublisher[m[K()[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:27:7:[m[K [01;31m[Kerror: [m[K'[01m[Knew_joint_angles_subscriber[m[K' was not declared in this scope
+   27 |       [01;31m[Knew_joint_angles_subscriber[m[K = this->create_subscription<sensor_msgs::msg::JointState>("new_joint_anlges",1,std::bind(&RobotJointStatePublisher::subscriber_callback, this, std::placeholdes::_1);
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:27:183:[m[K [01;31m[Kerror: [m[K'[01m[Kstd::placeholdes[m[K' has not been declared
+   27 | nlges",1,std::bind(&RobotJointStatePublisher::subscriber_callback, this, std::[01;31m[Kplaceholdes[m[K::_1);
+      |                                                                               [01;31m[K^~~~~~~~~~~[m[K
+
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:[m[K In member function '[01m[Kvoid RobotJointStatePublisher::[01;32m[Kpublish[m[K()[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:52:119:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function '[01m[Kvoid RobotJointStatePublisher::[01;32m[Ksubscriber_callback[m[K(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K'
+   52 |  this->create_subscription<sensor_msgs::msg::JointState>("new_joint_anlges",1,[01;31m[Ksubscriber_callback[m[K);
+      |                                                                               [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:42:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   42 |     void [01;36m[Ksubscriber_callback[m[K(const sensor_msgs::msg::JointState::SharedPtr msg){
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/joint-state-publisher.dir/build.make:79: CMakeFiles/joint-state-publisher.dir/src/joint-state-publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:842: CMakeFiles/joint-state-publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
