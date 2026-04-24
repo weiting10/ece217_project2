@@ -32,8 +32,8 @@ class ManipulationService : public rclcpp::Node {
      std::cout << "Request goal orientation: " << "[(" <<request->goal.orientation.x <<"," << request->goal.orientation.y << "," << request->goal.orientation.z << "), " << request->goal.orientation.w << " ]" <<std::endl;
 
 
-    // call algorithm function "kinematic"
-    auto [check,new_joint_angles] = kinematic(request->joint_angles[0],
+     // call algorithm function "kinematic"
+     auto [check,new_joint_angles] = kinematic(request->joint_angles[0],
 	   			 request->joint_angles[1],
 	      			 request->joint_angles[2],
 			         request->joint_angles[3],
@@ -47,15 +47,15 @@ class ManipulationService : public rclcpp::Node {
 	      			 request->goal.orientation.z,
 	      			 request->goal.orientation.w); 
 
-    // create a publisher to publish new_joint_angles to the "joint-state-publihser.cpp" 
-    sensor_msgs::msg::JointState new_joint_angles_msg;
-    new_joint_angles_msg.header.stamp = this->get_clock()->now();
-    new_joint_angles_msg.name = { "joint1theta", "joint2theta", "joint3theta", "joint4theta", "joint5theta", "joint6theta" };
+      // create a publisher to publish new_joint_angles to the "joint-state-publihser.cpp" 
+      sensor_msgs::msg::JointState new_joint_angles_msg;
+      new_joint_angles_msg.header.stamp = this->get_clock()->now();
+      new_joint_angles_msg.name = { "joint1theta", "joint2theta", "joint3theta", "joint4theta", "joint5theta", "joint6theta" };
     
-    auto new_joint_angles_publisher = this->create_publisher< sensor_msgs::msg::JointState >( "new_joint_angles",1);
+      auto new_joint_angles_publisher = this->create_publisher< sensor_msgs::msg::JointState >( "new_joint_angles",1);
 
 
-    while( check == false ){
+      while( check == false ){
 	    std::tie(check,new_joint_angles) = kinematic(new_joint_angles[0],
                                  new_joint_angles[1],
                                  new_joint_angles[2],
@@ -72,9 +72,9 @@ class ManipulationService : public rclcpp::Node {
 	    new_joint_angles_msg = {new_joint_angles[0],new_joint_angles[1],new_joint_angles[2],new_joint_angles[3],new_joint_angles[4],new_joint_angles[5]};
 	    new_joint_angles_publisher -> publish( new_joint_angles_msg );
 
+      }
 
-
-      RCLCPP_INFO( rclcpp::get_logger( "rclcpp" ), "Outgoing manipulation response");
+        RCLCPP_INFO( rclcpp::get_logger( "rclcpp" ), "Outgoing manipulation response");
 
     }
 
@@ -83,7 +83,7 @@ class ManipulationService : public rclcpp::Node {
     //    std::shared_ptr< rclcpp::Publisher< visualization_msgs::msg::MarkerArray_<std::allocator<void> >, std::allocator<void> > > planner_viz_publisher;
  
 };
-};
+
 
 int main( int argc, char* argv[] ){
   rclcpp::init( argc, argv);
