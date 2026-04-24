@@ -1,0 +1,173 @@
+[0.054s] Invoking command in '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan': CONDA_PROMPT_MODIFIER=(ros2_env) _=/usr/bin/env /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/cmake --build /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan -- -j2 -l2
+[0.120s] [  2%] Built target ece217_project2_tan__rosidl_generator_type_description
+[0.180s] [  2%] Built target ament_cmake_python_copy_ece217_project2_tan
+[0.204s] [  4%] Built target ece217_project2_tan__cpp
+[0.240s] [ 17%] Built target ece217_project2_tan__rosidl_generator_c
+[0.583s] running egg_info
+[0.618s] writing ece217_project2_tan.egg-info/PKG-INFO
+[0.618s] writing dependency_links to ece217_project2_tan.egg-info/dependency_links.txt
+[0.619s] writing top-level names to ece217_project2_tan.egg-info/top_level.txt
+[0.726s] reading manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+[0.726s] writing manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'
+[0.759s] [ 17%] Built target ament_cmake_python_build_ece217_project2_tan_egg
+[0.789s] [ 24%] Built target ece217_project2_tan__rosidl_typesupport_cpp
+[0.819s] [ 31%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_c
+[0.848s] [ 39%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_cpp
+[0.876s] [ 46%] Built target ece217_project2_tan__rosidl_typesupport_introspection_c
+[0.903s] [ 53%] Built target ece217_project2_tan__rosidl_typesupport_c
+[1.006s] [ 60%] Built target ece217_project2_tan__rosidl_typesupport_introspection_cpp
+[1.061s] [ 65%] Built target project2-client
+[1.102s] [ 73%] Built target project2-server
+[1.155s] [ 75%] [32mBuilding CXX object CMakeFiles/joint-state-publisher.dir/src/joint-state-publisher.cpp.o[0m
+[9.957s] [ 78%] [1m[32mLinking CXX executable joint-state-publisher[0m
+[10.151s] [ 78%] Built target joint-state-publisher
+[10.175s] [ 78%] Built target ece217_project2_tan
+[10.199s] [ 80%] Built target ece217_project2_tan__py
+[10.228s] [ 85%] Built target ece217_project2_tan__rosidl_generator_py
+[10.256s] [ 90%] Built target ece217_project2_tan_s__rosidl_typesupport_fastrtps_c
+[10.283s] [ 95%] Built target ece217_project2_tan_s__rosidl_typesupport_introspection_c
+[10.310s] [100%] Built target ece217_project2_tan_s__rosidl_typesupport_c
+[10.331s] Invoked command in '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan' returned '0': CONDA_PROMPT_MODIFIER=(ros2_env) _=/usr/bin/env /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/cmake --build /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan -- -j2 -l2
+[10.342s] Invoking command in '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan': CONDA_PROMPT_MODIFIER=(ros2_env) _=/usr/bin/env /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/cmake --install /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan
+[10.350s] -- Install configuration: ""
+[10.351s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ament_index/resource_index/rosidl_interfaces/ece217_project2_tan
+[10.351s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/srv/ManipulationQuery.json
+[10.351s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan
+[10.351s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/msg
+[10.351s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/msg/rosidl_generator_c__visibility_control.h
+[10.351s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv
+[10.352s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail
+[10.352s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__type_support.h
+[10.352s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__type_support.c
+[10.352s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__functions.h
+[10.352s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__struct.h
+[10.352s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__functions.c
+[10.352s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__description.c
+[10.353s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/manipulation_query.h
+[10.353s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/environment/library_path.sh
+[10.353s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/environment/library_path.dsv
+[10.353s] -- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_generator_c.so
+[10.353s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan
+[10.353s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/msg
+[10.353s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.354s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv
+[10.354s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail
+[10.354s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__rosidl_typesupport_fastrtps_c.h
+[10.354s] -- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_fastrtps_c.so
+[10.355s] -- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_fastrtps_c.so" to ""
+[10.355s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan
+[10.355s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/msg
+[10.355s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.355s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv
+[10.355s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/manipulation_query.hpp
+[10.355s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail
+[10.355s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__builder.hpp
+[10.355s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__type_support.hpp
+[10.355s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__struct.hpp
+[10.356s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__traits.hpp
+[10.356s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan
+[10.356s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/msg
+[10.356s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.356s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv
+[10.356s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail
+[10.356s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/dds_fastrtps
+[10.356s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__rosidl_typesupport_fastrtps_cpp.hpp
+[10.356s] -- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_fastrtps_cpp.so
+[10.357s] -- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.357s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan
+[10.357s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/msg
+[10.357s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.358s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv
+[10.358s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail
+[10.358s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__type_support.c
+[10.358s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__rosidl_typesupport_introspection_c.h
+[10.358s] -- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_introspection_c.so
+[10.359s] -- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_introspection_c.so" to ""
+[10.359s] -- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_c.so
+[10.360s] -- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_c.so" to ""
+[10.360s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan
+[10.360s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv
+[10.360s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail
+[10.360s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__rosidl_typesupport_introspection_cpp.hpp
+[10.360s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__type_support.cpp
+[10.361s] -- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_introspection_cpp.so
+[10.361s] -- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_introspection_cpp.so" to ""
+[10.362s] -- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_cpp.so
+[10.362s] -- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_cpp.so" to ""
+[10.363s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/environment/pythonpath.sh
+[10.363s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/environment/pythonpath.dsv
+[10.363s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan-0.0.0-py3.12.egg-info
+[10.363s] -- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan-0.0.0-py3.12.egg-info/SOURCES.txt
+[10.365s] -- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan-0.0.0-py3.12.egg-info/PKG-INFO
+[10.366s] -- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan-0.0.0-py3.12.egg-info/dependency_links.txt
+[10.367s] -- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan-0.0.0-py3.12.egg-info/top_level.txt
+[10.369s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan
+[10.369s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/_ece217_project2_tan_s.ep.rosidl_typesupport_introspection_c.c
+[10.369s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_c.so
+[10.370s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/__init__.py
+[10.370s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_introspection_c.so
+[10.370s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/_ece217_project2_tan_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.370s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/srv
+[10.370s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/srv/_manipulation_query_s.c
+[10.370s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/srv/__init__.py
+[10.370s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/srv/_manipulation_query.py
+[10.370s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_fastrtps_c.so
+[10.370s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/_ece217_project2_tan_s.ep.rosidl_typesupport_c.c
+[10.415s] Listing '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan'...
+[10.415s] Listing '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/srv'...
+[10.420s] -- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_fastrtps_c.so
+[10.421s] -- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_fastrtps_c.so" to ""
+[10.422s] -- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_introspection_c.so
+[10.423s] -- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_introspection_c.so" to ""
+[10.424s] -- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_c.so
+[10.425s] -- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_c.so" to ""
+[10.425s] -- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_generator_py.so
+[10.426s] -- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_generator_py.so" to ""
+[10.426s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/srv/ManipulationQuery.idl
+[10.426s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/srv/ManipulationQuery.srv
+[10.427s] -- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/ece217_project2_tan/project2-client
+[10.429s] -- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/ece217_project2_tan/project2-client" to ""
+[10.429s] -- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/ece217_project2_tan/project2-server
+[10.431s] -- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/ece217_project2_tan/project2-server" to ""
+[10.431s] -- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/ece217_project2_tan/joint-state-publisher
+[10.432s] -- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/ece217_project2_tan/joint-state-publisher" to ""
+[10.433s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ament_index/resource_index/package_run_dependencies/ece217_project2_tan
+[10.433s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ament_index/resource_index/parent_prefix_path/ece217_project2_tan
+[10.433s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/environment/ament_prefix_path.sh
+[10.433s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/environment/ament_prefix_path.dsv
+[10.433s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/environment/path.sh
+[10.433s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/environment/path.dsv
+[10.433s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/local_setup.bash
+[10.433s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/local_setup.sh
+[10.434s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/local_setup.zsh
+[10.434s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/local_setup.dsv
+[10.434s] -- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/package.dsv
+[10.434s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ament_index/resource_index/packages/ece217_project2_tan
+[10.434s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/export_ece217_project2_tan__rosidl_generator_cExport.cmake
+[10.435s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/export_ece217_project2_tan__rosidl_generator_cExport-noconfig.cmake
+[10.435s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/export_ece217_project2_tan__rosidl_typesupport_fastrtps_cExport.cmake
+[10.435s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/export_ece217_project2_tan__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.435s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/export_ece217_project2_tan__rosidl_generator_cppExport.cmake
+[10.435s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/export_ece217_project2_tan__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.435s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/export_ece217_project2_tan__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.435s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ece217_project2_tan__rosidl_typesupport_introspection_cExport.cmake
+[10.436s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ece217_project2_tan__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.436s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ece217_project2_tan__rosidl_typesupport_cExport.cmake
+[10.436s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ece217_project2_tan__rosidl_typesupport_cExport-noconfig.cmake
+[10.436s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ece217_project2_tan__rosidl_typesupport_introspection_cppExport.cmake
+[10.436s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ece217_project2_tan__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.436s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ece217_project2_tan__rosidl_typesupport_cppExport.cmake
+[10.436s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ece217_project2_tan__rosidl_typesupport_cppExport-noconfig.cmake
+[10.437s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/export_ece217_project2_tan__rosidl_generator_pyExport.cmake
+[10.437s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/export_ece217_project2_tan__rosidl_generator_pyExport-noconfig.cmake
+[10.437s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/rosidl_cmake-extras.cmake
+[10.437s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.437s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.437s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ament_cmake_export_libraries-extras.cmake
+[10.437s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ament_cmake_export_targets-extras.cmake
+[10.437s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.437s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.437s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ece217_project2_tanConfig.cmake
+[10.438s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ece217_project2_tanConfig-version.cmake
+[10.438s] -- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/package.xml
+[10.441s] Invoked command in '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan' returned '0': CONDA_PROMPT_MODIFIER=(ros2_env) _=/usr/bin/env /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/cmake --install /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan

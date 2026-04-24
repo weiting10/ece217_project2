@@ -13,7 +13,7 @@ class RobotJointStatePublisher : public rclcpp::Node {
       
       //create a publisher of datatype sensor_mgsg::msg::JointState; this has property of float64[] position
       // create a publisher on topic "joint_state"
-      joint_state_publisher = this->create_publisher< sensor_msgs::msg::JointState >( "joint_state",1);
+      joint_state_publisher = this->create_publisher< sensor_msgs::msg::JointState >( "joint_states",1);
       
       //This class provides an easy way to publish coordinate frame transform information
       broadcaster = std::make_shared<tf2_ros::TransformBroadcaster>(this);
