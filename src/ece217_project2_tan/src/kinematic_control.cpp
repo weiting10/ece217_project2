@@ -6,16 +6,21 @@
 #include <unistd.h>
 #include <Eigen/Dense>
 #include <Eigen/Core>
+#include <utility>
 #include "ece217_project2_tan/project2-server.h"
 
 Eigen::MatrixXd compute_dh_table(double theta1, double theta2, double theta3, double theta4, double theta5, double theta6);
 Eigen::Matrix4d dhTransform(double a, double alpha, double d, double theta);
 
-Eigen::VectorXd kinematic(double joint1theta, double joint2theta, double joint3theta, double joint4theta, double joint5theta, double joint6theta, 
+std::pair<bool, Eigen::VectorXd> kinematic(double joint1theta, double joint2theta, double joint3theta, double joint4theta, double joint5theta, double joint6theta, 
 		double goal_x, double goal_y, double goal_z, double q_x, double q_y, double q_z, double q_w){
 
 	// initialize a 6 * 6 matrix
 	Eigen::MatrixXd dh_table(6,6);
+
+	// store the input joint angles into a vector
+	Eigen::VectorXd original_joint_angles(6);
+        original_joint_angles << joint1theta, joint2theta, joint3theta, joint4theta, joint5theta, joint6theta;
 
 	// compute dh table with q
 	dh_table = compute_dh_table(joint1theta, joint2theta, joint3theta, joint4theta, joint5theta, joint6theta);
@@ -57,6 +62,15 @@ Eigen::VectorXd kinematic(double joint1theta, double joint2theta, double joint3t
 
 	std::cout << "The goal quaternion is: [(" << goal_q.x() << " , " << goal_q.y() << " , " << goal_q.z() << "), " << goal_q.w() << "]" << std::endl ;
 	std::cout << "The goal end effector position is: (" << goal_p << ")" << std::endl;
+
+	// check if the current pose is the same as goal pose
+	// if so, return
+	int e = 0.1;
+
+	if( (fabs(p(0) - goal_x) < e) && (fabs(p(1) - goal_y) < e) && (fabs(p(2) - goal_z) < e) && (fabs(q.x() - q_x) < e) && (fabs(q.y() - q_y) < e) &&(fabs(q.z() - q_z) < e) &&(fabs(q.w() - q_w) < e) ){
+	  return {true, original_joint_angles};
+	}
+
 
 	// calculate the position error
 	Eigen::Vector3d errorp;
@@ -141,13 +155,12 @@ Eigen::VectorXd kinematic(double joint1theta, double joint2theta, double joint3t
 	Eigen::VectorXd joint_angles_velocity(6);
 	joint_angles_velocity = inverse_jacobian * ee_velocity;
 
-	// store the original joint angles and calcualte new joint angles(q new)
-	Eigen::VectorXd original_joint_angles(6);
-	original_joint_angles << joint1theta, joint2theta, joint3theta, joint4theta, joint5theta, joint6theta;	
+	// calcualte new joint angles(q new)
 	Eigen::VectorXd new_joint_angles(6);
 	new_joint_angles = joint_angles_velocity * 0.01 + original_joint_angles;
 
-        return new_joint_angles;	
+
+        return {false, new_joint_angles};	
   
 
 }

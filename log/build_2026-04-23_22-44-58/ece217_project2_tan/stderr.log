@@ -1,0 +1,48 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[33mCMake Warning (dev) at CMakeLists.txt:12 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:[m[K In function '[01m[Kstd::pair<bool, Eigen::Matrix<double, -1, 1> >[01;32m[K kinematic[m[K(double, double, double, double, double, double, double, double, double, double, double, double, double)[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:70:193:[m[K [01;31m[Kerror: [m[K'[01m[Kw_x[m[K' was not declared in this scope; did you mean '[01m[Kq_x[m[K'?
+   70 |         if( (fabs(p(0) - goal_x) < e) && (fabs(p(1) - goal_y) < e) && (fabs(p(2) - goal_z) < e) && (fabs(q.x() - q_x) < e) && (fabs(q.y() - q_y) < e) &&(fabs(q.z() - q_z) < e) &&(fabs(q.w() - [01;31m[Kw_x[m[K) < e) ){
+      |                                                                                                                                                                                                 [01;31m[K^~~[m[K
+      |                                                                                                                                                                                                 [32m[Kq_x[m[K
+gmake[2]: *** [CMakeFiles/project2-server.dir/build.make:93: CMakeFiles/project2-server.dir/src/kinematic_control.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:[m[K In member function '[01m[Kvoid ManipulationService::[01;32m[Kgenerate_manipulation[m[K(std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >, std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Response_<std::allocator<void> > >)[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:35:5:[m[K [01;31m[Kerror: [m[K'[01m[KEigenVectorXd[m[K' was not declared in this scope
+   35 |     [01;31m[KEigenVectorXd[m[K new_joint_anlges(6);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:51:16:[m[K [01;31m[Kerror: [m[Kmissing template arguments before '[01m[K{[m[K' token
+   51 |       std::pair[01;31m[K{[m[Kbool,Eigen::VectorXd} [check,new_joint_angles] = kinematic((double)new_joint_angles[0],
+      |                [01;31m[K^[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:[m[K In lambda function:
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:51:64:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K{[m[K' before '[01m[K=[m[K' token
+   51 |       std::pair{bool,Eigen::VectorXd} [check,new_joint_angles] [01;31m[K=[m[K kinematic((double)new_joint_angles[0],
+      |                                                                [01;31m[K^[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:[m[K In member function '[01m[Kvoid ManipulationService::[01;32m[Kgenerate_manipulation[m[K(std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >, std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Response_<std::allocator<void> > >)[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:63:61:[m[K [01;31m[Kerror: [m[Kno match for '[01m[Koperator=[m[K' (operand types are '[01m[KManipulationService::generate_manipulation(std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >, std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Response_<std::allocator<void> > >)::<lambda()>[m[K' and '[01m[Kstd::pair<bool, Eigen::Matrix<double, -1, 1> >[m[K')
+   63 |                                  request->goal.orientation.w[01;31m[K)[m[K;
+      |                                                             [01;31m[K^[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:51:62:[m[K [01;36m[Knote: [m[Kcandidate: '[01m[KManipulationService::generate_manipulation(std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >, std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Response_<std::allocator<void> > >)::<lambda()>& ManipulationService::generate_manipulation(std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >, std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Response_<std::allocator<void> > >)::<lambda()>::[01;32m[Koperator=[m[K(const ManipulationService::generate_manipulation(std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >, std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Response_<std::allocator<void> > >)::<lambda()>&)[m[K' (deleted)
+   51 |       std::pair{bool,Eigen::VectorXd} [check,new_joint_angles[01;36m[K][m[K = kinematic((double)new_joint_angles[0],
+      |                                                              [01;36m[K^[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:51:62:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[Kstd::pair<bool, Eigen::Matrix<double, -1, 1> >[m[K' to '[01m[Kconst ManipulationService::generate_manipulation(std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Request_<std::allocator<void> > >, std::shared_ptr<ece217_project2_tan::srv::ManipulationQuery_Response_<std::allocator<void> > >)::<lambda()>&[m[K'
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/project2-server.cpp:18:100:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kresponse[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   18 |                     [01;35m[Kconst std::shared_ptr< ece217_project2_tan::srv::ManipulationQuery::Response > response[m[K ){
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/project2-server.dir/build.make:79: CMakeFiles/project2-server.dir/src/project2-server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:808: CMakeFiles/project2-server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

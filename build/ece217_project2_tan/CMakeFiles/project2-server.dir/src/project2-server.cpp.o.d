@@ -696,19 +696,6 @@ CMakeFiles/project2-server.dir/src/project2-server.cpp.o: \
  /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/parameter_map.hpp \
  /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/parameter_event_handler.hpp \
  /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/parameter_service.hpp \
- /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/rosidl_generator_cpp/ece217_project2_tan/srv/manipulation_query.hpp \
- /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/rosidl_generator_cpp/ece217_project2_tan/srv/detail/manipulation_query__struct.hpp \
- /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
- /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
- /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
- /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/rosidl_generator_cpp/ece217_project2_tan/srv/detail/manipulation_query__builder.hpp \
- /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/rosidl_generator_cpp/ece217_project2_tan/srv/detail/manipulation_query__traits.hpp \
- /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
- /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
- /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
- /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/rosidl_generator_cpp/ece217_project2_tan/srv/detail/manipulation_query__type_support.hpp \
- /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/rosidl_generator_cpp/ece217_project2_tan/msg/rosidl_generator_cpp__visibility_control.hpp \
- /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/include/ece217_project2_tan/project2-server.h \
  /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/Dense \
  /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/Core \
  /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
@@ -914,4 +901,18 @@ CMakeFiles/project2-server.dir/src/project2-server.cpp.o: \
  /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
  /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
  /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/src/Eigenvalues/./RealQZ.h \
- /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+ /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+ /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/Core \
+ /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/rosidl_generator_cpp/ece217_project2_tan/srv/manipulation_query.hpp \
+ /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/rosidl_generator_cpp/ece217_project2_tan/srv/detail/manipulation_query__struct.hpp \
+ /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
+ /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
+ /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
+ /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/rosidl_generator_cpp/ece217_project2_tan/srv/detail/manipulation_query__builder.hpp \
+ /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/rosidl_generator_cpp/ece217_project2_tan/srv/detail/manipulation_query__traits.hpp \
+ /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
+ /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+ /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+ /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/rosidl_generator_cpp/ece217_project2_tan/srv/detail/manipulation_query__type_support.hpp \
+ /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan/rosidl_generator_cpp/ece217_project2_tan/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/include/ece217_project2_tan/project2-server.h

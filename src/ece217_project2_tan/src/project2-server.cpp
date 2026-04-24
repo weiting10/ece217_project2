@@ -1,5 +1,7 @@
 #include <iostream>
 #include <rclcpp/rclcpp.hpp>
+#include <Eigen/Dense>
+#include <Eigen/Core>
 
 #include "ece217_project2_tan/srv/manipulation_query.hpp"
 #include "ece217_project2_tan/project2-server.h"
@@ -30,23 +32,37 @@ class ManipulationService : public rclcpp::Node {
 
 
     // call algorithm function "kinematic"
-    kinematic(request->joint_angles[0],
-	      request->joint_angles[1],
-	      request->joint_angles[2],
-	      request->joint_angles[3],
-	      request->joint_angles[4],
-	      request->joint_angles[5],
-  	      request->goal.position.x,	
-	      request->goal.position.y,	
-	      request->goal.position.z,
-	      request->goal.orientation.x,
-	      request->goal.orientation.y, 
-	      request->goal.orientation.z,
-	      request->goal.orientation.w); 
+    Eigen::VectorXd new_joint_anlges(6);
+    auto [check,new_joint_angles] = kinematic(request->joint_angles[0],
+	   			 request->joint_angles[1],
+	      			 request->joint_angles[2],
+			         request->joint_angles[3],
+	      			 request->joint_angles[4],
+	      			 request->joint_angles[5],
+  	      			 request->goal.position.x,	
+	     			 request->goal.position.y,	
+	      			 request->goal.position.z,
+	      			 request->goal.orientation.x,
+	      			 request->goal.orientation.y, 
+	      			 request->goal.orientation.z,
+	      			 request->goal.orientation.w); 
 		      
-		
-
-
+    while( check == false ){
+      std::pair{bool,Eigen::VectorXd} [check,new_joint_angles] = kinematic((double)new_joint_angles[0],
+                                 (double)new_joint_angles[1],
+                                 (double)new_joint_angles[2],
+                                 (double)new_joint_angles[3],
+                                 (double)new_joint_angles[4],
+                                 (double)new_joint_angles[5],
+                                 request->goal.position.x,
+                                 request->goal.position.y, 
+                                 request->goal.position.z,
+                                 request->goal.orientation.x,
+                                 request->goal.orientation.y,
+                                 request->goal.orientation.z,
+                                 request->goal.orientation.w);
+	  
+      }
 
 
 
