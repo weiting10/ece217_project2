@@ -32,7 +32,6 @@ class ManipulationService : public rclcpp::Node {
 
 
     // call algorithm function "kinematic"
-    Eigen::VectorXd new_joint_anlges(6);
     auto [check,new_joint_angles] = kinematic(request->joint_angles[0],
 	   			 request->joint_angles[1],
 	      			 request->joint_angles[2],
@@ -48,7 +47,7 @@ class ManipulationService : public rclcpp::Node {
 	      			 request->goal.orientation.w); 
 		      
     while( check == false ){
-      std::pair{bool,Eigen::VectorXd} [check,new_joint_angles] = kinematic((double)new_joint_angles[0],
+      auto [check,new_joint_angles] = kinematic((double)new_joint_angles[0],
                                  (double)new_joint_angles[1],
                                  (double)new_joint_angles[2],
                                  (double)new_joint_angles[3],

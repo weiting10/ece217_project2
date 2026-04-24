@@ -259,6 +259,7 @@ CMakeFiles/project2-server.dir/src/kinematic_control.cpp.o: /gpfs/fs1/home/wtan1
   /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_iterator_base_funcs.h \
   /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_iterator_base_types.h \
   /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_pair.h \
+  /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_relops.h \
   /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_tempbuf.h \
   /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_uninitialized.h \
   /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_vector.h \
@@ -335,6 +336,7 @@ CMakeFiles/project2-server.dir/src/kinematic_control.cpp.o: /gpfs/fs1/home/wtan1
   /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/type_traits \
   /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/typeinfo \
   /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/unordered_map \
+  /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/utility \
   /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/vector \
   /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/x86_64-conda-linux-gnu/bits/atomic_word.h \
   /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/x86_64-conda-linux-gnu/bits/c++allocator.h \
@@ -1632,8 +1634,6 @@ libece217_project2_tan__rosidl_generator_c.so:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/x86_64-conda-linux-gnu/bits/cxxabi_tweaks.h:
 
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/utility:
-
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/typeindex:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/thread:
@@ -1663,10 +1663,6 @@ libece217_project2_tan__rosidl_generator_c.so:
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_tree.h:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_set.h:
-
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/variant:
-
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_relops.h:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_raw_storage_iter.h:
 
@@ -2108,15 +2104,15 @@ libece217_project2_tan__rosidl_generator_c.so:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp:
 
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcutils/rcutils/visibility_control_macros.h:
-
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/streambuf.tcc:
-
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/locale_facets_nonio.tcc:
-
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:
-
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/node_handle.h:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/variant:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_relops.h:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/src/Core/Fuzzy.h:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/Core:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/cxxabi_forced.h:
 
@@ -2536,10 +2532,6 @@ libece217_project2_tan__rosidl_generator_c.so:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h:
 
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/src/Core/Fuzzy.h:
-
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/Core:
-
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/src/Core/DenseBase.h:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/future:
@@ -2567,6 +2559,12 @@ libece217_project2_tan__rosidl_generator_c.so:
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/std_function.h:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/x86_64-conda-linux-gnu/bits/gthr.h:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/topic_statistics_state.hpp:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/src/Core/functors/StlFunctors.h:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/system_error:
 
@@ -2607,6 +2605,10 @@ libece217_project2_tan__rosidl_generator_c.so:
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/ptr_traits.h:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/src/Core/BandMatrix.h:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/LU:
 
@@ -2727,6 +2729,8 @@ CMakeFiles/project2-server.dir/src/kinematic_control.cpp.o:
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/src/Core/IndexedView.h:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/utility:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/Geometry:
 
@@ -2946,12 +2950,6 @@ rosidl_generator_cpp/ece217_project2_tan/srv/detail/manipulation_query__type_sup
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/src/plugins/BlockMethods.h:
 
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rclcpp/rclcpp/topic_statistics_state.hpp:
-
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/src/Core/functors/StlFunctors.h:
-
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:
-
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/types.h:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/src/Geometry/Homogeneous.h:
@@ -2977,6 +2975,14 @@ rosidl_generator_cpp/ece217_project2_tan/srv/detail/manipulation_query__traits.h
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl/rcl/time.h:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/locale_facets_nonio.tcc:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcutils/rcutils/visibility_control_macros.h:
+
+/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/streambuf.tcc:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h:
 
@@ -3559,7 +3565,3 @@ rosidl_generator_cpp/ece217_project2_tan/srv/manipulation_query.hpp:
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/type_description_interfaces/type_description_interfaces/msg/detail/field__struct.h:
 
 /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp:
-
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
-
-/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:
