@@ -42,7 +42,7 @@ std::pair<bool, Eigen::VectorXd> kinematic(double joint1theta, double joint2thet
 
 	// extract the rotation matrix from the tranform matrix
 	// .block<rows, columns>(start row, start column)
-	Eigen::Matrix3d rotation_matrix = dh_table.block<3,3>(0,0);
+	Eigen::Matrix3d rotation_matrix = t06.block<3,3>(0,0);
 	
 	// Calculate the quaternion of the current end-effector
 	Eigen::Quaterniond q(rotation_matrix);
@@ -83,7 +83,7 @@ std::pair<bool, Eigen::VectorXd> kinematic(double joint1theta, double joint2thet
 	Eigen::Vector3d goal_quaternion_vector = goal_q.vec();
 	Eigen::Vector3d cross = goal_q.vec().cross(q.vec());
 
-	erroro = quaternion_vector * goal_q.w() - goal_quaternion_vector * q.w() - cross;
+	erroro = q.vec() * goal_q.w() - goal_q.vec() * q.w() - cross;
 
 	//print out the error for debug
 	std::cout << "erroro: " << erroro.transpose()<< std::endl;
@@ -142,15 +142,15 @@ std::pair<bool, Eigen::VectorXd> kinematic(double joint1theta, double joint2thet
 	
 	// calculate end effector position velocity = goal_p_dot + Kp * errorp
 	Eigen::Matrix3d kp;
-	kp << 5,0,0,
-	      0,5,0,
-	      0,0,5;
+	kp << 1,0,0,
+	      0,1,0,
+	      0,0,1;
 	Eigen::Vector3d ee_position_velocity = kp * errorp;    // assuming goal_p_dot is [0,0,0]^T
 
 	Eigen::Matrix3d ko;
-	ko << 5,0,0,
-	      0,5,0,
-	      0,0,5;
+	ko << 1,0,0,
+	      0,1,0,
+	      0,0,1;
 	Eigen::Vector3d ee_orientation_velocity = ko * erroro;	// assuming goal_angular_velocity = [0,0,0]^T
 	
 	Eigen::VectorXd ee_velocity(6);
