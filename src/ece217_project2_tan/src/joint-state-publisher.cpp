@@ -24,7 +24,7 @@ class RobotJointStatePublisher : public rclcpp::Node {
       timer = this->create_wall_timer( std::chrono_literals::operator""ms(100), std::bind(&RobotJointStatePublisher::publish, this) );
 	
       // i don't understand the subscriber_callback
-      new_joint_angles_subscriber = this->create_subscription<sensor_msgs::msg::JointState>("new_joint_anlges",1,std::bind(&RobotJointStatePublisher::subscriber_callback, this, std::placeholdes::_1);
+      new_joint_angles_subscriber = this->create_subscription<sensor_msgs::msg::JointState>("new_joint_angles",1,std::bind(&RobotJointStatePublisher::subscriber_callback, this, std::placeholders::_1));
 
       joint_angles.resize(6);
       joint_angles[0] = 0.0;
@@ -42,6 +42,12 @@ class RobotJointStatePublisher : public rclcpp::Node {
     void subscriber_callback(const sensor_msgs::msg::JointState::SharedPtr msg){
       std::cout << "In subscriber_callback" << std::endl;
       std::cout << "joint1theta:" << msg->position[0] << " joint2theta:" << msg->position[1] << std::endl;
+      joint_angles[0] = msg->position[0];
+      joint_angles[1] = msg->position[1];
+      joint_angles[2] = msg->position[2];
+      joint_angles[3] = msg->position[3];
+      joint_angles[4] = msg->position[4];
+      joint_angles[5] = msg->position[5];
 
 
     }
@@ -49,7 +55,6 @@ class RobotJointStatePublisher : public rclcpp::Node {
     void publish( void ){
 
       // create subscriber to subscribe from the server
-      auto new_joint_angles_subscriber = this->create_subscription<sensor_msgs::msg::JointState>("new_joint_anlges",1,subscriber_callback);
 
       sensor_msgs::msg::JointState joint_state_msg;
       joint_state_msg.header.stamp = this->get_clock()->now();
@@ -83,6 +88,9 @@ class RobotJointStatePublisher : public rclcpp::Node {
     std::shared_ptr< tf2_ros::TransformBroadcaster > broadcaster;
     rclcpp::Rate::SharedPtr loop_rate;
     rclcpp::TimerBase::SharedPtr timer;
+    
+    // i don't understand this line
+    rclcpp::Subscription< sensor_msgs::msg::JointState >::SharedPtr new_joint_angles_subscriber;
 
     std::vector< double > joint_angles;
 

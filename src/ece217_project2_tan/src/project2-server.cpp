@@ -56,6 +56,7 @@ class ManipulationService : public rclcpp::Node {
 
 
       while( check == false ){
+     //for(int i; i<10;i++){
 	    std::tie(check,new_joint_angles) = kinematic(new_joint_angles[0],
                                  new_joint_angles[1],
                                  new_joint_angles[2],

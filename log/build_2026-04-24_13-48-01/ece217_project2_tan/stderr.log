@@ -1,0 +1,18 @@
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:87:13:[m[K [01;31m[Kerror: [m[K'[01m[KSubscriber[m[K' in namespace '[01m[Krclcpp[m[K' does not name a template type
+   87 |     rclcpp::[01;31m[KSubscriber[m[K< sensor_msgs::msg::JointState >::SharedPtr new_joint_angles_subscriber;
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:[m[K In constructor '[01m[KRobotJointStatePublisher::[01;32m[KRobotJointStatePublisher[m[K()[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:27:7:[m[K [01;31m[Kerror: [m[K'[01m[Knew_joint_angles_subscriber[m[K' was not declared in this scope
+   27 |       [01;31m[Knew_joint_angles_subscriber[m[K = this->create_subscription<sensor_msgs::msg::JointState>("new_joint_anlges",1,std::bind(&RobotJointStatePublisher::subscriber_callback, this, std::placeholders::_1);
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:27:200:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K)[m[K' before '[01m[K;[m[K' token
+   27 | 1,std::bind(&RobotJointStatePublisher::subscriber_callback, this, std::placeholders::_1)[01;31m[K;[m[K
+      |                                                                                         [01;31m[K^[m[K
+
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/joint-state-publisher.cpp:27:92:[m[K [01;36m[Knote: [m[Kto match this '[01m[K([m[K'
+   27 | nt_angles_subscriber = this->create_subscription<sensor_msgs::msg::JointState>[01;36m[K([m[K"new_joint_anlges",1,std::bind(&RobotJointStatePublisher::subscriber_callback, this, std::placeholders::_1);
+      |                                                                               [01;36m[K^[m[K
+
+gmake[2]: *** [CMakeFiles/joint-state-publisher.dir/build.make:79: CMakeFiles/joint-state-publisher.dir/src/joint-state-publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:842: CMakeFiles/joint-state-publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

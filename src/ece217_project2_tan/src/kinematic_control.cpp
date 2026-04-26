@@ -51,6 +51,7 @@ std::pair<bool, Eigen::VectorXd> kinematic(double joint1theta, double joint2thet
 
 	// find the position of the current end-effector position
 	Eigen::Vector3d p = t06.block<3,1>(0,3);
+	std::cout << "The current end effector position is: (" << p.transpose()<< ")" << std::endl;
 
 	// following is to store the goal quaternion and goal end-effector position
 	Eigen::Vector3d goal_p(goal_x,goal_y,goal_z);
@@ -61,7 +62,7 @@ std::pair<bool, Eigen::VectorXd> kinematic(double joint1theta, double joint2thet
 	goal_q.w() = q_w;
 
 	std::cout << "The goal quaternion is: [(" << goal_q.x() << " , " << goal_q.y() << " , " << goal_q.z() << "), " << goal_q.w() << "]" << std::endl ;
-	std::cout << "The goal end effector position is: (" << goal_p << ")" << std::endl;
+	std::cout << "The goal end effector position is: (" << goal_p.transpose()<< ")" << std::endl;
 
 	// check if the current pose is the same as goal pose
 	// if so, return
@@ -83,6 +84,10 @@ std::pair<bool, Eigen::VectorXd> kinematic(double joint1theta, double joint2thet
 	Eigen::Vector3d cross = goal_q.vec().cross(q.vec());
 
 	erroro = quaternion_vector * goal_q.w() - goal_quaternion_vector * q.w() - cross;
+
+	//print out the error for debug
+	std::cout << "erroro: " << erroro.transpose()<< std::endl;
+	std::cout << "errorp: " << errorp.transpose() << std::endl;
 
 	// to obtain Jacobian matrix, need to get p0-5 and z0-5
 	Eigen::Vector3d p0(0,0,0);
