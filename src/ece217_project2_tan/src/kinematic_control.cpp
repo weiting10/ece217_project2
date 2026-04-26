@@ -71,7 +71,16 @@ std::pair<bool, Eigen::VectorXd> kinematic(double joint1theta, double joint2thet
 	  return {true, original_joint_angles};
 	}
 	
-	
+	// printing for debuging
+	std::cout << "fabs(p(0) - goal_x) = " << fabs(p(0) - goal_x) << std::endl;
+	std::cout << "fabs(p(1) - goal_y) = " << fabs(p(1) - goal_y) << std::endl;
+	std::cout << "fabs(p(2) - goal_z) = " << fabs(p(2) - goal_z) << std::endl;
+	std::cout << "fabs(q.x() - q_x) = " << fabs(q.x() - q_x) << std::endl;
+	std::cout << "fabs(q.y() - q_y) = " << fabs(q.y() - q_y) << std::endl;
+	std::cout << "fabs(q.z() - q_z) = " << fabs(q.z() - q_z) << std::endl;
+	std::cout << "fabs(q.w() - q_w) = " << fabs(q.w() - q_w) << std::endl;
+
+		
 
 
 	// calculate the position error
@@ -82,6 +91,9 @@ std::pair<bool, Eigen::VectorXd> kinematic(double joint1theta, double joint2thet
 	Eigen::Vector3d erroro;
 	Eigen::Vector3d quaternion_vector = q.vec();
 	Eigen::Vector3d goal_quaternion_vector = goal_q.vec();
+
+
+
 	Eigen::Vector3d cross = goal_q.vec().cross(q.vec());
 
 	erroro = goal_q.vec() * q.w() - q.vec() * goal_q.w() - cross;
