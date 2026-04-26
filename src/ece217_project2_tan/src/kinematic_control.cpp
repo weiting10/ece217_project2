@@ -92,7 +92,9 @@ std::pair<bool, Eigen::VectorXd> kinematic(double joint1theta, double joint2thet
 	Eigen::Vector3d quaternion_vector = q.vec();
 	Eigen::Vector3d goal_quaternion_vector = goal_q.vec();
 
-
+	if (goal_q.dot(q) < 0) {
+		q.coeffs() = -q.coeffs();  // negate q to match goal_q's hemisphere
+	}
 
 	Eigen::Vector3d cross = goal_q.vec().cross(q.vec());
 
