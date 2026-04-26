@@ -64,11 +64,14 @@ std::pair<bool, Eigen::VectorXd> kinematic(double joint1theta, double joint2thet
 
 	// check if the current pose is the same as goal pose
 	// if so, return
-	int e = 0.1;
+	double e = 0.1;
 
+	
 	if( (fabs(p(0) - goal_x) < e) && (fabs(p(1) - goal_y) < e) && (fabs(p(2) - goal_z) < e) && (fabs(q.x() - q_x) < e) && (fabs(q.y() - q_y) < e) &&(fabs(q.z() - q_z) < e) &&(fabs(q.w() - q_w) < e) ){
 	  return {true, original_joint_angles};
 	}
+	
+	
 
 
 	// calculate the position error
@@ -81,11 +84,13 @@ std::pair<bool, Eigen::VectorXd> kinematic(double joint1theta, double joint2thet
 	Eigen::Vector3d goal_quaternion_vector = goal_q.vec();
 	Eigen::Vector3d cross = goal_q.vec().cross(q.vec());
 
-	erroro = q.vec() * goal_q.w() - goal_q.vec() * q.w() - cross;
+	erroro = goal_q.vec() * q.w() - q.vec() * goal_q.w() - cross;
 
 	//print out the error for debug
 	std::cout << "erroro: " << erroro.transpose()<< std::endl;
 	std::cout << "errorp: " << errorp.transpose() << std::endl;
+
+
 
 	// to obtain Jacobian matrix, need to get p0-5 and z0-5
 	Eigen::Vector3d p0(0,0,0);
