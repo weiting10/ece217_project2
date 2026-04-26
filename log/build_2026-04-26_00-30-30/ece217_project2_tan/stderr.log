@@ -1,0 +1,8 @@
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:[m[K In function '[01m[Kstd::pair<bool, Eigen::Matrix<double, -1, 1> >[01;32m[K kinematic[m[K(double, double, double, double, double, double, double, double, double, double, double, double, double)[m[K':
+[01m[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:52:19:[m[K [01;31m[Kerror: [m[K'[01m[Kgoal_q[m[K' was not declared in this scope; did you mean '[01m[Kgoal_x[m[K'?
+   52 |         if (q.dot([01;31m[Kgoal_q[m[K) < 0) {
+      |                   [01;31m[K^~~~~~[m[K
+      |                   [32m[Kgoal_x[m[K
+gmake[2]: *** [CMakeFiles/project2-server.dir/build.make:93: CMakeFiles/project2-server.dir/src/kinematic_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:808: CMakeFiles/project2-server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

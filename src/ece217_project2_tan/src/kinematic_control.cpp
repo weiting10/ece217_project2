@@ -46,8 +46,6 @@ std::pair<bool, Eigen::VectorXd> kinematic(double joint1theta, double joint2thet
 	
 	// Calculate the quaternion of the current end-effector
 	Eigen::Quaterniond q(rotation_matrix);
-	
-	std::cout << "the current Quaternion is: [(" << q.x() << " , " << q.y() << " , " << q.z() << "), " << q.w() << "]" << std::endl ;
 
 	// find the position of the current end-effector position
 	Eigen::Vector3d p = t06.block<3,1>(0,3);
@@ -135,9 +133,21 @@ std::pair<bool, Eigen::VectorXd> kinematic(double joint1theta, double joint2thet
 	Jacobian.block<3,1>(3,4) = jo5;
 	Jacobian.block<3,1>(3,5) = jo6;
 
-	Eigen::MatrixXd inverse_jacobian(6,6);
-	inverse_jacobian = Jacobian.inverse();
+	//Eigen::MatrixXd inverse_jacobian(6,6);
+	//inverse_jacobian = Jacobian.inverse();
 
+	//////////////////////////////////////////////////////////////
+	// Eigen::MatrixXd inverse_jacobian(6,6);
+	// inverse_jacobian = Jacobian.inverse(); // <-- This is the problem line!
+
+	// --- SOLUTION: Use Damped Least-Squares ---
+	Eigen::MatrixXd Jt = Jacobian.transpose();
+	Eigen::MatrixXd I(6,6);
+	I.setIdentity();
+	double damping_factor = 0.01;
+
+	Eigen::MatrixXd inverse_jacobian = Jt * (Jacobian * Jt + damping_factor * I).inverse();
+	///////////////////////////////////////////////////////////////////////////////////////////////
 	// joint velocity = inverse jacobian * end effector velocity
 	
 	// calculate end effector position velocity = goal_p_dot + Kp * errorp
