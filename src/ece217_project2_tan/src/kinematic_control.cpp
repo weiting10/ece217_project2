@@ -64,10 +64,18 @@ std::pair<bool, Eigen::VectorXd> kinematic(double joint1theta, double joint2thet
 
 	// check if the current pose is the same as goal pose
 	// if so, return
-	double e = 0.1;
+	double e = 0.001;
+
+	if (goal_q.dot(q) < 0) {
+                q.coeffs() = -q.coeffs();  // negate q to match goal_q's hemisphere
+        }
 
 	
 	if( (fabs(p(0) - goal_x) < e) && (fabs(p(1) - goal_y) < e) && (fabs(p(2) - goal_z) < e) && (fabs(q.x() - q_x) < e) && (fabs(q.y() - q_y) < e) &&(fabs(q.z() - q_z) < e) &&(fabs(q.w() - q_w) < e) ){
+	  
+	  std::cout << "The t06 matrix is : " << t06 << std::endl;
+
+	  std::cout << "The final joint angles are [" << joint1theta << "," << joint2theta << "," << joint3theta << "," << joint4theta << "," << joint5theta << "," << joint6theta << "]" << std::endl;
 	  return {true, original_joint_angles};
 	}
 	
@@ -91,10 +99,6 @@ std::pair<bool, Eigen::VectorXd> kinematic(double joint1theta, double joint2thet
 	Eigen::Vector3d erroro;
 	Eigen::Vector3d quaternion_vector = q.vec();
 	Eigen::Vector3d goal_quaternion_vector = goal_q.vec();
-
-	if (goal_q.dot(q) < 0) {
-		q.coeffs() = -q.coeffs();  // negate q to match goal_q's hemisphere
-	}
 
 	Eigen::Vector3d cross = goal_q.vec().cross(q.vec());
 
@@ -171,15 +175,15 @@ std::pair<bool, Eigen::VectorXd> kinematic(double joint1theta, double joint2thet
 	
 	// calculate end effector position velocity = goal_p_dot + Kp * errorp
 	Eigen::Matrix3d kp;
-	kp << 1,0,0,
-	      0,1,0,
-	      0,0,1;
+	kp << 0.1,0,0,
+	      0,0.1,0,
+	      0,0,0.1;
 	Eigen::Vector3d ee_position_velocity = kp * errorp;    // assuming goal_p_dot is [0,0,0]^T
 
 	Eigen::Matrix3d ko;
-	ko << 1,0,0,
-	      0,1,0,
-	      0,0,1;
+	ko << 0.1,0,0,
+	      0,0.1,0,
+	      0,0,0.1;
 	Eigen::Vector3d ee_orientation_velocity = ko * erroro;	// assuming goal_angular_velocity = [0,0,0]^T
 	
 	Eigen::VectorXd ee_velocity(6);

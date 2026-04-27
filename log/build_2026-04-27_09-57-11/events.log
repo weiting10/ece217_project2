@@ -1,0 +1,467 @@
+[0.000000] (-) TimerEvent: {}
+[0.000253] (ece217_project2_tan) JobQueued: {'identifier': 'ece217_project2_tan', 'dependencies': OrderedDict()}
+[0.000616] (ece217_project2_tan) JobStarted: {'identifier': 'ece217_project2_tan'}
+[0.100177] (-) TimerEvent: {}
+[0.200365] (-) TimerEvent: {}
+[0.300479] (-) TimerEvent: {}
+[0.400723] (-) TimerEvent: {}
+[0.409966] (ece217_project2_tan) JobProgress: {'identifier': 'ece217_project2_tan', 'progress': 'cmake'}
+[0.493100] (ece217_project2_tan) JobProgress: {'identifier': 'ece217_project2_tan', 'progress': 'build'}
+[0.493791] (ece217_project2_tan) Command: {'cmd': ['/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/cmake', '--build', '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan', '--', '-j2', '-l2'], 'cwd': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan', 'env': OrderedDict({'SHELL': '/bin/bash', 'ROS_VERSION': '2', 'SESSION_MANAGER': 'local/unix:@/tmp/.ICE-unix/4040548,unix/unix:/tmp/.ICE-unix/4040548', 'COLORTERM': 'truecolor', 'GCC_RANLIB': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib', 'SLURM_JOB_USER': 'wtan10', 'XDG_CONFIG_DIRS': '/sfw/rhel9-x86_64/circ/FastX4/xdg_gnome_rhel9_ECE:etc/fastx/xdg', 'SLURM_TASKS_PER_NODE': '1', 'SLURM_JOB_UID': '32583366', 'HISTCONTROL': 'ignoredups', 'XDG_MENU_PREFIX': 'gnome-', 'AUTH_SSH_DISABLE_PUBLIC_KEY_AUTHENTICATION': '1', 'FX_CONFIG_DIR': '/etc/fastx', 'SLURM_TASK_PID': '4040489', 'CONDA_EXE': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/bin/conda', '_CE_M': '', '__MODULES_LMALTNAME': 'slurm/24.05.0.b1&as|slurm/default&as|slurm/latest:ros2/14.1.19&as|ros2/default&as|ros2/latest', 'PKG_CONFIG_PATH': '/sfw/rhel9-x86_64/miniforge3/25.11.0-1/lib/pkgconfig', 'SLURM_LOCALID': '0', 'build_alias': 'x86_64-conda-linux-gnu', 'SLURM_SUBMIT_DIR': '/', 'ROS_PYTHON_VERSION': '3', 'CMAKE_ARGS': '-DCMAKE_AR=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-ar -DCMAKE_CXX_COMPILER_AR=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_C_COMPILER_AR=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_RANLIB=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_CXX_COMPILER_RANLIB=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_C_COMPILER_RANLIB=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_LINKER=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release', 'HISTSIZE': '1000', 'HOSTNAME': 'bhd0098', 'SLURMD_NODENAME': 'bhd0098', 'FX_NAME': 'ECE', 'SLURM_JOB_START_TIME': '1777290581', 'GPROF': 'x86_64-conda-linux-gnu-gprof', 'HYDRA_LAUNCHER_EXTRA_ARGS': '--external-launcher', 'CONDA_TOOLCHAIN_BUILD': 'x86_64-conda-linux-gnu', 'SSH_AUTH_SOCK': '/local_scratch/1088855/keyring/ssh', 'STRINGS': 'x86_64-conda-linux-gnu-strings', 'ROS_OS_OVERRIDE': 'conda:linux', 'CPP': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-cpp', 'SLURM_CLUSTER_NAME': 'bluehive', 'SLURM_JOB_END_TIME': '1777319381', 'SLURM_CPUS_ON_NODE': '2', 'XMODIFIERS': '@im=ibus', 'AUTH_SSH_ENABLE_BANNER': '0', 'LOGIN_THEME_HIDE_BACKGROUND': '0', 'SLURM_JOB_CPUS_PER_NODE': '2', 'XML_CATALOG_FILES': 'file:///gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/etc/xml/catalog file:///etc/xml/catalog', 'PRTE_MCA_plm_slurm_args': '--external-launcher', 'PWD': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan', 'SLURM_GTIDS': '0', 'GSETTINGS_SCHEMA_DIR': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/glib-2.0/schemas', 'LOGNAME': 'wtan10', 'XDG_SESSION_TYPE': 'x11', 'CONDA_PREFIX': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env', 'SLURM_JOB_PARTITION': 'ros2', 'MODULESHOME': '/sfw/rhel9-x86_64/modules/5.0.1', 'PORT': '3300', 'MANPATH': '/sfw/rhel9-x86_64/miniforge3/25.11.0-1/man:/sfw/rhel9-x86_64/miniforge3/25.11.0-1/share/man:/sfw/rhel9-x86_64/slurm/24.05.0.b1/share/man:/sfw/rhel9-x86_64/circ/share/man::', 'CA_FILE': '', 'SLURM_TRES_PER_TASK': 'cpu=2', 'ROS_DOMAIN_ID': '17', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'SLURM_JOB_NUM_NODES': '1', 'CXX': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++', 'CXXFLAGS': '-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include', 'XAUTHORITY': '/home/wtan10/.fastx_server/bhd0098/sessions/FX3-6cf24dcbce644c8282b79bcdcbddc217/authority', 'TEMPDIR': '/local_scratch/1088855', 'CONDA_TOOLCHAIN_HOST': 'x86_64-conda-linux-gnu', 'SLURM_JOBID': '1088855', 'DEBUG_CXXFLAGS': '-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include', 'SLURM_JOB_QOS': 'ros2', 'I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS': '--external-launcher', 'WEBLINK_URI': '/weblink', 'MOTD_SHOWN': 'pam', 'WEBLINK_URL': 'https://bh3fastx.bluehive.circ.private:3320', '__MODULES_SHARE_MANPATH': ':1', 'LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib -Wl,-rpath-link,/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib -L/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib', 'HOME': '/home/wtan10', 'LANG': 'en_US.UTF-8', 'MESON_ARGS': '-Dbuildtype=release', 'AUTH_SSH_HIDE_PASSWORD': '1', 'ROS_ETC_DIR': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/etc/ros', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:', 'DEBUG_CFLAGS': '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include', 'XDG_CURRENT_DESKTOP': 'GNOME', 'TEMP_DIR': '/local_scratch/1088855', '__MODULES_LMPREREQ': 'slurm/24.05.0.b1&circ:circ&slurm:ros2/14.1.19&miniforge3/25.11.0-1', 'LDFLAGS_LD': '-O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib -rpath-link /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib -L/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib', 'SLURM_PROCID': '0', '__MODULES_LMCONFLICT': 'miniforge3/25.11.0-1&miniforge3:ros2/14.1.19&ros2', 'SCRATCH': '/scratch/wtan10', 'VTE_VERSION': '6402', 'WEBLINK_TOKEN_NOAUTH': '1', 'FX_LOCAL_DIR': '/var/fastx-local', 'CXX_FOR_BUILD': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++', 'FX_ROOT_DIR': '/usr/lib/fastx/4', 'ELFEDIT': 'x86_64-conda-linux-gnu-elfedit', 'CONDA_PROMPT_MODIFIER': '(ros2_env)', 'TMPDIR': '/local_scratch/1088855', 'AMENT_PREFIX_PATH': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env', 'CMAKE_PREFIX_PATH': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/x86_64-conda-linux-gnu/sysroot/usr', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4ef3997c_dc65_455c_a797_f288160cae0b', 'CPPFLAGS': '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SLURM_CPUS_PER_TASK': '2', 'TMP_DIR': '/local_scratch/1088855', 'LD': 'x86_64-conda-linux-gnu-ld', 'COLCON_PREFIX_PATH': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install', 'SLURM_TOPOLOGY_ADDR': 'bhd0098', '__MODULES_LMTAG': 'slurm/24.05.0.b1&auto-loaded:miniforge3/25.11.0-1&auto-loaded', 'CPP_FOR_BUILD': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-cpp', 'READELF': 'x86_64-conda-linux-gnu-readelf', 'GXX': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-g++', 'SCHEDULE_SESSION_CONNECT_SECONDS': '60', 'HYDRA_BOOTSTRAP': 'slurm', 'SLURM_TOPOLOGY_ADDR_PATTERN': 'node', 'GCC_AR': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar', '_CONDA_EXE': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/bin/conda', 'XDG_SESSION_CLASS': 'user', '_CONDA_ROOT': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1', 'ADDR2LINE': 'x86_64-conda-linux-gnu-addr2line', 'SLURM_SCRIPT_CONTEXT': 'prolog_task', 'SLURM_MEM_PER_NODE': '16384', 'LOGIN_THEME_LOGO_BACKGROUND': '', 'PYTHONPATH': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/python/site-packages:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/python3.12/site-packages:/sfw/rhel9-x86_64/miniforge3/25.11.0-1/lib/python3.12/site-packages:/sfw/rhel9-x86_64/miniforge3/25.11.0-1/lib/python3.1/site-packages:/usr/lib/fastx/4/integration/lib/python', 'COLCON': '1', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'CPLUS_INCLUDE_PATH': '/sfw/rhel9-x86_64/miniforge3/25.11.0-1/include:/sfw/rhel9-x86_64/slurm/24.05.0.b1/include', 'SIZE': 'x86_64-conda-linux-gnu-size', 'GCC_NM': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-nm', 'HOST': 'x86_64-conda-linux-gnu', 'WEBLINK_PORT': '3320', 'LAUNCH_AS_CURRENT_USER': '0', 'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'CC_FOR_BUILD': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc', 'USER': 'wtan10', 'LIBRARY_PATH': '/sfw/rhel9-x86_64/miniforge3/25.11.0-1/lib:/sfw/rhel9-x86_64/slurm/24.05.0.b1/lib64:/sfw/rhel9-x86_64/slurm/24.05.0.b1/lib', 'SLURM_NODELIST': 'bhd0098', 'ENVIRONMENT': 'BATCH', 'LOAD_BALANCER': 'session', 'GNOME_TERMINAL_SERVICE': ':1.71', 'KEEP_FAILED_SESSIONS': '1', 'CONDA_SHLVL': '1', 'AR': 'x86_64-conda-linux-gnu-ar', 'AS': 'x86_64-conda-linux-gnu-as', 'LOADEDMODULES': 'slurm/24.05.0.b1:circ:miniforge3/25.11.0-1:ros2/14.1.19', 'DEBUG_CPPFLAGS': '-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include', 'TEMP': '/scratch/wtan10/tmp', 'SLURM_JOB_ACCOUNT': 'ece217-417-202601', 'LOGIN_HIDE_ADMIN_BUTTON': '1', 'SLURM_PRIO_PROCESS': '0', 'host_alias': 'x86_64-conda-linux-gnu', 'DISPLAY': ':101', 'SHLVL': '2', 'SLURM_NNODES': '1', 'NM': 'x86_64-conda-linux-gnu-nm', 'BASH_ENV': '/etc/profile.d/modules.sh', 'GCC': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc', 'AUTH_SSH_HIDE_MANAGE_KEYS': '1', 'QT_IM_MODULE': 'ibus', 'AUTH_SSH_PASSWORD_PROMPT_REGEX': '^[p|P]assword', 'PROJ_DATA': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/proj', 'LOGIN_THEME_LOGO_POSITION': '', 'SLURM_SUBMIT_HOST': 'bh3fastx', 'CONDA_PYTHON_EXE': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/bin/python', 'LD_LIBRARY_PATH': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/opt/rviz_ogre_vendor/lib:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib:/sfw/rhel9-x86_64/miniforge3/25.11.0-1/lib:/sfw/rhel9-x86_64/slurm/24.05.0.b1/lib64:/sfw/rhel9-x86_64/slurm/24.05.0.b1/lib', 'LC_CTYPE': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/local_scratch/1088855', 'SLURM_JOB_ID': '1088855', 'SLURM_NODEID': '0', 'SSH_CLIENT': '127.0.0.1 40262 22', 'CONDA_DEFAULT_ENV': 'ros2_env', 'OBJCOPY': 'x86_64-conda-linux-gnu-objcopy', 'which_declare': 'declare -f', 'STRIP': 'x86_64-conda-linux-gnu-strip', 'LOAD_BALANCER_SCRIPT': '', 'XDG_DATA_DIRS': '/home/wtan10/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/sfw/rhel9-x86_64/circ/FastX4/xdg_gnome_rhel9_ECE:/usr/local/share:/usr/share', 'OBJDUMP': 'x86_64-conda-linux-gnu-objdump', 'SLURM_CONF': '/sfw/rhel9-x86_64/slurm/24.05.0.b1/etc/slurm.conf', 'PATH': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/condabin:/sfw/rhel9-x86_64/miniforge3/25.11.0-1/bin:/sfw/rhel9-x86_64/modules/5.0.1/bin:/xcatpost:/usr/bin:/bin:/sbin:/usr/sbin:/mnt/sysimage/bin:/mnt/sysimage/usr/bin:/mnt/sysimage/usr/sbin:/mnt/sysimage/sbin:/sbin:/usr/sbin:/xcatpost:/usr/lpp/mmfs/bin', 'LOGIN_DISCLAIMER': 'This machine is private property of the University of Rochester. <br>Unauthorized access is strictly prohibited.<br>All activity may be monitored.', 'SLURM_JOB_NAME': 'ros2-fastx', 'AUTH_SSH_DISABLE': '0', 'MODULEPATH': '/sfw/rhel9-x86_64/modules/modulefiles', 'LOGIN_TAGLINE': 'Center for Integrated Research Computing', 'CC': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc', '_LMFILES_': '/sfw/rhel9-x86_64/modules/modulefiles/slurm/24.05.0.b1:/sfw/rhel9-x86_64/modules/modulefiles/circ:/sfw/rhel9-x86_64/modules/modulefiles/miniforge3/25.11.0-1:/sfw/rhel9-x86_64/modules/modulefiles/ros2/14.1.19', 'CFLAGS': '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include', 'CXXFILT': 'x86_64-conda-linux-gnu-c++filt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-PJfGyjqCKM,guid=1541bb8da465c2d8f67d15f869ef4d56', 'C_INCLUDE_PATH': '/sfw/rhel9-x86_64/miniforge3/25.11.0-1/include:/sfw/rhel9-x86_64/slurm/24.05.0.b1/include', 'LAUNCHER_ARGS': '', 'BUILD': 'x86_64-conda-linux-gnu', 'MAIL': '/var/spool/mail/wtan10', 'OMPI_MCA_plm_slurm_args': '--external-launcher', 'CONDA_BUILD_CROSS_COMPILATION': '', 'SLURM_JOB_GID': '32583366', 'FASTX_SESSION_ID': '6cf24dcbce644c8282b79bcdcbddc217', 'ROS_DISTRO': 'jazzy', 'PUBLIC': '/public/wtan10', 'RANLIB': 'x86_64-conda-linux-gnu-ranlib', 'FASTX_SESSION_DIR': '/home/wtan10/.fastx_server/bhd0098/sessions/FX3-6cf24dcbce644c8282b79bcdcbddc217', 'CONDA_BUILD_SYSROOT': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/x86_64-conda-linux-gnu/sysroot', 'PROJ_NETWORK': 'ON', 'SLURM_JOB_NODELIST': 'bhd0098', 'MODULES_CMD': '/sfw/rhel9-x86_64/modules/5.0.1/libexec/modulecmd.tcl', 'FX_CONFIG_WEBLINK_JSON': 'baseUrl:http://bh3fastx.bluehive.circ.private:3320,uri:/weblink', 'I_MPI_HYDRA_BOOTSTRAP': 'slurm', 'BASH_FUNC_ml%%': '() {  module ml "$@"\n}', 'BASH_FUNC_which%%': '() {  ( alias;\n eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@\n}', 'BASH_FUNC_module%%': '() {  _module_raw "$@" 2>&1\n}', 'BASH_FUNC__module_raw%%': '() {  eval `/usr/bin/tclsh /sfw/rhel9-x86_64/modules/5.0.1/libexec/modulecmd.tcl bash "$@"`;\n _mlstatus=$?;\n return $_mlstatus\n}', '_': '/usr/bin/env'}), 'shell': False}
+[0.500817] (-) TimerEvent: {}
+[0.600984] (-) TimerEvent: {}
+[0.701187] (-) TimerEvent: {}
+[0.801381] (-) TimerEvent: {}
+[0.901755] (-) TimerEvent: {}
+[1.002096] (-) TimerEvent: {}
+[1.102287] (-) TimerEvent: {}
+[1.202533] (-) TimerEvent: {}
+[1.302709] (-) TimerEvent: {}
+[1.402904] (-) TimerEvent: {}
+[1.503094] (-) TimerEvent: {}
+[1.603281] (-) TimerEvent: {}
+[1.704225] (-) TimerEvent: {}
+[1.804389] (-) TimerEvent: {}
+[1.904601] (-) TimerEvent: {}
+[2.004792] (-) TimerEvent: {}
+[2.104947] (-) TimerEvent: {}
+[2.205131] (-) TimerEvent: {}
+[2.305316] (-) TimerEvent: {}
+[2.405482] (-) TimerEvent: {}
+[2.506711] (-) TimerEvent: {}
+[2.606904] (-) TimerEvent: {}
+[2.707098] (-) TimerEvent: {}
+[2.807264] (-) TimerEvent: {}
+[2.907425] (-) TimerEvent: {}
+[3.007592] (-) TimerEvent: {}
+[3.107761] (-) TimerEvent: {}
+[3.208419] (-) TimerEvent: {}
+[3.308585] (-) TimerEvent: {}
+[3.408742] (-) TimerEvent: {}
+[3.508906] (-) TimerEvent: {}
+[3.609098] (-) TimerEvent: {}
+[3.709295] (-) TimerEvent: {}
+[3.809498] (-) TimerEvent: {}
+[3.909685] (-) TimerEvent: {}
+[4.011465] (-) TimerEvent: {}
+[4.111636] (-) TimerEvent: {}
+[4.211826] (-) TimerEvent: {}
+[4.312003] (-) TimerEvent: {}
+[4.412192] (-) TimerEvent: {}
+[4.512364] (-) TimerEvent: {}
+[4.612490] (-) TimerEvent: {}
+[4.712654] (-) TimerEvent: {}
+[4.812830] (-) TimerEvent: {}
+[4.913003] (-) TimerEvent: {}
+[5.013178] (-) TimerEvent: {}
+[5.113522] (-) TimerEvent: {}
+[5.213697] (-) TimerEvent: {}
+[5.313893] (-) TimerEvent: {}
+[5.414067] (-) TimerEvent: {}
+[5.514247] (-) TimerEvent: {}
+[5.615818] (-) TimerEvent: {}
+[5.715991] (-) TimerEvent: {}
+[5.816229] (-) TimerEvent: {}
+[5.916422] (-) TimerEvent: {}
+[5.999000] (ece217_project2_tan) StdoutLine: {'line': b'[  2%] Built target ece217_project2_tan__rosidl_generator_type_description\n'}
+[6.016508] (-) TimerEvent: {}
+[6.116656] (-) TimerEvent: {}
+[6.216822] (-) TimerEvent: {}
+[6.307312] (ece217_project2_tan) StdoutLine: {'line': b'[  4%] Built target ece217_project2_tan__cpp\n'}
+[6.316936] (-) TimerEvent: {}
+[6.417095] (-) TimerEvent: {}
+[6.509591] (ece217_project2_tan) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_ece217_project2_tan\n'}
+[6.517204] (-) TimerEvent: {}
+[6.617349] (-) TimerEvent: {}
+[6.719632] (-) TimerEvent: {}
+[6.819798] (-) TimerEvent: {}
+[6.920376] (-) TimerEvent: {}
+[7.020545] (-) TimerEvent: {}
+[7.120707] (-) TimerEvent: {}
+[7.220892] (-) TimerEvent: {}
+[7.321068] (-) TimerEvent: {}
+[7.363327] (ece217_project2_tan) StdoutLine: {'line': b'running egg_info\n'}
+[7.404767] (ece217_project2_tan) StdoutLine: {'line': b'writing ece217_project2_tan.egg-info/PKG-INFO\n'}
+[7.406258] (ece217_project2_tan) StdoutLine: {'line': b'writing dependency_links to ece217_project2_tan.egg-info/dependency_links.txt\n'}
+[7.421172] (-) TimerEvent: {}
+[7.487036] (ece217_project2_tan) StdoutLine: {'line': b'writing top-level names to ece217_project2_tan.egg-info/top_level.txt\n'}
+[7.519566] (ece217_project2_tan) StdoutLine: {'line': b'[ 17%] Built target ece217_project2_tan__rosidl_generator_c\n'}
+[7.521240] (-) TimerEvent: {}
+[7.621685] (-) TimerEvent: {}
+[7.722318] (-) TimerEvent: {}
+[7.784978] (ece217_project2_tan) StdoutLine: {'line': b"reading manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'\n"}
+[7.786440] (ece217_project2_tan) StdoutLine: {'line': b"writing manifest file 'ece217_project2_tan.egg-info/SOURCES.txt'\n"}
+[7.822425] (-) TimerEvent: {}
+[7.871583] (ece217_project2_tan) StdoutLine: {'line': b'[ 17%] Built target ament_cmake_python_build_ece217_project2_tan_egg\n'}
+[7.922493] (-) TimerEvent: {}
+[8.022655] (-) TimerEvent: {}
+[8.122814] (-) TimerEvent: {}
+[8.223003] (-) TimerEvent: {}
+[8.323173] (-) TimerEvent: {}
+[8.423356] (-) TimerEvent: {}
+[8.523497] (-) TimerEvent: {}
+[8.623672] (-) TimerEvent: {}
+[8.723864] (-) TimerEvent: {}
+[8.824061] (-) TimerEvent: {}
+[8.924275] (-) TimerEvent: {}
+[9.019348] (ece217_project2_tan) StdoutLine: {'line': b'[ 24%] Built target ece217_project2_tan__rosidl_typesupport_cpp\n'}
+[9.026525] (-) TimerEvent: {}
+[9.029023] (ece217_project2_tan) StdoutLine: {'line': b'[ 31%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_c\n'}
+[9.126748] (-) TimerEvent: {}
+[9.226928] (-) TimerEvent: {}
+[9.259776] (ece217_project2_tan) StdoutLine: {'line': b'[ 39%] Built target ece217_project2_tan__rosidl_typesupport_fastrtps_cpp\n'}
+[9.319208] (ece217_project2_tan) StdoutLine: {'line': b'[ 46%] Built target ece217_project2_tan__rosidl_typesupport_introspection_c\n'}
+[9.327001] (-) TimerEvent: {}
+[9.427153] (-) TimerEvent: {}
+[9.502363] (ece217_project2_tan) StdoutLine: {'line': b'[ 53%] Built target ece217_project2_tan__rosidl_typesupport_introspection_cpp\n'}
+[9.522163] (ece217_project2_tan) StdoutLine: {'line': b'[ 60%] Built target ece217_project2_tan__rosidl_typesupport_c\n'}
+[9.529044] (-) TimerEvent: {}
+[9.629194] (-) TimerEvent: {}
+[9.729360] (-) TimerEvent: {}
+[9.829497] (-) TimerEvent: {}
+[9.929664] (-) TimerEvent: {}
+[10.029838] (-) TimerEvent: {}
+[10.130037] (-) TimerEvent: {}
+[10.230231] (-) TimerEvent: {}
+[10.330427] (-) TimerEvent: {}
+[10.431122] (-) TimerEvent: {}
+[10.519422] (ece217_project2_tan) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/project2-server.dir/src/kinematic_control.cpp.o\x1b[0m\n'}
+[10.531229] (-) TimerEvent: {}
+[10.633429] (-) TimerEvent: {}
+[10.734305] (-) TimerEvent: {}
+[10.834502] (-) TimerEvent: {}
+[10.934679] (-) TimerEvent: {}
+[11.034868] (-) TimerEvent: {}
+[11.135071] (-) TimerEvent: {}
+[11.235266] (-) TimerEvent: {}
+[11.335447] (-) TimerEvent: {}
+[11.435618] (-) TimerEvent: {}
+[11.535788] (-) TimerEvent: {}
+[11.635311] (ece217_project2_tan) StdoutLine: {'line': b'[ 68%] Built target project2-client\n'}
+[11.635851] (-) TimerEvent: {}
+[11.735984] (-) TimerEvent: {}
+[11.836151] (-) TimerEvent: {}
+[11.936322] (-) TimerEvent: {}
+[12.036490] (-) TimerEvent: {}
+[12.136659] (-) TimerEvent: {}
+[12.236823] (-) TimerEvent: {}
+[12.337583] (-) TimerEvent: {}
+[12.408890] (ece217_project2_tan) StdoutLine: {'line': b'[ 73%] Built target joint-state-publisher\n'}
+[12.437682] (-) TimerEvent: {}
+[12.457773] (ece217_project2_tan) StdoutLine: {'line': b'[ 73%] Built target ece217_project2_tan\n'}
+[12.538448] (-) TimerEvent: {}
+[12.620083] (ece217_project2_tan) StdoutLine: {'line': b'[ 75%] Built target ece217_project2_tan__py\n'}
+[12.638534] (-) TimerEvent: {}
+[12.738686] (-) TimerEvent: {}
+[12.838853] (-) TimerEvent: {}
+[12.939018] (-) TimerEvent: {}
+[13.039206] (-) TimerEvent: {}
+[13.139391] (-) TimerEvent: {}
+[13.239581] (-) TimerEvent: {}
+[13.339749] (-) TimerEvent: {}
+[13.351135] (ece217_project2_tan) StdoutLine: {'line': b'[ 80%] Built target ece217_project2_tan__rosidl_generator_py\n'}
+[13.439871] (-) TimerEvent: {}
+[13.496564] (ece217_project2_tan) StdoutLine: {'line': b'[ 85%] Built target ece217_project2_tan_s__rosidl_typesupport_fastrtps_c\n'}
+[13.539969] (-) TimerEvent: {}
+[13.623665] (ece217_project2_tan) StdoutLine: {'line': b'[ 90%] Built target ece217_project2_tan_s__rosidl_typesupport_introspection_c\n'}
+[13.640060] (-) TimerEvent: {}
+[13.740238] (-) TimerEvent: {}
+[13.802664] (ece217_project2_tan) StdoutLine: {'line': b'[ 95%] Built target ece217_project2_tan_s__rosidl_typesupport_c\n'}
+[13.840337] (-) TimerEvent: {}
+[13.940502] (-) TimerEvent: {}
+[14.040675] (-) TimerEvent: {}
+[14.140870] (-) TimerEvent: {}
+[14.241042] (-) TimerEvent: {}
+[14.341215] (-) TimerEvent: {}
+[14.441389] (-) TimerEvent: {}
+[14.541560] (-) TimerEvent: {}
+[14.641730] (-) TimerEvent: {}
+[14.741895] (-) TimerEvent: {}
+[14.842068] (-) TimerEvent: {}
+[14.942234] (-) TimerEvent: {}
+[15.042403] (-) TimerEvent: {}
+[15.143780] (-) TimerEvent: {}
+[15.244022] (-) TimerEvent: {}
+[15.344192] (-) TimerEvent: {}
+[15.444366] (-) TimerEvent: {}
+[15.544491] (-) TimerEvent: {}
+[15.644652] (-) TimerEvent: {}
+[15.744809] (-) TimerEvent: {}
+[15.844974] (-) TimerEvent: {}
+[15.946391] (-) TimerEvent: {}
+[16.046558] (-) TimerEvent: {}
+[16.148596] (-) TimerEvent: {}
+[16.248790] (-) TimerEvent: {}
+[16.348978] (-) TimerEvent: {}
+[16.449152] (-) TimerEvent: {}
+[16.549320] (-) TimerEvent: {}
+[16.650111] (-) TimerEvent: {}
+[16.750273] (-) TimerEvent: {}
+[16.850449] (-) TimerEvent: {}
+[16.950622] (-) TimerEvent: {}
+[17.050799] (-) TimerEvent: {}
+[17.151720] (-) TimerEvent: {}
+[17.251901] (-) TimerEvent: {}
+[17.353946] (-) TimerEvent: {}
+[17.454126] (-) TimerEvent: {}
+[17.554312] (-) TimerEvent: {}
+[17.657064] (-) TimerEvent: {}
+[17.757244] (-) TimerEvent: {}
+[17.857422] (-) TimerEvent: {}
+[17.961541] (-) TimerEvent: {}
+[18.064497] (-) TimerEvent: {}
+[18.136516] (ece217_project2_tan) StderrLine: {'line': b"\x1b[01m\x1b[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:\x1b[m\x1b[K In function '\x1b[01m\x1b[Kstd::pair<bool, Eigen::Matrix<double, -1, 1> >\x1b[01;32m\x1b[K kinematic\x1b[m\x1b[K(double, double, double, double, double, double, double, double, double, double, double, double, double)\x1b[m\x1b[K':\n"}
+[18.136830] (ece217_project2_tan) StderrLine: {'line': b"\x1b[01m\x1b[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:98:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable '\x1b[01m\x1b[Kquaternion_vector\x1b[m\x1b[K' set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n"}
+[18.136931] (ece217_project2_tan) StderrLine: {'line': b'   98 |         Eigen::Vector3d \x1b[01;35m\x1b[Kquaternion_vector\x1b[m\x1b[K = q.vec();\n'}
+[18.137013] (ece217_project2_tan) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.137085] (ece217_project2_tan) StderrLine: {'line': b"\x1b[01m\x1b[K/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/src/ece217_project2_tan/src/kinematic_control.cpp:99:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable '\x1b[01m\x1b[Kgoal_quaternion_vector\x1b[m\x1b[K' set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n"}
+[18.137160] (ece217_project2_tan) StderrLine: {'line': b'   99 |         Eigen::Vector3d \x1b[01;35m\x1b[Kgoal_quaternion_vector\x1b[m\x1b[K = goal_q.vec();\n'}
+[18.137232] (ece217_project2_tan) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.164592] (-) TimerEvent: {}
+[18.264767] (-) TimerEvent: {}
+[18.364986] (-) TimerEvent: {}
+[18.468495] (-) TimerEvent: {}
+[18.570214] (-) TimerEvent: {}
+[18.670396] (-) TimerEvent: {}
+[18.770622] (-) TimerEvent: {}
+[18.873982] (-) TimerEvent: {}
+[18.974958] (-) TimerEvent: {}
+[19.075140] (-) TimerEvent: {}
+[19.175323] (-) TimerEvent: {}
+[19.275993] (-) TimerEvent: {}
+[19.376322] (-) TimerEvent: {}
+[19.476750] (-) TimerEvent: {}
+[19.576936] (-) TimerEvent: {}
+[19.677479] (-) TimerEvent: {}
+[19.777661] (-) TimerEvent: {}
+[19.881871] (-) TimerEvent: {}
+[19.982049] (-) TimerEvent: {}
+[20.082225] (-) TimerEvent: {}
+[20.182404] (-) TimerEvent: {}
+[20.282589] (-) TimerEvent: {}
+[20.383356] (-) TimerEvent: {}
+[20.483499] (-) TimerEvent: {}
+[20.583689] (-) TimerEvent: {}
+[20.683863] (-) TimerEvent: {}
+[20.784118] (-) TimerEvent: {}
+[20.884300] (-) TimerEvent: {}
+[20.984512] (-) TimerEvent: {}
+[21.084731] (-) TimerEvent: {}
+[21.184912] (-) TimerEvent: {}
+[21.285402] (-) TimerEvent: {}
+[21.386304] (-) TimerEvent: {}
+[21.488428] (-) TimerEvent: {}
+[21.588632] (-) TimerEvent: {}
+[21.688807] (-) TimerEvent: {}
+[21.788980] (-) TimerEvent: {}
+[21.889380] (-) TimerEvent: {}
+[21.989565] (-) TimerEvent: {}
+[22.089768] (-) TimerEvent: {}
+[22.189953] (-) TimerEvent: {}
+[22.290141] (-) TimerEvent: {}
+[22.390338] (-) TimerEvent: {}
+[22.490507] (-) TimerEvent: {}
+[22.590694] (-) TimerEvent: {}
+[22.691821] (-) TimerEvent: {}
+[22.792394] (-) TimerEvent: {}
+[22.892576] (-) TimerEvent: {}
+[22.994178] (-) TimerEvent: {}
+[23.094364] (-) TimerEvent: {}
+[23.194495] (-) TimerEvent: {}
+[23.294681] (-) TimerEvent: {}
+[23.394868] (-) TimerEvent: {}
+[23.495644] (-) TimerEvent: {}
+[23.595831] (-) TimerEvent: {}
+[23.696012] (-) TimerEvent: {}
+[23.758119] (ece217_project2_tan) StdoutLine: {'line': b'[ 97%] \x1b[1m\x1b[32mLinking CXX executable project2-server\x1b[0m\n'}
+[23.796130] (-) TimerEvent: {}
+[23.896323] (-) TimerEvent: {}
+[23.996523] (-) TimerEvent: {}
+[24.096691] (-) TimerEvent: {}
+[24.196852] (-) TimerEvent: {}
+[24.297018] (-) TimerEvent: {}
+[24.397187] (-) TimerEvent: {}
+[24.497382] (-) TimerEvent: {}
+[24.597568] (-) TimerEvent: {}
+[24.697736] (-) TimerEvent: {}
+[24.797910] (-) TimerEvent: {}
+[24.898109] (-) TimerEvent: {}
+[24.998285] (-) TimerEvent: {}
+[25.020136] (ece217_project2_tan) StdoutLine: {'line': b'[100%] Built target project2-server\n'}
+[25.037154] (ece217_project2_tan) CommandEnded: {'returncode': 0}
+[25.097817] (ece217_project2_tan) JobProgress: {'identifier': 'ece217_project2_tan', 'progress': 'install'}
+[25.099226] (-) TimerEvent: {}
+[25.109487] (ece217_project2_tan) Command: {'cmd': ['/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/cmake', '--install', '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan'], 'cwd': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan', 'env': OrderedDict({'SHELL': '/bin/bash', 'ROS_VERSION': '2', 'SESSION_MANAGER': 'local/unix:@/tmp/.ICE-unix/4040548,unix/unix:/tmp/.ICE-unix/4040548', 'COLORTERM': 'truecolor', 'GCC_RANLIB': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib', 'SLURM_JOB_USER': 'wtan10', 'XDG_CONFIG_DIRS': '/sfw/rhel9-x86_64/circ/FastX4/xdg_gnome_rhel9_ECE:etc/fastx/xdg', 'SLURM_TASKS_PER_NODE': '1', 'SLURM_JOB_UID': '32583366', 'HISTCONTROL': 'ignoredups', 'XDG_MENU_PREFIX': 'gnome-', 'AUTH_SSH_DISABLE_PUBLIC_KEY_AUTHENTICATION': '1', 'FX_CONFIG_DIR': '/etc/fastx', 'SLURM_TASK_PID': '4040489', 'CONDA_EXE': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/bin/conda', '_CE_M': '', '__MODULES_LMALTNAME': 'slurm/24.05.0.b1&as|slurm/default&as|slurm/latest:ros2/14.1.19&as|ros2/default&as|ros2/latest', 'PKG_CONFIG_PATH': '/sfw/rhel9-x86_64/miniforge3/25.11.0-1/lib/pkgconfig', 'SLURM_LOCALID': '0', 'build_alias': 'x86_64-conda-linux-gnu', 'SLURM_SUBMIT_DIR': '/', 'ROS_PYTHON_VERSION': '3', 'CMAKE_ARGS': '-DCMAKE_AR=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-ar -DCMAKE_CXX_COMPILER_AR=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_C_COMPILER_AR=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_RANLIB=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_CXX_COMPILER_RANLIB=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_C_COMPILER_RANLIB=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_LINKER=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release', 'HISTSIZE': '1000', 'HOSTNAME': 'bhd0098', 'SLURMD_NODENAME': 'bhd0098', 'FX_NAME': 'ECE', 'SLURM_JOB_START_TIME': '1777290581', 'GPROF': 'x86_64-conda-linux-gnu-gprof', 'HYDRA_LAUNCHER_EXTRA_ARGS': '--external-launcher', 'CONDA_TOOLCHAIN_BUILD': 'x86_64-conda-linux-gnu', 'SSH_AUTH_SOCK': '/local_scratch/1088855/keyring/ssh', 'STRINGS': 'x86_64-conda-linux-gnu-strings', 'ROS_OS_OVERRIDE': 'conda:linux', 'CPP': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-cpp', 'SLURM_CLUSTER_NAME': 'bluehive', 'SLURM_JOB_END_TIME': '1777319381', 'SLURM_CPUS_ON_NODE': '2', 'XMODIFIERS': '@im=ibus', 'AUTH_SSH_ENABLE_BANNER': '0', 'LOGIN_THEME_HIDE_BACKGROUND': '0', 'SLURM_JOB_CPUS_PER_NODE': '2', 'XML_CATALOG_FILES': 'file:///gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/etc/xml/catalog file:///etc/xml/catalog', 'PRTE_MCA_plm_slurm_args': '--external-launcher', 'PWD': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/build/ece217_project2_tan', 'SLURM_GTIDS': '0', 'GSETTINGS_SCHEMA_DIR': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/glib-2.0/schemas', 'LOGNAME': 'wtan10', 'XDG_SESSION_TYPE': 'x11', 'CONDA_PREFIX': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env', 'SLURM_JOB_PARTITION': 'ros2', 'MODULESHOME': '/sfw/rhel9-x86_64/modules/5.0.1', 'PORT': '3300', 'MANPATH': '/sfw/rhel9-x86_64/miniforge3/25.11.0-1/man:/sfw/rhel9-x86_64/miniforge3/25.11.0-1/share/man:/sfw/rhel9-x86_64/slurm/24.05.0.b1/share/man:/sfw/rhel9-x86_64/circ/share/man::', 'CA_FILE': '', 'SLURM_TRES_PER_TASK': 'cpu=2', 'ROS_DOMAIN_ID': '17', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'SLURM_JOB_NUM_NODES': '1', 'CXX': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++', 'CXXFLAGS': '-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include', 'XAUTHORITY': '/home/wtan10/.fastx_server/bhd0098/sessions/FX3-6cf24dcbce644c8282b79bcdcbddc217/authority', 'TEMPDIR': '/local_scratch/1088855', 'CONDA_TOOLCHAIN_HOST': 'x86_64-conda-linux-gnu', 'SLURM_JOBID': '1088855', 'DEBUG_CXXFLAGS': '-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include', 'SLURM_JOB_QOS': 'ros2', 'I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS': '--external-launcher', 'WEBLINK_URI': '/weblink', 'MOTD_SHOWN': 'pam', 'WEBLINK_URL': 'https://bh3fastx.bluehive.circ.private:3320', '__MODULES_SHARE_MANPATH': ':1', 'LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib -Wl,-rpath-link,/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib -L/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib', 'HOME': '/home/wtan10', 'LANG': 'en_US.UTF-8', 'MESON_ARGS': '-Dbuildtype=release', 'AUTH_SSH_HIDE_PASSWORD': '1', 'ROS_ETC_DIR': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/etc/ros', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:', 'DEBUG_CFLAGS': '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include', 'XDG_CURRENT_DESKTOP': 'GNOME', 'TEMP_DIR': '/local_scratch/1088855', '__MODULES_LMPREREQ': 'slurm/24.05.0.b1&circ:circ&slurm:ros2/14.1.19&miniforge3/25.11.0-1', 'LDFLAGS_LD': '-O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib -rpath-link /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib -L/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib', 'SLURM_PROCID': '0', '__MODULES_LMCONFLICT': 'miniforge3/25.11.0-1&miniforge3:ros2/14.1.19&ros2', 'SCRATCH': '/scratch/wtan10', 'VTE_VERSION': '6402', 'WEBLINK_TOKEN_NOAUTH': '1', 'FX_LOCAL_DIR': '/var/fastx-local', 'CXX_FOR_BUILD': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++', 'FX_ROOT_DIR': '/usr/lib/fastx/4', 'ELFEDIT': 'x86_64-conda-linux-gnu-elfedit', 'CONDA_PROMPT_MODIFIER': '(ros2_env)', 'TMPDIR': '/local_scratch/1088855', 'AMENT_PREFIX_PATH': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env', 'CMAKE_PREFIX_PATH': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/x86_64-conda-linux-gnu/sysroot/usr', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4ef3997c_dc65_455c_a797_f288160cae0b', 'CPPFLAGS': '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SLURM_CPUS_PER_TASK': '2', 'TMP_DIR': '/local_scratch/1088855', 'LD': 'x86_64-conda-linux-gnu-ld', 'COLCON_PREFIX_PATH': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install', 'SLURM_TOPOLOGY_ADDR': 'bhd0098', '__MODULES_LMTAG': 'slurm/24.05.0.b1&auto-loaded:miniforge3/25.11.0-1&auto-loaded', 'CPP_FOR_BUILD': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-cpp', 'READELF': 'x86_64-conda-linux-gnu-readelf', 'GXX': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-g++', 'SCHEDULE_SESSION_CONNECT_SECONDS': '60', 'HYDRA_BOOTSTRAP': 'slurm', 'SLURM_TOPOLOGY_ADDR_PATTERN': 'node', 'GCC_AR': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-ar', '_CONDA_EXE': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/bin/conda', 'XDG_SESSION_CLASS': 'user', '_CONDA_ROOT': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1', 'ADDR2LINE': 'x86_64-conda-linux-gnu-addr2line', 'SLURM_SCRIPT_CONTEXT': 'prolog_task', 'SLURM_MEM_PER_NODE': '16384', 'LOGIN_THEME_LOGO_BACKGROUND': '', 'PYTHONPATH': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/python/site-packages:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib/python3.12/site-packages:/sfw/rhel9-x86_64/miniforge3/25.11.0-1/lib/python3.12/site-packages:/sfw/rhel9-x86_64/miniforge3/25.11.0-1/lib/python3.1/site-packages:/usr/lib/fastx/4/integration/lib/python', 'COLCON': '1', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'CPLUS_INCLUDE_PATH': '/sfw/rhel9-x86_64/miniforge3/25.11.0-1/include:/sfw/rhel9-x86_64/slurm/24.05.0.b1/include', 'SIZE': 'x86_64-conda-linux-gnu-size', 'GCC_NM': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc-nm', 'HOST': 'x86_64-conda-linux-gnu', 'WEBLINK_PORT': '3320', 'LAUNCH_AS_CURRENT_USER': '0', 'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'CC_FOR_BUILD': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc', 'USER': 'wtan10', 'LIBRARY_PATH': '/sfw/rhel9-x86_64/miniforge3/25.11.0-1/lib:/sfw/rhel9-x86_64/slurm/24.05.0.b1/lib64:/sfw/rhel9-x86_64/slurm/24.05.0.b1/lib', 'SLURM_NODELIST': 'bhd0098', 'ENVIRONMENT': 'BATCH', 'LOAD_BALANCER': 'session', 'GNOME_TERMINAL_SERVICE': ':1.71', 'KEEP_FAILED_SESSIONS': '1', 'CONDA_SHLVL': '1', 'AR': 'x86_64-conda-linux-gnu-ar', 'AS': 'x86_64-conda-linux-gnu-as', 'LOADEDMODULES': 'slurm/24.05.0.b1:circ:miniforge3/25.11.0-1:ros2/14.1.19', 'DEBUG_CPPFLAGS': '-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include', 'TEMP': '/scratch/wtan10/tmp', 'SLURM_JOB_ACCOUNT': 'ece217-417-202601', 'LOGIN_HIDE_ADMIN_BUTTON': '1', 'SLURM_PRIO_PROCESS': '0', 'host_alias': 'x86_64-conda-linux-gnu', 'DISPLAY': ':101', 'SHLVL': '2', 'SLURM_NNODES': '1', 'NM': 'x86_64-conda-linux-gnu-nm', 'BASH_ENV': '/etc/profile.d/modules.sh', 'GCC': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-gcc', 'AUTH_SSH_HIDE_MANAGE_KEYS': '1', 'QT_IM_MODULE': 'ibus', 'AUTH_SSH_PASSWORD_PROMPT_REGEX': '^[p|P]assword', 'PROJ_DATA': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/share/proj', 'LOGIN_THEME_LOGO_POSITION': '', 'SLURM_SUBMIT_HOST': 'bh3fastx', 'CONDA_PYTHON_EXE': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/bin/python', 'LD_LIBRARY_PATH': '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/opt/rviz_ogre_vendor/lib:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/lib:/sfw/rhel9-x86_64/miniforge3/25.11.0-1/lib:/sfw/rhel9-x86_64/slurm/24.05.0.b1/lib64:/sfw/rhel9-x86_64/slurm/24.05.0.b1/lib', 'LC_CTYPE': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/local_scratch/1088855', 'SLURM_JOB_ID': '1088855', 'SLURM_NODEID': '0', 'SSH_CLIENT': '127.0.0.1 40262 22', 'CONDA_DEFAULT_ENV': 'ros2_env', 'OBJCOPY': 'x86_64-conda-linux-gnu-objcopy', 'which_declare': 'declare -f', 'STRIP': 'x86_64-conda-linux-gnu-strip', 'LOAD_BALANCER_SCRIPT': '', 'XDG_DATA_DIRS': '/home/wtan10/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/sfw/rhel9-x86_64/circ/FastX4/xdg_gnome_rhel9_ECE:/usr/local/share:/usr/share', 'OBJDUMP': 'x86_64-conda-linux-gnu-objdump', 'SLURM_CONF': '/sfw/rhel9-x86_64/slurm/24.05.0.b1/etc/slurm.conf', 'PATH': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin:/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/condabin:/sfw/rhel9-x86_64/miniforge3/25.11.0-1/bin:/sfw/rhel9-x86_64/modules/5.0.1/bin:/xcatpost:/usr/bin:/bin:/sbin:/usr/sbin:/mnt/sysimage/bin:/mnt/sysimage/usr/bin:/mnt/sysimage/usr/sbin:/mnt/sysimage/sbin:/sbin:/usr/sbin:/xcatpost:/usr/lpp/mmfs/bin', 'LOGIN_DISCLAIMER': 'This machine is private property of the University of Rochester. <br>Unauthorized access is strictly prohibited.<br>All activity may be monitored.', 'SLURM_JOB_NAME': 'ros2-fastx', 'AUTH_SSH_DISABLE': '0', 'MODULEPATH': '/sfw/rhel9-x86_64/modules/modulefiles', 'LOGIN_TAGLINE': 'Center for Integrated Research Computing', 'CC': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc', '_LMFILES_': '/sfw/rhel9-x86_64/modules/modulefiles/slurm/24.05.0.b1:/sfw/rhel9-x86_64/modules/modulefiles/circ:/sfw/rhel9-x86_64/modules/modulefiles/miniforge3/25.11.0-1:/sfw/rhel9-x86_64/modules/modulefiles/ros2/14.1.19', 'CFLAGS': '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/include', 'CXXFILT': 'x86_64-conda-linux-gnu-c++filt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-PJfGyjqCKM,guid=1541bb8da465c2d8f67d15f869ef4d56', 'C_INCLUDE_PATH': '/sfw/rhel9-x86_64/miniforge3/25.11.0-1/include:/sfw/rhel9-x86_64/slurm/24.05.0.b1/include', 'LAUNCHER_ARGS': '', 'BUILD': 'x86_64-conda-linux-gnu', 'MAIL': '/var/spool/mail/wtan10', 'OMPI_MCA_plm_slurm_args': '--external-launcher', 'CONDA_BUILD_CROSS_COMPILATION': '', 'SLURM_JOB_GID': '32583366', 'FASTX_SESSION_ID': '6cf24dcbce644c8282b79bcdcbddc217', 'ROS_DISTRO': 'jazzy', 'PUBLIC': '/public/wtan10', 'RANLIB': 'x86_64-conda-linux-gnu-ranlib', 'FASTX_SESSION_DIR': '/home/wtan10/.fastx_server/bhd0098/sessions/FX3-6cf24dcbce644c8282b79bcdcbddc217', 'CONDA_BUILD_SYSROOT': '/gpfs/fs1/sfw3/rhel9-x86_64/miniforge3/25.11.0-1/envs/ros2_env/x86_64-conda-linux-gnu/sysroot', 'PROJ_NETWORK': 'ON', 'SLURM_JOB_NODELIST': 'bhd0098', 'MODULES_CMD': '/sfw/rhel9-x86_64/modules/5.0.1/libexec/modulecmd.tcl', 'FX_CONFIG_WEBLINK_JSON': 'baseUrl:http://bh3fastx.bluehive.circ.private:3320,uri:/weblink', 'I_MPI_HYDRA_BOOTSTRAP': 'slurm', 'BASH_FUNC_ml%%': '() {  module ml "$@"\n}', 'BASH_FUNC_which%%': '() {  ( alias;\n eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@\n}', 'BASH_FUNC_module%%': '() {  _module_raw "$@" 2>&1\n}', 'BASH_FUNC__module_raw%%': '() {  eval `/usr/bin/tclsh /sfw/rhel9-x86_64/modules/5.0.1/libexec/modulecmd.tcl bash "$@"`;\n _mlstatus=$?;\n return $_mlstatus\n}', '_': '/usr/bin/env'}), 'shell': False}
+[25.163516] (ece217_project2_tan) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.164402] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ament_index/resource_index/rosidl_interfaces/ece217_project2_tan\n'}
+[25.199315] (-) TimerEvent: {}
+[25.213162] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/srv/ManipulationQuery.json\n'}
+[25.260841] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan\n'}
+[25.261371] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/msg\n'}
+[25.261796] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/msg/rosidl_generator_c__visibility_control.h\n'}
+[25.262179] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv\n'}
+[25.262758] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail\n'}
+[25.283446] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__type_support.h\n'}
+[25.299424] (-) TimerEvent: {}
+[25.377078] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__type_support.c\n'}
+[25.377483] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__functions.h\n'}
+[25.377906] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__struct.h\n'}
+[25.378234] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__functions.c\n'}
+[25.378631] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__description.c\n'}
+[25.387150] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/manipulation_query.h\n'}
+[25.399500] (-) TimerEvent: {}
+[25.425765] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/environment/library_path.sh\n'}
+[25.425966] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/environment/library_path.dsv\n'}
+[25.472601] (ece217_project2_tan) StdoutLine: {'line': b'-- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_generator_c.so\n'}
+[25.473985] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan\n'}
+[25.474518] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/msg\n'}
+[25.474616] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[25.474717] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv\n'}
+[25.474826] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail\n'}
+[25.475138] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__rosidl_typesupport_fastrtps_c.h\n'}
+[25.496651] (ece217_project2_tan) StdoutLine: {'line': b'-- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_fastrtps_c.so\n'}
+[25.499567] (-) TimerEvent: {}
+[25.504523] (ece217_project2_tan) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[25.504780] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan\n'}
+[25.505002] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/msg\n'}
+[25.518130] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[25.599671] (-) TimerEvent: {}
+[25.627629] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv\n'}
+[25.642374] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/manipulation_query.hpp\n'}
+[25.699797] (-) TimerEvent: {}
+[25.748386] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail\n'}
+[25.755227] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__builder.hpp\n'}
+[25.799878] (-) TimerEvent: {}
+[25.810226] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__type_support.hpp\n'}
+[25.810558] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__struct.hpp\n'}
+[25.810938] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__traits.hpp\n'}
+[25.811197] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan\n'}
+[25.811316] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/msg\n'}
+[25.811619] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[25.811751] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv\n'}
+[25.811855] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail\n'}
+[25.826483] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/dds_fastrtps\n'}
+[25.899971] (-) TimerEvent: {}
+[25.944727] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[25.945797] (ece217_project2_tan) StdoutLine: {'line': b'-- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_fastrtps_cpp.so\n'}
+[25.962854] (ece217_project2_tan) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[25.963043] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan\n'}
+[25.963153] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/msg\n'}
+[25.964253] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[25.964374] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv\n'}
+[25.964453] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail\n'}
+[25.964523] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__type_support.c\n'}
+[25.964592] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__rosidl_typesupport_introspection_c.h\n'}
+[25.992353] (ece217_project2_tan) StdoutLine: {'line': b'-- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_introspection_c.so\n'}
+[26.000074] (-) TimerEvent: {}
+[26.011457] (ece217_project2_tan) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_introspection_c.so" to ""\n'}
+[26.031631] (ece217_project2_tan) StdoutLine: {'line': b'-- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_c.so\n'}
+[26.047497] (ece217_project2_tan) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_c.so" to ""\n'}
+[26.047747] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan\n'}
+[26.047928] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv\n'}
+[26.048035] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail\n'}
+[26.048255] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__rosidl_typesupport_introspection_cpp.hpp\n'}
+[26.048600] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/include/ece217_project2_tan/ece217_project2_tan/srv/detail/manipulation_query__type_support.cpp\n'}
+[26.067294] (ece217_project2_tan) StdoutLine: {'line': b'-- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_introspection_cpp.so\n'}
+[26.082161] (ece217_project2_tan) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[26.082710] (ece217_project2_tan) StdoutLine: {'line': b'-- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_cpp.so\n'}
+[26.083604] (ece217_project2_tan) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_typesupport_cpp.so" to ""\n'}
+[26.084422] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/environment/pythonpath.sh\n'}
+[26.085143] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/environment/pythonpath.dsv\n'}
+[26.085471] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan-0.0.0-py3.12.egg-info\n'}
+[26.100180] (-) TimerEvent: {}
+[26.102604] (ece217_project2_tan) StdoutLine: {'line': b'-- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[26.117368] (ece217_project2_tan) StdoutLine: {'line': b'-- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[26.127572] (ece217_project2_tan) StdoutLine: {'line': b'-- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[26.128505] (ece217_project2_tan) StdoutLine: {'line': b'-- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[26.129530] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan\n'}
+[26.129900] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/_ece217_project2_tan_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[26.144398] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_c.so\n'}
+[26.156902] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/__init__.py\n'}
+[26.199004] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_introspection_c.so\n'}
+[26.199407] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/_ece217_project2_tan_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[26.200241] (-) TimerEvent: {}
+[26.208631] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/srv\n'}
+[26.275654] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/srv/_manipulation_query_s.c\n'}
+[26.276039] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/srv/__init__.py\n'}
+[26.286539] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/srv/_manipulation_query.py\n'}
+[26.300321] (-) TimerEvent: {}
+[26.400493] (-) TimerEvent: {}
+[26.460685] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_fastrtps_c.so\n'}
+[26.461077] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/_ece217_project2_tan_s.ep.rosidl_typesupport_c.c\n'}
+[26.500580] (-) TimerEvent: {}
+[26.600734] (-) TimerEvent: {}
+[26.605528] (ece217_project2_tan) StdoutLine: {'line': b"Listing '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan'...\n"}
+[26.605714] (ece217_project2_tan) StdoutLine: {'line': b"Listing '/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/srv'...\n"}
+[26.622221] (ece217_project2_tan) StdoutLine: {'line': b'-- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_fastrtps_c.so\n'}
+[26.623376] (ece217_project2_tan) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[26.646230] (ece217_project2_tan) StdoutLine: {'line': b'-- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_introspection_c.so\n'}
+[26.647941] (ece217_project2_tan) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[26.664103] (ece217_project2_tan) StdoutLine: {'line': b'-- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_c.so\n'}
+[26.667730] (ece217_project2_tan) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/python3.12/site-packages/ece217_project2_tan/ece217_project2_tan_s__rosidl_typesupport_c.so" to ""\n'}
+[26.688138] (ece217_project2_tan) StdoutLine: {'line': b'-- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_generator_py.so\n'}
+[26.701455] (-) TimerEvent: {}
+[26.704293] (ece217_project2_tan) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/libece217_project2_tan__rosidl_generator_py.so" to ""\n'}
+[26.704618] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/srv/ManipulationQuery.idl\n'}
+[26.705135] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/srv/ManipulationQuery.srv\n'}
+[26.720073] (ece217_project2_tan) StdoutLine: {'line': b'-- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/ece217_project2_tan/project2-client\n'}
+[26.739112] (ece217_project2_tan) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/ece217_project2_tan/project2-client" to ""\n'}
+[26.739771] (ece217_project2_tan) StdoutLine: {'line': b'-- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/ece217_project2_tan/project2-server\n'}
+[26.740957] (ece217_project2_tan) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/ece217_project2_tan/project2-server" to ""\n'}
+[26.741775] (ece217_project2_tan) StdoutLine: {'line': b'-- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/ece217_project2_tan/joint-state-publisher\n'}
+[26.764192] (ece217_project2_tan) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/lib/ece217_project2_tan/joint-state-publisher" to ""\n'}
+[26.777040] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ament_index/resource_index/package_run_dependencies/ece217_project2_tan\n'}
+[26.801534] (-) TimerEvent: {}
+[26.803530] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ament_index/resource_index/parent_prefix_path/ece217_project2_tan\n'}
+[26.826414] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/environment/ament_prefix_path.sh\n'}
+[26.885117] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/environment/ament_prefix_path.dsv\n'}
+[26.901618] (-) TimerEvent: {}
+[27.001795] (-) TimerEvent: {}
+[27.012317] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/environment/path.sh\n'}
+[27.012520] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/environment/path.dsv\n'}
+[27.102495] (-) TimerEvent: {}
+[27.143163] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/local_setup.bash\n'}
+[27.143783] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/local_setup.sh\n'}
+[27.146803] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/local_setup.zsh\n'}
+[27.147131] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/local_setup.dsv\n'}
+[27.147512] (ece217_project2_tan) StdoutLine: {'line': b'-- Installing: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/package.dsv\n'}
+[27.148941] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ament_index/resource_index/packages/ece217_project2_tan\n'}
+[27.202572] (-) TimerEvent: {}
+[27.247793] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/export_ece217_project2_tan__rosidl_generator_cExport.cmake\n'}
+[27.248418] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/export_ece217_project2_tan__rosidl_generator_cExport-noconfig.cmake\n'}
+[27.273519] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/export_ece217_project2_tan__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[27.285008] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/export_ece217_project2_tan__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[27.302656] (-) TimerEvent: {}
+[27.316814] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/export_ece217_project2_tan__rosidl_generator_cppExport.cmake\n'}
+[27.356315] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/export_ece217_project2_tan__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[27.372914] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/export_ece217_project2_tan__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[27.402740] (-) TimerEvent: {}
+[27.408173] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ece217_project2_tan__rosidl_typesupport_introspection_cExport.cmake\n'}
+[27.425039] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ece217_project2_tan__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[27.467885] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ece217_project2_tan__rosidl_typesupport_cExport.cmake\n'}
+[27.469088] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ece217_project2_tan__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[27.487865] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ece217_project2_tan__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[27.488888] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ece217_project2_tan__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[27.502817] (-) TimerEvent: {}
+[27.516430] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ece217_project2_tan__rosidl_typesupport_cppExport.cmake\n'}
+[27.517300] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ece217_project2_tan__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[27.559722] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/export_ece217_project2_tan__rosidl_generator_pyExport.cmake\n'}
+[27.592993] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/export_ece217_project2_tan__rosidl_generator_pyExport-noconfig.cmake\n'}
+[27.594878] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/rosidl_cmake-extras.cmake\n'}
+[27.602936] (-) TimerEvent: {}
+[27.610819] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[27.611319] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[27.650200] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[27.650875] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[27.651258] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[27.651654] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[27.666643] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ece217_project2_tanConfig.cmake\n'}
+[27.666887] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/cmake/ece217_project2_tanConfig-version.cmake\n'}
+[27.673905] (ece217_project2_tan) StdoutLine: {'line': b'-- Up-to-date: /gpfs/fs1/home/wtan10/Desktop/ECE217/project2_ws/install/ece217_project2_tan/share/ece217_project2_tan/package.xml\n'}
+[27.703008] (-) TimerEvent: {}
+[27.714074] (ece217_project2_tan) CommandEnded: {'returncode': 0}
+[27.803127] (-) TimerEvent: {}
+[27.903301] (-) TimerEvent: {}
+[28.003537] (-) TimerEvent: {}
+[28.004768] (ece217_project2_tan) JobEnded: {'identifier': 'ece217_project2_tan', 'rc': 0}
+[28.006004] (-) EventReactorShutdown: {}
