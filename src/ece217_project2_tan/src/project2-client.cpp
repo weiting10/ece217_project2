@@ -79,6 +79,7 @@ int main( int argc, char* argv[] ){
     RCLCPP_INFO( rclcpp::get_logger("rclcpp"), "service not available, waiting ..." );
   }
 
+  // create client on the node
   rclcpp::Client<ece217_project2_tan::srv::ManipulationQuery>::FutureAndRequestId result = client->async_send_request( request );
   if(rclcpp::spin_until_future_complete( node, result) == rclcpp::FutureReturnCode::SUCCESS ){
     RCLCPP_INFO( rclcpp::get_logger( "rclcpp" ), "Success in calling service" );

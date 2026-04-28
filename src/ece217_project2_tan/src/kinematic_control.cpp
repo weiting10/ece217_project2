@@ -49,7 +49,7 @@ std::pair<bool, Eigen::VectorXd> kinematic(double joint1theta, double joint2thet
 
 	// find the position of the current end-effector position
 	Eigen::Vector3d p = t06.block<3,1>(0,3);
-	std::cout << "The current end effector position is: (" << p.transpose()<< ")" << std::endl;
+	//std::cout << "The current end effector position is: (" << p.transpose()<< ")" << std::endl;
 
 	// following is to store the goal quaternion and goal end-effector position
 	Eigen::Vector3d goal_p(goal_x,goal_y,goal_z);
@@ -59,8 +59,8 @@ std::pair<bool, Eigen::VectorXd> kinematic(double joint1theta, double joint2thet
 	goal_q.z() = q_z;
 	goal_q.w() = q_w;
 
-	std::cout << "The goal quaternion is: [(" << goal_q.x() << " , " << goal_q.y() << " , " << goal_q.z() << "), " << goal_q.w() << "]" << std::endl ;
-	std::cout << "The goal end effector position is: (" << goal_p.transpose()<< ")" << std::endl;
+	//std::cout << "The goal quaternion is: [(" << goal_q.x() << " , " << goal_q.y() << " , " << goal_q.z() << "), " << goal_q.w() << "]" << std::endl ;
+	//std::cout << "The goal end effector position is: (" << goal_p.transpose()<< ")" << std::endl;
 
 	// check if the current pose is the same as goal pose
 	// if so, return
@@ -70,26 +70,14 @@ std::pair<bool, Eigen::VectorXd> kinematic(double joint1theta, double joint2thet
                 q.coeffs() = -q.coeffs();  // negate q to match goal_q's hemisphere
         }
 
-	
+	// check if the current pose matches the goal pose; if so, return "True"
 	if( (fabs(p(0) - goal_x) < e) && (fabs(p(1) - goal_y) < e) && (fabs(p(2) - goal_z) < e) && (fabs(q.x() - q_x) < e) && (fabs(q.y() - q_y) < e) &&(fabs(q.z() - q_z) < e) &&(fabs(q.w() - q_w) < e) ){
 	  
-	  std::cout << "The t06 matrix is : " << t06 << std::endl;
+	  //std::cout << "The t06 matrix is : " << t06 << std::endl;
 
 	  std::cout << "The final joint angles are [" << joint1theta << "," << joint2theta << "," << joint3theta << "," << joint4theta << "," << joint5theta << "," << joint6theta << "]" << std::endl;
 	  return {true, original_joint_angles};
 	}
-	
-	// printing for debuging
-	std::cout << "fabs(p(0) - goal_x) = " << fabs(p(0) - goal_x) << std::endl;
-	std::cout << "fabs(p(1) - goal_y) = " << fabs(p(1) - goal_y) << std::endl;
-	std::cout << "fabs(p(2) - goal_z) = " << fabs(p(2) - goal_z) << std::endl;
-	std::cout << "fabs(q.x() - q_x) = " << fabs(q.x() - q_x) << std::endl;
-	std::cout << "fabs(q.y() - q_y) = " << fabs(q.y() - q_y) << std::endl;
-	std::cout << "fabs(q.z() - q_z) = " << fabs(q.z() - q_z) << std::endl;
-	std::cout << "fabs(q.w() - q_w) = " << fabs(q.w() - q_w) << std::endl;
-
-		
-
 
 	// calculate the position error
 	Eigen::Vector3d errorp;
@@ -107,7 +95,6 @@ std::pair<bool, Eigen::VectorXd> kinematic(double joint1theta, double joint2thet
 	//print out the error for debug
 	std::cout << "erroro: " << erroro.transpose()<< std::endl;
 	std::cout << "errorp: " << errorp.transpose() << std::endl;
-
 
 
 	// to obtain Jacobian matrix, need to get p0-5 and z0-5
@@ -156,12 +143,8 @@ std::pair<bool, Eigen::VectorXd> kinematic(double joint1theta, double joint2thet
 	Jacobian.block<3,1>(3,4) = jo5;
 	Jacobian.block<3,1>(3,5) = jo6;
 
-	//Eigen::MatrixXd inverse_jacobian(6,6);
-	//inverse_jacobian = Jacobian.inverse();
-
-	//////////////////////////////////////////////////////////////
 	// Eigen::MatrixXd inverse_jacobian(6,6);
-	// inverse_jacobian = Jacobian.inverse(); // <-- This is the problem line!
+	// inverse_jacobian = Jacobian.inverse(); // problem line
 
 	// --- SOLUTION: Use Damped Least-Squares ---
 	Eigen::MatrixXd Jt = Jacobian.transpose();
@@ -170,7 +153,7 @@ std::pair<bool, Eigen::VectorXd> kinematic(double joint1theta, double joint2thet
 	double damping_factor = 0.01;
 
 	Eigen::MatrixXd inverse_jacobian = Jt * (Jacobian * Jt + damping_factor * I).inverse();
-	///////////////////////////////////////////////////////////////////////////////////////////////
+	
 	// joint velocity = inverse jacobian * end effector velocity
 	
 	// calculate end effector position velocity = goal_p_dot + Kp * errorp

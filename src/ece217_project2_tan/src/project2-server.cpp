@@ -9,12 +9,14 @@
 
 class ManipulationService : public rclcpp::Node {
   public:
+    // create service on a node
     ManipulationService() : rclcpp::Node( "project2_server" ){
       service = this->create_service< ece217_project2_tan::srv::ManipulationQuery >( "manipulation_query", std::bind( &ManipulationService::generate_manipulation, this, std::placeholders::_1, std::placeholders::_2 ) );
 
       RCLCPP_INFO( rclcpp::get_logger( "rclcpp" ), "Ready to generate plans." );
     }
 
+    // this function is called when a request is received
     void generate_manipulation( const std::shared_ptr< ece217_project2_tan::srv::ManipulationQuery::Request> request,
 		    const std::shared_ptr< ece217_project2_tan::srv::ManipulationQuery::Response > response ){
       RCLCPP_INFO( rclcpp::get_logger( "rclcpp" ), "Incoming manipulation request");
@@ -55,8 +57,8 @@ class ManipulationService : public rclcpp::Node {
       auto new_joint_angles_publisher = this->create_publisher< sensor_msgs::msg::JointState >( "new_joint_angles",1);
 
 
+      // while the current pose isn't matching the goal pose, call "kinematic" function and calculate the next joint angles
       while( check == false ){
-     //for(int i; i<10;i++){
 	    std::tie(check,new_joint_angles) = kinematic(new_joint_angles[0],
                                  new_joint_angles[1],
                                  new_joint_angles[2],
@@ -71,6 +73,8 @@ class ManipulationService : public rclcpp::Node {
                                  request->goal.orientation.z,
                                  request->goal.orientation.w);
 	    new_joint_angles_msg.position = {new_joint_angles[0],new_joint_angles[1],new_joint_angles[2],new_joint_angles[3],new_joint_angles[4],new_joint_angles[5]};
+	    
+	    // publish the current joint angles for arm visualization
 	    new_joint_angles_publisher -> publish( new_joint_angles_msg );
 
       }
@@ -81,7 +85,6 @@ class ManipulationService : public rclcpp::Node {
 
 
     rclcpp::Service< ece217_project2_tan::srv::ManipulationQuery >::SharedPtr service;
-    //    std::shared_ptr< rclcpp::Publisher< visualization_msgs::msg::MarkerArray_<std::allocator<void> >, std::allocator<void> > > planner_viz_publisher;
  
 };
 
